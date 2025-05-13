@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { Patrick_Hand, Caveat } from 'next/font/google';
+import { ThemeProvider } from "@/components/theme-provider";
+
 import "./globals.css";
 import { ThemeProvider } from "../components/theme-provider";
 
