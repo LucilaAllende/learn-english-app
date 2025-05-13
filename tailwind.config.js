@@ -17,6 +17,10 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        'handwriting': 'var(--font-patrick-hand)',
+        'notes': 'var(--font-caveat)',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
