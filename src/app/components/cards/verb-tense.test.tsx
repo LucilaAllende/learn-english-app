@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { VerbTenseCard } from './verb-tense-card'; // Ajustá la ruta si es necesario
+import { VerbTenseCard } from './verb-tense-card';
 import '@testing-library/jest-dom';
 
 describe('VerbTenseCard', () => {
