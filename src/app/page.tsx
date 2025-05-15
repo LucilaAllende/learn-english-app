@@ -26,42 +26,42 @@ export default function HomePage() {
             title="Presente Simple"
             description="Acciones habituales y verdades generales"
             color="#2a9d8f"
-            href="/tiempos/presente-simple"
+            href="/tenses/present-simple"
           />
 
           <VerbTenseCard
             title="Presente Continuo"
             description="Acciones que ocurren en este momento"
             color="#e9c46a"
-            href="/tiempos/presente-continuo"
+            href="/tenses/present-continuous"
           />
 
           <VerbTenseCard
             title="Pasado Simple"
             description="Acciones completadas en el pasado"
             color="#f4a261"
-            href="/tiempos/pasado-simple"
+            href="/tenses/simple-past"
           />
 
           <VerbTenseCard
             title="Pasado Continuo"
             description="Acciones en progreso en el pasado"
             color="#e76f51"
-            href="/tiempos/pasado-continuo"
+            href="/tenses/past-continuous"
           />
 
           <VerbTenseCard
             title="Futuro Simple"
             description="Acciones que ocurrirán en el futuro"
             color="#264653"
-            href="/tiempos/futuro-simple"
+            href="/tenses/simple-future"
           />
 
           <VerbTenseCard
             title="Presente Perfecto"
             description="Conexión entre pasado y presente"
             color="#2a9d8f"
-            href="/tiempos/presente-perfecto"
+            href="/tenses/present-perfect"
           />
         </div>
       </main>
