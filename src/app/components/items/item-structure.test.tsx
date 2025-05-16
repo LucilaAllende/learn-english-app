@@ -4,7 +4,7 @@ import "@testing-library/jest-dom"
 import { ItemStructure } from "./item-structure"
 
 describe("ItemStructure component", () => {
-  it("renders affirmative type with correct label and color", () => {
+  it("should renders affirmative type with correct label and color", () => {
     render(<ItemStructure type="affirmative">Hello</ItemStructure>)
     const label = screen.getByText("Afirmativo:")
     expect(label).toBeInTheDocument()
@@ -12,7 +12,7 @@ describe("ItemStructure component", () => {
     expect(screen.getByText("Hello")).toBeInTheDocument()
   })
 
-  it("renders negative type with correct label and color", () => {
+  it("should renders negative type with correct label and color", () => {
     render(<ItemStructure type="negative">Goodbye</ItemStructure>)
     const label = screen.getByText("Negativo:")
     expect(label).toBeInTheDocument()
@@ -20,7 +20,7 @@ describe("ItemStructure component", () => {
     expect(screen.getByText("Goodbye")).toBeInTheDocument()
   })
 
-  it("renders interrogative type with correct label and color", () => {
+  it("should renders interrogative type with correct label and color", () => {
     render(<ItemStructure type="interrogative">What?</ItemStructure>)
     const label = screen.getByText("Interrogativo:")
     expect(label).toBeInTheDocument()
