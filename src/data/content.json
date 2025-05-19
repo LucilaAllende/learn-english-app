@@ -23,20 +23,20 @@
         "negative": "**Sujeto** + **don't/doesn't** + verbo",
         "interrogative": "**Do/Does** + sujeto + verbo?"
       },
-      "ejemplos": [
+      "examples": [
         {
-          "titulo": "Afirmativo",
-          "ejemplos": ["I work", "You work", "He/She/It works", "We work", "They work"],
+          "title": "Afirmativo",
+          "examples": ["I work", "You work", "He/She/It works", "We work", "They work"],
           "color": "#2a9d8f"
         },
         {
-          "titulo": "Negativo",
-          "ejemplos": ["I don't work", "You don't work", "He/She/It doesn't work", "We don't work", "They don't work"],
+          "title": "Negativo",
+          "examples": ["I don't work", "You don't work", "He/She/It doesn't work", "We don't work", "They don't work"],
           "color": "#e76f51"
         },
         {
-          "titulo": "Interrogativo",
-          "ejemplos": ["Do I work?", "Do you work?", "Does he/she/it work?", "Do we work?", "Do they work?"],
+          "title": "Interrogativo",
+          "examples": ["Do I work?", "Do you work?", "Does he/she/it work?", "Do we work?", "Do they work?"],
           "color": "#e9c46a"
         }
       ],
@@ -66,8 +66,14 @@
         "In the morning/afternoon/evening"
       ],
       "notes": [
-        "Recuerda añadir **-s** o **-es** al final del verbo en tercera persona singular (he, she, it).",
-        "No olvides las excepciones con verbos que terminan en -o, -ch, -sh, -ss, -x"
+        {
+          "type": "paragraph",
+          "text": "Recuerda añadir **-s** o **-es** al final del verbo en tercera persona singular (he, she, it)."
+        },
+        {
+          "type": "paragraph",
+          "text": "No olvides las excepciones con verbos que terminan en -o, -ch, -sh, -ss, -x"
+        }
       ]
     },
     {
@@ -136,7 +142,19 @@
         "Still, at present"
       ],
       "notes": [
-        "Algunos verbos no suelen usarse en forma continua (verbos de estado): verbos de pensamiento (think, believe, understand), verbos de sentimientos (love, hate, like), verbos de posesión (have, own, belong), verbos de percepción (see, hear, smell)."
+        {
+          "type": "paragraph",
+          "text": "Algunos verbos no suelen usarse en forma continua (verbos de estado):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Verbos de pensamiento: think, believe, understand",
+            "Verbos de sentimientos: love, hate, like",
+            "Verbos de posesión: have, own, belong",
+            "Verbos de percepción: see, hear, smell"
+          ]
+        }
       ]
     },
     {
@@ -194,8 +212,14 @@
         "When I was young"
       ],
       "notes": [
-        "Los verbos regulares añaden **-ed** al infinitivo (work → worked).",
-        "Los verbos irregulares tienen formas especiales (go → went, see → saw)."
+        {
+          "type": "paragraph",
+          "text": "Los verbos regulares añaden **-ed** al infinitivo (work → worked)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Los verbos irregulares tienen formas especiales (go → went, see → saw)."
+        }
       ]
     },
     {
