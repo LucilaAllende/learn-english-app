@@ -33,7 +33,7 @@ export interface VerbTense {
   examples?: Example[];
   uses?: Use[];
   timeExpressions?: string[];
-  notes?: string[];
+  notes?: Note[];
 }
 
 export interface Type {
@@ -45,6 +45,12 @@ export interface Type {
 export interface UsageExample {
   example: string;
   explanation: string;
+}
+
+export interface Note {
+  type: string;
+  text?: string;
+  items?: string[];
 }
 
 export interface Pronoun {
