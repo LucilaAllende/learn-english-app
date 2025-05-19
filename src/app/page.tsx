@@ -1,6 +1,8 @@
-import { VerbTenseCard } from "./components/cards/verb-tense-card"
+import { VerbTenseCard } from "@/app/components/cards/verb-tense-card"
+import { getVerbTenses } from "@/lib/data"
 
 export default function HomePage() {
+  const verbTenses = getVerbTenses()
   return (
     <div className="min-h-screen bg-[#f8f5f2] p-4 md:p-8">
       <header className="max-w-4xl mx-auto mb-8">
@@ -14,7 +16,7 @@ export default function HomePage() {
         <div className="mb-8">
           <h2 className="text-2xl md:text-3xl font-subtitle text-[#264653] mb-4 flex items-center">
             <span className="text-[#2a9d8f] mr-2">✏️</span>
-            Índice de Tiempos Verbales
+            Tiempos Verbales
           </h2>
           <p className="font-text text-lg text-gray-700 mb-6">
             Haz clic en cualquier tiempo verbal para ver su estructura, usos y ejemplos.
@@ -22,47 +24,15 @@ export default function HomePage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <VerbTenseCard
-            title="Presente Simple"
-            description="Acciones habituales y verdades generales"
-            color="#2a9d8f"
-            href="/tenses/present-simple"
-          />
-
-          <VerbTenseCard
-            title="Presente Continuo"
-            description="Acciones que ocurren en este momento"
-            color="#e9c46a"
-            href="/tenses/present-continuous"
-          />
-
-          <VerbTenseCard
-            title="Pasado Simple"
-            description="Acciones completadas en el pasado"
-            color="#f4a261"
-            href="/tenses/simple-past"
-          />
-
-          <VerbTenseCard
-            title="Pasado Continuo"
-            description="Acciones en progreso en el pasado"
-            color="#e76f51"
-            href="/tenses/past-continuous"
-          />
-
-          <VerbTenseCard
-            title="Futuro Simple"
-            description="Acciones que ocurrirán en el futuro"
-            color="#264653"
-            href="/tenses/simple-future"
-          />
-
-          <VerbTenseCard
-            title="Presente Perfecto"
-            description="Conexión entre pasado y presente"
-            color="#2a9d8f"
-            href="/tenses/present-perfect"
-          />
+            {verbTenses.map((tense) => (
+              <VerbTenseCard
+                key={tense.id}
+                title={tense.name}
+                description={tense.description}
+                color={tense.textColor}
+                href={`/${tense.category}/${tense.id}`}
+              />
+            ))}
         </div>
       </main>
     </div>
