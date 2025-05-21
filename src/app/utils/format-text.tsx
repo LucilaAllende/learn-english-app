@@ -1,21 +1,27 @@
 interface FormatTextProps {
-  text: string
-}
+  text: string;
+  addMargin?: boolean
+};
 
-export function FormatText({ text }: FormatTextProps) {
-  if (!text) return null
+export function FormatText({ text, addMargin = false }: FormatTextProps) {
+  if (!text) return null;
 
-  const parts = text.split(/(\*\*.*?\*\*)/g)
+  const parts = text.split(/(\*\*.*?\*\*)/g);
 
   return (
     <>
       {parts.map((part, index) => {
-        if (part.startsWith("**") && part.endsWith("**")) {
-          const boldText = part.slice(2, -2)
-          return <strong key={index}>{boldText}</strong>
+        if (part.startsWith('**') && part.endsWith('**')) {
+          const boldContent = part.slice(2, -2);
+          if (!boldContent.trim()) return null;
+          return (
+            <strong key={index} className={addMargin ? 'mx-1' : ''}>
+              {boldContent}
+            </strong>
+          );
         }
-        return <span key={index}>{part}</span>
+        return <span key={index}>{part}</span>;
       })}
     </>
-  )
+  );
 }
