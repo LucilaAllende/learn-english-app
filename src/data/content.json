@@ -3,7 +3,7 @@
     {
       "id": "tiempos",
       "title": "Tiempos Verbales",
-      "description": "Los tiempos verbales en inglés y sus usos"
+      "description": "Los tiempos verbales y sus usos"
     },
     {
       "id": "pronombres",
@@ -105,7 +105,7 @@
           "color": "#e76f51"
         },
         {
-          "title": "Interrogative",
+          "title": "Interrogativo",
           "examples": [
             "Am I working?",
             "Are you working?",
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "id": "simple-past",
+      "id": "past-simple",
       "name": "Pasado Simple",
       "category": "tenses",
       "description": "Acciones completadas en el pasado",
@@ -186,7 +186,7 @@
           "color": "#e76f51"
         },
         {
-          "title": "Interrogative",
+          "title": "Interrogativo",
           "examples": ["Did I work?", "Did you work?", "Did he/she/it work?", "Did we work?", "Did they work?"],
           "color": "#e9c46a"
         }
@@ -245,7 +245,7 @@
           "color": "#e76f51"
         },
         {
-          "title": "Interrogative",
+          "title": "Interrogativo",
           "examples": ["Was I working?", "Were you working?", "Was he/she/it working?", "Were we working?", "Were they working?"],
           "color": "#e76f51"
         }
@@ -289,7 +289,7 @@
           "color": "#264653"
         },
         {
-          "title": "Interrogative",
+          "title": "Interrogativo",
           "examples": ["Will I work?", "Will you work?", "Will he/she/it work?", "Will we work?", "Will they work?"],
           "color": "#264653"
         }
@@ -333,7 +333,7 @@
           "color": "#2a9d8f"
         },
         {
-          "title": "Interrogative",
+          "title": "Interrogativo",
           "examples": ["Have I worked?", "Have you worked?", "Has he/she/it worked?", "Have we worked?", "Have they worked?"],
           "color": "#2a9d8f"
         }
