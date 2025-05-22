@@ -42,20 +42,36 @@
       ],
       "uses": [
         {
-          "title": "Hábitos y rutinas",
-          "example": "I go to the gym every day."
+          "title": "Hábitos",
+          "example": "I go to the gym every day. (Voy al gimnsasio cada dia) - I run every night. (Corro todas las noches)"
+        },
+        {
+          "title": "Rutinas",
+          "example": "I study English from Monday to Friday (Yo estudio inglés de Lunes a Viernes)"
         },
         {
           "title": "Verdades generales",
-          "example": "Water boils at 100°C."
+          "example": "Water boils at 100°C. (El agua hierve a 100°C) - The sun rises everyday. (El sol sale todos los días)"
         },
         {
           "title": "Estados permanentes",
-          "example": "She lives in Madrid."
+          "example": "She lives in Madrid. (Ella vive en Madrid)"
         },
         {
           "title": "Horarios y programas",
-          "example": "The train leaves at 6 PM."
+          "example": "The train leaves at 6 PM. (El tren sale a las 6 PM)"
+        },
+        {
+          "title": "Hechos y realidades actuales",
+          "example": "He cleans the kitchen. (Limpia la cocina)"
+        },
+        {
+          "title": "Características observables",
+          "example": "How are you doing? (¿Cómo estás?)"
+        },
+        {
+          "title": "Acciones continuas o habituales",
+          "example": "I get up at half past six every morning. (Me levanto a las seis y media cada mañana)"
         }
       ],
       "timeExpressions": [
