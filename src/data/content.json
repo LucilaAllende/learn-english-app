@@ -90,6 +90,82 @@
           "type": "paragraph",
           "text": "No olvides las excepciones con verbos que terminan en -o, -ch, -sh, -ss, -x"
         }
+      ],
+      "tips":[
+        {
+          "text": "El verbo en infinitivo que usamos en estas reglas es la forma base del verbo, sin el 'to'. Por ejemplo, para 'to clean', el infinitivo es 'clean'.",
+          "image": "url/image"
+        }
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar",
+          "conjugations": [
+            { "person": "yo", "conjugation": "compro" },
+            { "person": "tú", "conjugation": "compras" },
+            { "person": "él/ella", "conjugation": "compra" },
+            { "person": "nosotros", "conjugation": "compramos" },
+            { "person": "ustedes", "conjugation": "compran" },
+            { "person": "ellos/ellas", "conjugation": "compran" }
+          ]
+        },
+        {
+          "verb": "correr",
+          "conjugations": [
+            { "person": "yo", "conjugation": "corro" },
+            { "person": "tú", "conjugation": "corres" },
+            { "person": "él/ella", "conjugation": "corre" },
+            { "person": "nosotros", "conjugation": "corremos" },
+            { "person": "ustedes", "conjugation": "corren" },
+            { "person": "ellos/ellas", "conjugation": "corren" }
+          ]
+        },
+        {
+          "verb": "vivir",
+          "conjugations": [
+            { "person": "yo", "conjugation": "vivo" },
+            { "person": "tú", "conjugation": "vives" },
+            { "person": "él/ella", "conjugation": "vive" },
+            { "person": "nosotros", "conjugation": "vivimos" },
+            { "person": "ustedes", "conjugation": "viven" },
+            { "person": "ellos/ellas", "conjugation": "viven" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "buy" },
+            { "person": "You", "conjugation": "buy" },
+            { "person": "He/She/It", "conjugation": "buys" },
+            { "person": "We", "conjugation": "buy" },
+            { "person": "You (plural)", "conjugation": "buy" },
+            { "person": "They", "conjugation": "buy" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "run" },
+            { "person": "You", "conjugation": "run" },
+            { "person": "He/She/It", "conjugation": "runs" },
+            { "person": "We", "conjugation": "run" },
+            { "person": "You (plural)", "conjugation": "run" },
+            { "person": "They", "conjugation": "run" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "live" },
+            { "person": "You", "conjugation": "live" },
+            { "person": "He/She/It", "conjugation": "lives" },
+            { "person": "We", "conjugation": "live" },
+            { "person": "You (plural)", "conjugation": "live" },
+            { "person": "They", "conjugation": "live" }
+          ]
+        }
       ]
     },
     {
