@@ -1,0 +1,400 @@
+{
+  "categories": [
+    {
+      "id": "tiempos",
+      "title": "Tiempos Verbales",
+      "description": "Los tiempos verbales y sus usos"
+    },
+    {
+      "id": "pronombres",
+      "title": "Pronombres",
+      "description": "Tipos de pronombres y sus usos"
+    }
+  ],
+  "verbTenses": [
+    {
+      "id": "present-simple",
+      "name": "Presente Simple",
+      "category": "tenses",
+      "description": "Acciones habituales y verdades generales",
+      "textColor": "#2a9d8f",
+      "structure": {
+        "affirmative": "**Sujeto** + **infinitivo** (+ s/es en 3ª persona singular)",
+        "negative": "**Sujeto** + **don't/doesn't** + verbo",
+        "interrogative": "**Do/Does** + sujeto + verbo?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": ["I work", "You work", "He/She/It works", "We work", "They work"],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": ["I don't work", "You don't work", "He/She/It doesn't work", "We don't work", "They don't work"],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": ["Do I work?", "Do you work?", "Does he/she/it work?", "Do we work?", "Do they work?"],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Hábitos y rutinas",
+          "example": "I go to the gym every day."
+        },
+        {
+          "title": "Verdades generales",
+          "example": "Water boils at 100°C."
+        },
+        {
+          "title": "Estados permanentes",
+          "example": "She lives in Madrid."
+        },
+        {
+          "title": "Horarios y programas",
+          "example": "The train leaves at 6 PM."
+        }
+      ],
+      "timeExpressions": [
+        "Always, usually, often, sometimes, rarely, never",
+        "Every day/week/month/year",
+        "Once/twice a week",
+        "On Mondays/at the weekend",
+        "In the morning/afternoon/evening"
+      ],
+      "notes": [
+        {
+          "type": "paragraph",
+          "text": "Recuerda añadir **-s** o **-es** al final del verbo en tercera persona singular (he, she, it)."
+        },
+        {
+          "type": "paragraph",
+          "text": "No olvides las excepciones con verbos que terminan en -o, -ch, -sh, -ss, -x"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous",
+      "name": "Presente Continuo",
+      "category": "tenses",
+      "description": "Acciones que ocurren en este momento",
+      "textColor": "#e9c46a",
+      "structure": {
+        "affirmative": "**Sujeto** + **am/is/are** + verbo-ing",
+        "negative": "**Sujeto** + **am/is/are** + **not** + verbo-ing",
+        "interrogative": "**Am/Is/Are** + sujeto + verbo-ing?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": ["I am working", "You are working", "He/She/It is working", "We are working", "They are working"],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": [
+            "I am not working",
+            "You are not working",
+            "He/She/It is not working",
+            "We are not working",
+            "They are not working"
+          ],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": [
+            "Am I working?",
+            "Are you working?",
+            "Is he/she/it working?",
+            "Are we working?",
+            "Are they working?"
+          ],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Acciones en progreso ahora",
+          "example": "I am studying Spanish right now."
+        },
+        {
+          "title": "Acciones temporales",
+          "example": "She is staying with her parents until she finds an apartment."
+        },
+        {
+          "title": "Planes futuros acordados",
+          "example": "We are meeting at the restaurant at 8 PM."
+        },
+        {
+          "title": "Situaciones cambiantes",
+          "example": "The weather is getting better."
+        }
+      ],
+      "timeExpressions": [
+        "Now, right now, at the moment",
+        "Today, this week/month",
+        "Currently, presently",
+        "These days, nowadays",
+        "Still, at present"
+      ],
+      "notes": [
+        {
+          "type": "paragraph",
+          "text": "Algunos verbos no suelen usarse en forma continua (verbos de estado):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Verbos de pensamiento: think, believe, understand",
+            "Verbos de sentimientos: love, hate, like",
+            "Verbos de posesión: have, own, belong",
+            "Verbos de percepción: see, hear, smell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "past-simple",
+      "name": "Pasado Simple",
+      "category": "tenses",
+      "description": "Acciones completadas en el pasado",
+      "textColor": "#f4a261",
+      "structure": {
+        "affirmative": "**Sujeto** + **verbo en pasado**",
+        "negative": "**Sujeto** + **didn't** + infinitivo",
+        "interrogative": "**Did** + sujeto + infinitivo?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": ["I worked", "You worked", "He/She/It worked", "We worked", "They worked"],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": [
+            "I didn't work",
+            "You didn't work",
+            "He/She/It didn't work",
+            "We didn't work",
+            "They didn't work"
+          ],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": ["Did I work?", "Did you work?", "Did he/she/it work?", "Did we work?", "Did they work?"],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Acciones completadas en el pasado",
+          "example": "I visited Paris last summer."
+        },
+        {
+          "title": "Serie de acciones completadas",
+          "example": "I woke up, got dressed and went to work."
+        },
+        {
+          "title": "Hábitos en el pasado",
+          "example": "When I was a child, I played football every day."
+        }
+      ],
+      "timeExpressions": [
+        "Yesterday, last night/week/month/year",
+        "Two days/weeks/months/years ago",
+        "In 2010, in the past",
+        "When I was young"
+      ],
+      "notes": [
+        {
+          "type": "paragraph",
+          "text": "Los verbos regulares añaden **-ed** al infinitivo (work → worked)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Los verbos irregulares tienen formas especiales (go → went, see → saw)."
+        }
+      ]
+    },
+    {
+      "id": "past-continuous",
+      "name": "Pasado Continuo",
+      "category": "tenses",
+      "description": "Acciones en progreso en el pasado",
+      "textColor": "#e76f51",
+      "structure": {
+        "affirmative": "**Sujeto** + **was/were** + verbo-ing",
+        "negative": "**Sujeto** + **wasn't/weren't** + verbo-ing",
+        "interrogative": "**Was/Were** + sujeto + verbo-ing?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": ["I was working", "You were working", "He/She/It was working", "We were working", "They were working"],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Negativo",
+          "examples": ["I wasn't working", "You weren't working", "He/She/It wasn't working", "We weren't working", "They weren't working"],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": ["Was I working?", "Were you working?", "Was he/she/it working?", "Were we working?", "Were they working?"],
+          "color": "#e76f51"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Acciones en progreso en un momento específico del pasado",
+          "example": "I was watching TV at 8 PM yesterday."
+        },
+        {
+          "title": "Acciones simultáneas en el pasado",
+          "example": "While I was studying, my brother was playing video games."
+        },
+        {
+          "title": "Interrupción de una acción en progreso",
+          "example": "I was walking down the street when I saw an accident."
+        }
+      ],
+      "timeExpressions": ["While", "When", "As", "At that moment", "Yesterday at 6 PM"]
+    },
+    {
+      "id": "simple-future",
+      "name": "Futuro Simple",
+      "category": "tenses",
+      "description": "Acciones que ocurrirán en el futuro",
+      "textColor": "#264653",
+      "structure": {
+        "affirmative": "**Sujeto** + **will** + infinitivo",
+        "negative": "**Sujeto** + **will not (won't)** + infinitivo",
+        "interrogative": "**Will** + sujeto + infinitivo?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": ["I will work", "You will work", "He/She/It will work", "We will work", "They will work"],
+          "color": "#264653"
+        },
+        {
+          "title": "Negativo",
+          "examples": ["I won't work", "You won't work", "He/She/It won't work", "We won't work", "They won't work"],
+          "color": "#264653"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": ["Will I work?", "Will you work?", "Will he/she/it work?", "Will we work?", "Will they work?"],
+          "color": "#264653"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Predicciones sobre el futuro",
+          "example": "It will rain tomorrow."
+        },
+        {
+          "title": "Decisiones espontáneas",
+          "example": "I'll help you with that."
+        },
+        {
+          "title": "Promesas y ofrecimientos",
+          "example": "I promise I will call you later."
+        }
+      ],
+      "timeExpressions": ["Tomorrow", "Next week/month/year", "Soon", "In the future", "Later"]
+    },
+    {
+      "id": "present-perfect",
+      "name": "Presente Perfecto",
+      "category": "tenses",
+      "description": "Conexión entre pasado y presente",
+      "textColor": "#2a9d8f",
+      "structure": {
+        "affirmative": "**Sujeto** + **have/has** + participio pasado",
+        "negative": "**Sujeto** + **haven't/hasn't** + participio pasado",
+        "interrogative": "**Have/Has** + sujeto + participio pasado?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": ["I have worked", "You have worked", "He/She/It has worked", "We have worked", "They have worked"],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": ["I haven't worked", "You haven't worked", "He/She/It hasn't worked", "We haven't worked", "They haven't worked"],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": ["Have I worked?", "Have you worked?", "Has he/she/it worked?", "Have we worked?", "Have they worked?"],
+          "color": "#2a9d8f"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Acciones que comenzaron en el pasado y continúan hasta ahora",
+          "example": "I have lived here for five years."
+        },
+        {
+          "title": "Experiencias de vida (sin especificar cuándo)",
+          "example": "I have visited many countries."
+        },
+        {
+          "title": "Resultados recientes que afectan el presente",
+          "example": "I have lost my keys."
+        }
+      ],
+      "timeExpressions": ["For", "Since", "Just", "Already", "Yet", "Ever", "Never", "So far", "Up to now"]
+    }
+    ],
+    "pronouns": [
+      {
+        "id": "personal",
+        "name": "Pronombres Personales",
+        "category": "pronombres",
+        "description": "Los pronombres personales reemplazan a los sustantivos y se refieren a personas o cosas",
+        "types": [
+          {
+            "name": "Sujeto",
+            "examples": ["I", "You", "He", "She", "It", "We", "They"],
+            "description": "Se utilizan como sujeto de la oración"
+          },
+          {
+            "name": "Objeto",
+            "examples": ["Me", "You", "Him", "Her", "It", "Us", "Them"],
+            "description": "Se utilizan como objeto directo o indirecto"
+          }
+        ],
+        "usageExamples": [
+          {
+            "example": "**I** am a student. (Sujeto)",
+            "explanation": "I es el sujeto de la oración"
+          },
+          {
+            "example": "She gave **me** a book. (Objeto)",
+            "explanation": "Me es el objeto indirecto"
+          },
+          {
+            "example": "**They** went to the park. (Sujeto)",
+            "explanation": "They es el sujeto de la oración"
+          },
+          {
+            "example": "I saw **her** yesterday. (Objeto)",
+            "explanation": "Her es el objeto directo"
+          }
+        ],
+        "notes": [
+          "Los pronombres personales cambian según su función en la oración (sujeto u objeto).",
+          "El pronombre **it** se usa para objetos, animales o conceptos abstractos."
+        ]
+      }
+  ]
+}
