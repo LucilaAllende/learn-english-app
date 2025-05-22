@@ -19,9 +19,9 @@
       "description": "Acciones habituales y verdades generales",
       "textColor": "#2a9d8f",
       "structure": {
-        "affirmative": "**Sujeto** + **infinitivo** (+ s/es en 3ª persona singular)",
-        "negative": "**Sujeto** + **don't/doesn't** + verbo",
-        "interrogative": "**Do/Does** + sujeto + verbo?"
+        "affirmative": "**Sujeto** + **verbo infinitivo** (+ s/es en 3ª persona singular: he, she, it) + complemento",
+        "negative": "**Sujeto** + **do/does** + **not** (o sus contracciones: don't/doesn't) + **verbo infinitivo** (sin -s/-es, incluso en 3ª persona singular) + complemento",
+        "interrogative": "**Do/Does** + sujeto + **verbo infinitivo** (sin -s/-es, incluso en 3ª persona singular) + complemento?"
       },
       "examples": [
         {
