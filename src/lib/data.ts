@@ -23,6 +23,21 @@ export interface Structure {
   interrogative: string;
 }
 
+export interface Conjugation {
+  person: string
+  conjugation: string
+}
+
+export interface VerbConjugation {
+  verb: string
+  conjugations: Conjugation[]
+}
+
+export interface Tip {
+  text: string
+  image?: string
+}
+
 export interface VerbTense {
   id: string;
   name: string;
@@ -34,6 +49,9 @@ export interface VerbTense {
   uses?: Use[];
   timeExpressions?: string[];
   notes?: Note[];
+  tips?: Tip[]
+  spanishConjunction?: VerbConjugation[]
+  englishConjugation?: VerbConjugation[]
 }
 
 export interface Type {
