@@ -359,7 +359,7 @@
       "timeExpressions": ["While", "When", "As", "At that moment", "Yesterday at 6 PM"]
     },
     {
-      "id": "simple-future",
+      "id": "future-simple",
       "name": "Futuro Simple",
       "category": "tenses",
       "description": "Acciones que ocurrirán en el futuro",
