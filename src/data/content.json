@@ -172,7 +172,7 @@
       "id": "present-continuous",
       "name": "Presente Continuo",
       "category": "tenses",
-      "description": "Acciones que ocurren en este momento",
+      "description": "Acciones que ocurren en este momento o alrededor del presente.",
       "textColor": "#e9c46a",
       "structure": {
         "affirmative": "**Sujeto** + **am/is/are** + verbo-ing",
