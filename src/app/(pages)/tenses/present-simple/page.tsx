@@ -8,6 +8,11 @@ import { ItemStructure } from "@/app/components/items/item-structure"
 import { FormatText } from "@/app/utils/format-text"
 import { getVerbTenses } from "@/lib/data"
 import { TipsFloating } from "@/app/components/items/item-tip-floating"
+import { ConjugationItem } from "@/app/components/items/item-conjugation"
+import { HeartsDecoration } from "@/app/components/decoration/hearts-decoration"
+import { FormatText } from "@/app/utils/format-text"
+import { getVerbTenses, VerbConjugation } from "@/lib/data"
+
 
 export default function PresentSimplePage() {
   const verbTenses = getVerbTenses()
