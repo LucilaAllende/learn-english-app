@@ -1,10 +1,13 @@
 import { VerbTenseCard } from "@/app/components/cards/verb-tense-card"
 import { getVerbTenses } from "@/lib/data"
+import { HeartsDecoration } from "@/app/components/decoration/hearts-decoration"
 
 export default function HomePage() {
   const verbTenses = getVerbTenses()
   return (
     <div className="min-h-screen bg-[#f8f5f2] p-4 md:p-8">
+      <HeartsDecoration position="top-right" size="medium" opacity={0.4} />
+      <HeartsDecoration position="bottom-left" size="small" opacity={0.3} />
       <header className="max-w-4xl mx-auto mb-8">
         <h1 className="text-4xl md:text-5xl font-title text-[#2a9d8f] text-center tracking-wide">
           Mis Apuntes de Tiempos Verbales
