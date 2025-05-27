@@ -99,7 +99,7 @@
       ],
       "spanishConjunction": [
         {
-          "verb": "comprar",
+          "verb": "comprar (to buy)",
           "conjugations": [
             { "person": "yo", "conjugation": "compro" },
             { "person": "tú", "conjugation": "compras" },
@@ -110,7 +110,7 @@
           ]
         },
         {
-          "verb": "correr",
+          "verb": "correr (to run)",
           "conjugations": [
             { "person": "yo", "conjugation": "corro" },
             { "person": "tú", "conjugation": "corres" },
@@ -121,7 +121,7 @@
           ]
         },
         {
-          "verb": "vivir",
+          "verb": "vivir (to live)",
           "conjugations": [
             { "person": "yo", "conjugation": "vivo" },
             { "person": "tú", "conjugation": "vives" },
