@@ -326,7 +326,7 @@
       "id": "past-simple",
       "name": "Pasado Simple",
       "category": "tenses",
-      "description": "Acciones completadas en el pasado",
+      "description": "Acciones completadas en el pasado, en un momento específico",
       "textColor": "#f4a261",
       "structure": {
         "affirmative": "**Sujeto** + **verbo en pasado**",
