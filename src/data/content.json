@@ -502,7 +502,77 @@
           "example": "I was walking down the street when I saw an accident. (Estaba caminando por la calle cuando vi un accidente.) - I was sleeping when the phone rang. (Estaba durmiendo cuando sonó el teléfono.)"
         }
       ],
-      "timeExpressions": ["While", "When", "As", "At that moment", "Yesterday at 6 PM"]
+      "timeExpressions": ["While", "When", "As", "At that moment", "Yesterday at 6 PM"],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estaba comprando" },
+            { "person": "tú", "conjugation": "estabas comprando" },
+            { "person": "él/ella", "conjugation": "estaba comprando" },
+            { "person": "nosotros", "conjugation": "estábamos comprando" },
+            { "person": "ustedes", "conjugation": "estaban comprando" },
+            { "person": "ellos/ellas", "conjugation": "estaban comprando" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estaba corriendo" },
+            { "person": "tú", "conjugation": "estabas corriendo" },
+            { "person": "él/ella", "conjugation": "estaba corriendo" },
+            { "person": "nosotros", "conjugation": "estabamos corriendo" },
+            { "person": "ustedes", "conjugation": "estaban corriendo" },
+            { "person": "ellos/ellas", "conjugation": "estaban corriendo" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estaba viviendo" },
+            { "person": "tú", "conjugation": "estabas viviendo" },
+            { "person": "él/ella", "conjugation": "estaba viviendo" },
+            { "person": "nosotros", "conjugation": "estabamos viviendo" },
+            { "person": "ustedes", "conjugation": "estaban viviendo" },
+            { "person": "ellos/ellas", "conjugation": "estaban viviendo" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "was buying" },
+            { "person": "You", "conjugation": "were buying" },
+            { "person": "He/She/It", "conjugation": "was buying" },
+            { "person": "We", "conjugation": "were buying" },
+            { "person": "You (plural)", "conjugation": "were buying" },
+            { "person": "They", "conjugation": "were buying" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "was running" },
+            { "person": "You", "conjugation": "were running" },
+            { "person": "He/She/It", "conjugation": "was running" },
+            { "person": "We", "conjugation": "were running" },
+            { "person": "You (plural)", "conjugation": "were running" },
+            { "person": "They", "conjugation": "were running" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "was living" },
+            { "person": "You", "conjugation": "were living" },
+            { "person": "He/She/It", "conjugation": "was living" },
+            { "person": "We", "conjugation": "were living" },
+            { "person": "You (plural)", "conjugation": "were living" },
+            { "person": "They", "conjugation": "were living" }
+          ]
+        }
+      ]
     },
     {
       "id": "future-simple",
