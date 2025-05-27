@@ -329,9 +329,9 @@
       "description": "Acciones completadas en el pasado, en un momento específico",
       "textColor": "#f4a261",
       "structure": {
-        "affirmative": "**Sujeto** + **verbo en pasado**",
-        "negative": "**Sujeto** + **didn't** + infinitivo",
-        "interrogative": "**Did** + sujeto + infinitivo?"
+        "affirmative": "**Sujeto** + **verbo en pasado** + complemento",
+        "negative": "**Sujeto** + **didn't** + infinitivo + complemento",
+        "interrogative": "**Did** + sujeto + infinitivo + complemento?"
       },
       "examples": [
         {
