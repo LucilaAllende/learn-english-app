@@ -464,7 +464,7 @@
       "id": "past-continuous",
       "name": "Pasado Continuo",
       "category": "tenses",
-      "description": "Acciones en progreso en el pasado",
+      "description": "Acciones en progreso en un momento específico del pasado",
       "textColor": "#e76f51",
       "structure": {
         "affirmative": "**Sujeto** + **was/were** + verbo-ing",
