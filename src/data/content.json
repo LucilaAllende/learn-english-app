@@ -491,15 +491,15 @@
       "uses": [
         {
           "title": "Acciones en progreso en un momento específico del pasado",
-          "example": "I was watching TV at 8 PM yesterday."
+          "example": "I was watching TV at 8 PM yesterday. (Estaba viendo televisión a las 8PM ayer.) - I was reading at 10 PM. (Estaba leyendo a las 10PM ayer.)"
         },
         {
           "title": "Acciones simultáneas en el pasado",
-          "example": "While I was studying, my brother was playing video games."
+          "example": "While I was studying, my brother was playing video games. (Mientras estaba estudiando, mi hermano jugaba videojuegos) - While I was cooking, she was cleaning. (Mientras yo cocinaba, ella limpiaba.)"
         },
         {
           "title": "Interrupción de una acción en progreso",
-          "example": "I was walking down the street when I saw an accident."
+          "example": "I was walking down the street when I saw an accident. (Estaba caminando por la calle cuando vi un accidente.) - I was sleeping when the phone rang. (Estaba durmiendo cuando sonó el teléfono.)"
         }
       ],
       "timeExpressions": ["While", "When", "As", "At that moment", "Yesterday at 6 PM"]
