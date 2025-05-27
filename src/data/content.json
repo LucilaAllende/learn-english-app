@@ -581,9 +581,9 @@
       "description": "Acciones que ocurrirán en el futuro, predicciones, promesas.",
       "textColor": "#264653",
       "structure": {
-        "affirmative": "**Sujeto** + **will** + infinitivo",
-        "negative": "**Sujeto** + **will not (won't)** + infinitivo",
-        "interrogative": "**Will** + sujeto + infinitivo?"
+        "affirmative": "**Sujeto** + **will** + infinitivo + complemento",
+        "negative": "**Sujeto** + **will not (won't)** + infinitivo + complemento",
+        "interrogative": "**Will** + sujeto + infinitivo + complemento?"
       },
       "examples": [
         {
