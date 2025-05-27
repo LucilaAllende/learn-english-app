@@ -376,6 +376,79 @@
         "In 2010, in the past",
         "When I was young"
       ],
+      "tips": [
+        "Recuerda consultar la lista de verbos irregulares para el pasado."
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "compré" },
+            { "person": "tú", "conjugation": "compraste" },
+            { "person": "él/ella", "conjugation": "compró" },
+            { "person": "nosotros", "conjugation": "compramos" },
+            { "person": "ustedes", "conjugation": "compraron" },
+            { "person": "ellos/ellas", "conjugation": "compraron" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "corrí" },
+            { "person": "tú", "conjugation": "corriste" },
+            { "person": "él/ella", "conjugation": "corrió" },
+            { "person": "nosotros", "conjugation": "corrimos" },
+            { "person": "ustedes", "conjugation": "corrieron" },
+            { "person": "ellos/ellas", "conjugation": "corrieron" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "viví" },
+            { "person": "tú", "conjugation": "viviste" },
+            { "person": "él/ella", "conjugation": "vivió" },
+            { "person": "nosotros", "conjugation": "vivimos" },
+            { "person": "ustedes", "conjugation": "vivieron" },
+            { "person": "ellos/ellas", "conjugation": "vivieron" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "bought" },
+            { "person": "You", "conjugation": "bought" },
+            { "person": "He/She/It", "conjugation": "bought" },
+            { "person": "We", "conjugation": "bought" },
+            { "person": "You (plural)", "conjugation": "bought" },
+            { "person": "They", "conjugation": "bought" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "ran" },
+            { "person": "You", "conjugation": "ran" },
+            { "person": "He/She/It", "conjugation": "ran" },
+            { "person": "We", "conjugation": "ran" },
+            { "person": "You (plural)", "conjugation": "ran" },
+            { "person": "They", "conjugation": "ran" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "lived" },
+            { "person": "You", "conjugation": "lived" },
+            { "person": "He/She/It", "conjugation": "lived" },
+            { "person": "We", "conjugation": "lived" },
+            { "person": "You (plural)", "conjugation": "lived" },
+            { "person": "They", "conjugation": "lived" }
+          ]
+        }
+      ],
       "notes": [
         {
           "type": "paragraph",
