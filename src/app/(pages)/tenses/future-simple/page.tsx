@@ -5,6 +5,8 @@ import { ArrowLeft } from "lucide-react"
 import { ItemUses } from "@/app/components/items/item-uses"
 import { ExampleCard } from "@/app/components/cards/example-card"
 import { ItemStructure } from "@/app/components/items/item-structure"
+import { ConjugationItem } from "@/app/components/items/item-conjugation"
+import { HeartsDecoration } from "@/app/components/decoration/hearts-decoration"
 import { FormatText } from "@/app/utils/format-text"
 import { getVerbTenses, VerbConjugation } from "@/lib/data"
 
