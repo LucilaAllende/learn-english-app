@@ -6,7 +6,7 @@ import { ItemUses } from "@/app/components/items/item-uses"
 import { ExampleCard } from "@/app/components/cards/example-card"
 import { ItemStructure } from "@/app/components/items/item-structure"
 import { FormatText } from "@/app/utils/format-text"
-import { getVerbTenses } from "@/lib/data"
+import { getVerbTenses, VerbConjugation } from "@/lib/data"
 
 export default function FutureSimplePage() {
   const verbTenses = getVerbTenses()
