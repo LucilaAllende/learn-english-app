@@ -578,7 +578,7 @@
       "id": "future-simple",
       "name": "Futuro Simple",
       "category": "tenses",
-      "description": "Acciones que ocurrirán en el futuro",
+      "description": "Acciones que ocurrirán en el futuro, predicciones, promesas.",
       "textColor": "#264653",
       "structure": {
         "affirmative": "**Sujeto** + **will** + infinitivo",
