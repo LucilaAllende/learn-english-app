@@ -616,7 +616,77 @@
           "example": "I promise I will call you later. (Te prometo que te llamaré más tarde.) - I will help you with your homework. (Te ayudaré con tu tarea.)"
         }
       ],
-      "timeExpressions": ["Tomorrow", "Next week/month/year", "Soon", "In the future", "Later"]
+      "timeExpressions": ["Tomorrow", "Next week/month/year", "Soon", "In the future", "Later"],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "compraré" },
+            { "person": "tú", "conjugation": "comprarás" },
+            { "person": "él/ella", "conjugation": "comprará" },
+            { "person": "nosotros", "conjugation": "compraremos" },
+            { "person": "ustedes", "conjugation": "comprarán" },
+            { "person": "ellos/ellas", "conjugation": "comprarán" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "correré" },
+            { "person": "tú", "conjugation": "correrás" },
+            { "person": "él/ella", "conjugation": "correrá" },
+            { "person": "nosotros", "conjugation": "correremos" },
+            { "person": "ustedes", "conjugation": "correrán" },
+            { "person": "ellos/ellas", "conjugation": "correrán" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "viviré" },
+            { "person": "tú", "conjugation": "vivirás" },
+            { "person": "él/ella", "conjugation": "vivirá" },
+            { "person": "nosotros", "conjugation": "viviremos" },
+            { "person": "ustedes", "conjugation": "vivirán" },
+            { "person": "ellos/ellas", "conjugation": "vivirán" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will buy" },
+            { "person": "You", "conjugation": "will buy" },
+            { "person": "He/She/It", "conjugation": "will buy" },
+            { "person": "We", "conjugation": "will buy" },
+            { "person": "You (plural)", "conjugation": "will buy" },
+            { "person": "They", "conjugation": "will buy" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will run" },
+            { "person": "You", "conjugation": "will run" },
+            { "person": "He/She/It", "conjugation": "will run" },
+            { "person": "We", "conjugation": "will run" },
+            { "person": "You (plural)", "conjugation": "will run" },
+            { "person": "They", "conjugation": "will run" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will live" },
+            { "person": "You", "conjugation": "will live" },
+            { "person": "He/She/It", "conjugation": "will live" },
+            { "person": "We", "conjugation": "will live" },
+            { "person": "You (plural)", "conjugation": "will live" },
+            { "person": "They", "conjugation": "will live" }
+          ]
+        }
+      ]
     },
     {
       "id": "present-perfect",
