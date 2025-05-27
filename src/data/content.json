@@ -605,15 +605,15 @@
       "uses": [
         {
           "title": "Predicciones sobre el futuro",
-          "example": "It will rain tomorrow."
+          "example": "It will rain tomorrow. (Mañana lloverá.) - It will snow tomorrow. (Mañana nevará.)"
         },
         {
           "title": "Decisiones espontáneas",
-          "example": "I'll help you with that."
+          "example": "I'll help you with that. (Te ayudaré con eso.) - I'll answer the phone. (Contestaré el teléfono.)"
         },
         {
           "title": "Promesas y ofrecimientos",
-          "example": "I promise I will call you later."
+          "example": "I promise I will call you later. (Te prometo que te llamaré más tarde.) - I will help you with your homework. (Te ayudaré con tu tarea.)"
         }
       ],
       "timeExpressions": ["Tomorrow", "Next week/month/year", "Soon", "In the future", "Later"]
