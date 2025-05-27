@@ -467,9 +467,9 @@
       "description": "Acciones en progreso en un momento específico del pasado",
       "textColor": "#e76f51",
       "structure": {
-        "affirmative": "**Sujeto** + **was/were** + verbo-ing",
-        "negative": "**Sujeto** + **wasn't/weren't** + verbo-ing",
-        "interrogative": "**Was/Were** + sujeto + verbo-ing?"
+        "affirmative": "**Sujeto** + **was/were** + verbo-ing + complemento",
+        "negative": "**Sujeto** + **wasn't/weren't** + verbo-ing+ complemento",
+        "interrogative": "**Was/Were** + sujeto + verbo-ing + complemento?"
       },
       "examples": [
         {
