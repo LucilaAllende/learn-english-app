@@ -8,13 +8,13 @@ interface ConjugationProps {
 
 export function ConjugationItem({ verb, conjugations }: ConjugationProps) {
   return (
-    <div className="mb-4">
-      <h4 className="text-lg font-subtitle text-[#264653] mb-2">{verb}</h4>
-      <div className="grid grid-cols-2 gap-2">
+    <div className="mb-6">
+      <h4 className="text-lg font-subtitle text-[#264653] mb-4 font-semibold">{verb}</h4>
+      <div className="space-y-2">
         {conjugations.map((conj, index) => (
-          <div key={index} className="flex">
-            <span className="font-subtitle w-24 text-[#2a9d8f]">{conj.person}</span>
-            <span className="font-text">{conj.conjugation}</span>
+          <div key={index} className="flex items-center gap-3">
+            <span className="font-subtitle w-20 text-[#2a9d8f] font-medium">{conj.person}</span>
+            <span className="font-text text-gray-700">{conj.conjugation}</span>
           </div>
         ))}
       </div>
