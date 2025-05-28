@@ -730,7 +730,81 @@
           "example": "I have lost my keys. - He has just finished his homework."
         }
       ],
-      "timeExpressions": ["For", "Since", "Just", "Already", "Yet", "Ever", "Never", "So far", "Up to now"]
+      "timeExpressions": ["For", "Since", "Just", "Already", "Yet", "Ever", "Never", "So far", "Up to now"],
+      "notes": [
+        "El participio pasado de los verbos regulares termina en -ed; los irregulares tienen formas propias.",
+        "No se usa el presente perfecto con expresiones de tiempo específicas del pasado (ayer, la semana pasada)."
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "he comprado" },
+            { "person": "tú", "conjugation": "has comprado" },
+            { "person": "él/ella", "conjugation": "ha comprado" },
+            { "person": "nosotros", "conjugation": "hemos comprado" },
+            { "person": "ustedes", "conjugation": "han comprado" },
+            { "person": "ellos/ellas", "conjugation": "han comprado" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "he corrido" },
+            { "person": "tú", "conjugation": "has corrido" },
+            { "person": "él/ella", "conjugation": "ha corrido" },
+            { "person": "nosotros", "conjugation": "hemos corrido" },
+            { "person": "ustedes", "conjugation": "han corrido" },
+            { "person": "ellos/ellas", "conjugation": "han corrido" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "he vivido" },
+            { "person": "tú", "conjugation": "has vivido" },
+            { "person": "él/ella", "conjugation": "ha vivido" },
+            { "person": "nosotros", "conjugation": "hemos vivido" },
+            { "person": "ustedes", "conjugation": "han vivido" },
+            { "person": "ellos/ellas", "conjugation": "han vivido" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "have bought" },
+            { "person": "You", "conjugation": "have bought" },
+            { "person": "He/She/It", "conjugation": "has bought" },
+            { "person": "We", "conjugation": "have bought" },
+            { "person": "You (plural)", "conjugation": "have bought" },
+            { "person": "They", "conjugation": "have bought" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "have run" },
+            { "person": "You", "conjugation": "have run" },
+            { "person": "He/She/It", "conjugation": "has run" },
+            { "person": "We", "conjugation": "have run" },
+            { "person": "You (plural)", "conjugation": "have run" },
+            { "person": "They", "conjugation": "have run" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "have lived" },
+            { "person": "You", "conjugation": "have lived" },
+            { "person": "He/She/It", "conjugation": "has lived" },
+            { "person": "We", "conjugation": "have lived" },
+            { "person": "You (plural)", "conjugation": "have lived" },
+            { "person": "They", "conjugation": "have lived" }
+          ]
+        }
+      ]
     }
     ],
     "pronouns": [
