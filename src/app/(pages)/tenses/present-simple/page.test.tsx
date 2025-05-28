@@ -36,6 +36,15 @@ describe("PresentSimplePage", () => {
     expect(examples.length).toBeGreaterThan(0)
   })
 
+  it("should render the 'Usos' section if available", () => {
+    render(<PresentSimplePage />);
+    const heading = screen.getByRole("heading", { name: /usos/i });
+    const section = heading.closest("section") ?? heading.parentElement;
+    expect(section).toBeInTheDocument();
+    const scoped = within(section!);
+    expect(scoped.getByText(/Hábitos/i)).toBeInTheDocument();
+  })
+
   it("should renders the 'Expresiones de tiempo' section", () => {
     render(<PresentSimplePage />)
     expect(screen.getByRole("heading", { name: /expresiones de tiempo/i })).toBeInTheDocument()
