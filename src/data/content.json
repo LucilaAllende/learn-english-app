@@ -692,7 +692,7 @@
       "id": "present-perfect",
       "name": "Presente Perfecto",
       "category": "tenses",
-      "description": "Conexión entre pasado y presente",
+      "description": "Conexión entre pasado y presente. Acciones pasadas con relevancia en el presente o experiencias de vida.",
       "textColor": "#2a9d8f",
       "structure": {
         "affirmative": "**Sujeto** + **have/has** + participio pasado",
