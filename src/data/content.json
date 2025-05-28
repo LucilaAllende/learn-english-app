@@ -719,15 +719,15 @@
       "uses": [
         {
           "title": "Acciones que comenzaron en el pasado y continúan hasta ahora",
-          "example": "I have lived here for five years."
+          "example": "I have lived here for five years.- I have lived here since 2010."
         },
         {
           "title": "Experiencias de vida (sin especificar cuándo)",
-          "example": "I have visited many countries."
+          "example": "I have visited many countries. - She has visited Japan."
         },
         {
           "title": "Resultados recientes que afectan el presente",
-          "example": "I have lost my keys."
+          "example": "I have lost my keys. - He has just finished his homework."
         }
       ],
       "timeExpressions": ["For", "Since", "Just", "Already", "Yet", "Ever", "Never", "So far", "Up to now"]
