@@ -7,11 +7,16 @@ describe("PresentSimplePage", () => {
     expect(screen.getByRole("heading", { name: /presente simple/i })).toBeInTheDocument()
     expect(screen.getByText("Presente Simple")).toBeInTheDocument()
   })
-
+  
   it("should renders the back link", () => {
     render(<PresentSimplePage />)
     expect(screen.getByRole("link", { name: /volver al índice/i })).toBeInTheDocument()
   })
+
+  it("should render tips if available", () => {
+    render(<PresentSimplePage />);
+    expect(screen.getByText(/El verbo en infinitivo que usamos en estas reglas es la forma base del verbo/i)).toBeInTheDocument();
+  });
 
   it("should renders the 'Estructura' section", () => {
     render(<PresentSimplePage />)
