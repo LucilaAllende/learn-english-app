@@ -5,8 +5,11 @@ import { ArrowLeft } from "lucide-react"
 import { ItemUses } from "@/app/components/items/item-uses"
 import { ExampleCard } from "@/app/components/cards/example-card"
 import { ItemStructure } from "@/app/components/items/item-structure"
+import { TipsFloating } from "@/app/components/items/item-tip-floating"
+import { ConjugationItem } from "@/app/components/items/item-conjugation"
+import { HeartsDecoration } from "@/app/components/decoration/hearts-decoration"
 import { FormatText } from "@/app/utils/format-text"
-import { getVerbTenses } from "@/lib/data"
+import { getVerbTenses, VerbConjugation } from "@/lib/data"
 
 export default function PresentContinuousPage() {
   const verbTenses = getVerbTenses()
@@ -16,6 +19,7 @@ export default function PresentContinuousPage() {
   
   return (
     <div className="min-h-screen bg-[#f8f5f2] p-4 md:p-8">
+      {tense.tips && tense.tips.length > 0 && <TipsFloating tips={tense.tips} />}
       <div className="max-w-4xl mx-auto">
         <Link href="/" className="inline-flex items-center text-[#2a9d8f] hover:underline mb-6 font-notes">
           <ArrowLeft className="h-4 w-4 mr-2" />
@@ -97,6 +101,52 @@ export default function PresentContinuousPage() {
                       <li key={idx}>{expr}</li>
                     ))}
                   </ul>
+                </div>
+              </section>
+            )}
+
+            {tense.spanishConjunction && tense.spanishConjunction.length > 0 && (
+              <section className="relative">
+                <HeartsDecoration position="bottom-right" size="small" opacity={0.15} />
+
+                <h2 className="text-2xl font-subtitle text-[#264653] mb-4 flex items-center">
+                  <span className="text-[#e76f51] mr-2">→</span>
+                  Conjugaciones en Español
+                </h2>
+
+                <div className="bg-[#f8f9fa] p-4 rounded-lg border border-gray-200">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    {tense.spanishConjunction.map((conjugation: VerbConjugation, index: number) => (
+                      <ConjugationItem
+                        key={index}
+                        verb={conjugation.verb}
+                        conjugations={conjugation.conjugations}
+                      />
+                    ))}
+                  </div>
+                </div>
+              </section>
+            )}
+
+            {tense.englishConjugation && tense.englishConjugation.length > 0 && (
+              <section className="relative">
+                <HeartsDecoration position="bottom-right" size="small" opacity={0.15} />
+
+                <h2 className="text-2xl font-subtitle text-[#264653] mb-4 flex items-center">
+                  <span className="text-[#e76f51] mr-2">→</span>
+                  Conjugaciones en Ingles
+                </h2>
+
+                <div className="bg-[#f8f9fa] p-4 rounded-lg border border-gray-200">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    {tense.englishConjugation.map((conjugation: VerbConjugation, index: number) => (
+                      <ConjugationItem
+                        key={index}
+                        verb={conjugation.verb}
+                        conjugations={conjugation.conjugations}
+                      />
+                    ))}
+                  </div>
                 </div>
               </section>
             )}

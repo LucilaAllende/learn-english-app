@@ -19,9 +19,9 @@
       "description": "Acciones habituales y verdades generales",
       "textColor": "#2a9d8f",
       "structure": {
-        "affirmative": "**Sujeto** + **infinitivo** (+ s/es en 3ª persona singular)",
-        "negative": "**Sujeto** + **don't/doesn't** + verbo",
-        "interrogative": "**Do/Does** + sujeto + verbo?"
+        "affirmative": "**Sujeto** + **verbo infinitivo** (+ s/es en 3ª persona singular: he, she, it) + complemento",
+        "negative": "**Sujeto** + **do/does** + **not** (o sus contracciones: don't/doesn't) + **verbo infinitivo** (sin -s/-es, incluso en 3ª persona singular) + complemento",
+        "interrogative": "**Do/Does** + sujeto + **verbo infinitivo** (sin -s/-es, incluso en 3ª persona singular) + complemento?"
       },
       "examples": [
         {
@@ -42,20 +42,36 @@
       ],
       "uses": [
         {
-          "title": "Hábitos y rutinas",
-          "example": "I go to the gym every day."
+          "title": "Hábitos",
+          "example": "I go to the gym every day. (Voy al gimnsasio cada dia) - I run every night. (Corro todas las noches)"
+        },
+        {
+          "title": "Rutinas",
+          "example": "I study English from Monday to Friday (Yo estudio inglés de Lunes a Viernes)"
         },
         {
           "title": "Verdades generales",
-          "example": "Water boils at 100°C."
+          "example": "Water boils at 100°C. (El agua hierve a 100°C) - The sun rises everyday. (El sol sale todos los días)"
         },
         {
           "title": "Estados permanentes",
-          "example": "She lives in Madrid."
+          "example": "She lives in Madrid. (Ella vive en Madrid)"
         },
         {
           "title": "Horarios y programas",
-          "example": "The train leaves at 6 PM."
+          "example": "The train leaves at 6 PM. (El tren sale a las 6 PM)"
+        },
+        {
+          "title": "Hechos y realidades actuales",
+          "example": "He cleans the kitchen. (Limpia la cocina)"
+        },
+        {
+          "title": "Características observables",
+          "example": "How are you doing? (¿Cómo estás?)"
+        },
+        {
+          "title": "Acciones continuas o habituales",
+          "example": "I get up at half past six every morning. (Me levanto a las seis y media cada mañana)"
         }
       ],
       "timeExpressions": [
@@ -74,18 +90,94 @@
           "type": "paragraph",
           "text": "No olvides las excepciones con verbos que terminan en -o, -ch, -sh, -ss, -x"
         }
+      ],
+      "tips":[
+        {
+          "text": "El verbo en infinitivo que usamos en estas reglas es la forma base del verbo, sin el 'to'. Por ejemplo, para 'to clean', el infinitivo es 'clean'.",
+          "image": "url/image"
+        }
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "compro" },
+            { "person": "tú", "conjugation": "compras" },
+            { "person": "él/ella", "conjugation": "compra" },
+            { "person": "nosotros", "conjugation": "compramos" },
+            { "person": "ustedes", "conjugation": "compran" },
+            { "person": "ellos/ellas", "conjugation": "compran" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "corro" },
+            { "person": "tú", "conjugation": "corres" },
+            { "person": "él/ella", "conjugation": "corre" },
+            { "person": "nosotros", "conjugation": "corremos" },
+            { "person": "ustedes", "conjugation": "corren" },
+            { "person": "ellos/ellas", "conjugation": "corren" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "vivo" },
+            { "person": "tú", "conjugation": "vives" },
+            { "person": "él/ella", "conjugation": "vive" },
+            { "person": "nosotros", "conjugation": "vivimos" },
+            { "person": "ustedes", "conjugation": "viven" },
+            { "person": "ellos/ellas", "conjugation": "viven" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "buy" },
+            { "person": "You", "conjugation": "buy" },
+            { "person": "He/She/It", "conjugation": "buys" },
+            { "person": "We", "conjugation": "buy" },
+            { "person": "You (plural)", "conjugation": "buy" },
+            { "person": "They", "conjugation": "buy" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "run" },
+            { "person": "You", "conjugation": "run" },
+            { "person": "He/She/It", "conjugation": "runs" },
+            { "person": "We", "conjugation": "run" },
+            { "person": "You (plural)", "conjugation": "run" },
+            { "person": "They", "conjugation": "run" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "live" },
+            { "person": "You", "conjugation": "live" },
+            { "person": "He/She/It", "conjugation": "lives" },
+            { "person": "We", "conjugation": "live" },
+            { "person": "You (plural)", "conjugation": "live" },
+            { "person": "They", "conjugation": "live" }
+          ]
+        }
       ]
     },
     {
       "id": "present-continuous",
       "name": "Presente Continuo",
       "category": "tenses",
-      "description": "Acciones que ocurren en este momento",
+      "description": "Acciones que ocurren en este momento o alrededor del presente.",
       "textColor": "#e9c46a",
       "structure": {
-        "affirmative": "**Sujeto** + **am/is/are** + verbo-ing",
-        "negative": "**Sujeto** + **am/is/are** + **not** + verbo-ing",
-        "interrogative": "**Am/Is/Are** + sujeto + verbo-ing?"
+        "affirmative": "**Sujeto** + **am/is/are** + verbo-ing + complemento",
+        "negative": "**Sujeto** + **am/is/are** + **not** + verbo-ing + complemento",
+        "interrogative": "**Am/Is/Are** + sujeto + verbo-ing + complemento?"
       },
       "examples": [
         {
@@ -155,18 +247,91 @@
             "Verbos de percepción: see, hear, smell"
           ]
         }
+      ],
+      "tips": [
+        "El presente continuo también se usa para quejas con 'always': 'He is always losing his keys.'"
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "compro" },
+            { "person": "tú", "conjugation": "compras" },
+            { "person": "él/ella", "conjugation": "compra" },
+            { "person": "nosotros", "conjugation": "compramos" },
+            { "person": "ustedes", "conjugation": "compran" },
+            { "person": "ellos/ellas", "conjugation": "compran" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "corro" },
+            { "person": "tú", "conjugation": "corres" },
+            { "person": "él/ella", "conjugation": "corre" },
+            { "person": "nosotros", "conjugation": "corremos" },
+            { "person": "ustedes", "conjugation": "corren" },
+            { "person": "ellos/ellas", "conjugation": "corren" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "vivo" },
+            { "person": "tú", "conjugation": "vives" },
+            { "person": "él/ella", "conjugation": "vive" },
+            { "person": "nosotros", "conjugation": "vivimos" },
+            { "person": "ustedes", "conjugation": "viven" },
+            { "person": "ellos/ellas", "conjugation": "viven" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "buy" },
+            { "person": "You", "conjugation": "buy" },
+            { "person": "He/She/It", "conjugation": "buys" },
+            { "person": "We", "conjugation": "buy" },
+            { "person": "You (plural)", "conjugation": "buy" },
+            { "person": "They", "conjugation": "buy" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "run" },
+            { "person": "You", "conjugation": "run" },
+            { "person": "He/She/It", "conjugation": "runs" },
+            { "person": "We", "conjugation": "run" },
+            { "person": "You (plural)", "conjugation": "run" },
+            { "person": "They", "conjugation": "run" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "live" },
+            { "person": "You", "conjugation": "live" },
+            { "person": "He/She/It", "conjugation": "lives" },
+            { "person": "We", "conjugation": "live" },
+            { "person": "You (plural)", "conjugation": "live" },
+            { "person": "They", "conjugation": "live" }
+          ]
+        }
       ]
     },
     {
       "id": "past-simple",
       "name": "Pasado Simple",
       "category": "tenses",
-      "description": "Acciones completadas en el pasado",
+      "description": "Acciones completadas en el pasado, en un momento específico",
       "textColor": "#f4a261",
       "structure": {
-        "affirmative": "**Sujeto** + **verbo en pasado**",
-        "negative": "**Sujeto** + **didn't** + infinitivo",
-        "interrogative": "**Did** + sujeto + infinitivo?"
+        "affirmative": "**Sujeto** + **verbo en pasado** + complemento",
+        "negative": "**Sujeto** + **didn't** + infinitivo + complemento",
+        "interrogative": "**Did** + sujeto + infinitivo + complemento?"
       },
       "examples": [
         {
@@ -194,15 +359,15 @@
       "uses": [
         {
           "title": "Acciones completadas en el pasado",
-          "example": "I visited Paris last summer."
+          "example": "I visited Paris last summer. (Visité París el verano pasado.)"
         },
         {
           "title": "Serie de acciones completadas",
-          "example": "I woke up, got dressed and went to work."
+          "example": "I woke up, got dressed and went to work. (Me desperté, me vestí y fui a trabajar.) - She got up, brushed her teeth and left. (Ella se levantó, se cepilló los dientes y se fue.)"
         },
         {
           "title": "Hábitos en el pasado",
-          "example": "When I was a child, I played football every day."
+          "example": "When I was a child, I played football every day. (Cuando era niño, jugaba al fútbol todos los días.)"
         }
       ],
       "timeExpressions": [
@@ -210,6 +375,79 @@
         "Two days/weeks/months/years ago",
         "In 2010, in the past",
         "When I was young"
+      ],
+      "tips": [
+        "Recuerda consultar la lista de verbos irregulares para el pasado."
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "compré" },
+            { "person": "tú", "conjugation": "compraste" },
+            { "person": "él/ella", "conjugation": "compró" },
+            { "person": "nosotros", "conjugation": "compramos" },
+            { "person": "ustedes", "conjugation": "compraron" },
+            { "person": "ellos/ellas", "conjugation": "compraron" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "corrí" },
+            { "person": "tú", "conjugation": "corriste" },
+            { "person": "él/ella", "conjugation": "corrió" },
+            { "person": "nosotros", "conjugation": "corrimos" },
+            { "person": "ustedes", "conjugation": "corrieron" },
+            { "person": "ellos/ellas", "conjugation": "corrieron" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "viví" },
+            { "person": "tú", "conjugation": "viviste" },
+            { "person": "él/ella", "conjugation": "vivió" },
+            { "person": "nosotros", "conjugation": "vivimos" },
+            { "person": "ustedes", "conjugation": "vivieron" },
+            { "person": "ellos/ellas", "conjugation": "vivieron" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "bought" },
+            { "person": "You", "conjugation": "bought" },
+            { "person": "He/She/It", "conjugation": "bought" },
+            { "person": "We", "conjugation": "bought" },
+            { "person": "You (plural)", "conjugation": "bought" },
+            { "person": "They", "conjugation": "bought" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "ran" },
+            { "person": "You", "conjugation": "ran" },
+            { "person": "He/She/It", "conjugation": "ran" },
+            { "person": "We", "conjugation": "ran" },
+            { "person": "You (plural)", "conjugation": "ran" },
+            { "person": "They", "conjugation": "ran" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "lived" },
+            { "person": "You", "conjugation": "lived" },
+            { "person": "He/She/It", "conjugation": "lived" },
+            { "person": "We", "conjugation": "lived" },
+            { "person": "You (plural)", "conjugation": "lived" },
+            { "person": "They", "conjugation": "lived" }
+          ]
+        }
       ],
       "notes": [
         {
@@ -226,12 +464,12 @@
       "id": "past-continuous",
       "name": "Pasado Continuo",
       "category": "tenses",
-      "description": "Acciones en progreso en el pasado",
+      "description": "Acciones en progreso en un momento específico del pasado",
       "textColor": "#e76f51",
       "structure": {
-        "affirmative": "**Sujeto** + **was/were** + verbo-ing",
-        "negative": "**Sujeto** + **wasn't/weren't** + verbo-ing",
-        "interrogative": "**Was/Were** + sujeto + verbo-ing?"
+        "affirmative": "**Sujeto** + **was/were** + verbo-ing + complemento",
+        "negative": "**Sujeto** + **wasn't/weren't** + verbo-ing+ complemento",
+        "interrogative": "**Was/Were** + sujeto + verbo-ing + complemento?"
       },
       "examples": [
         {
@@ -253,29 +491,99 @@
       "uses": [
         {
           "title": "Acciones en progreso en un momento específico del pasado",
-          "example": "I was watching TV at 8 PM yesterday."
+          "example": "I was watching TV at 8 PM yesterday. (Estaba viendo televisión a las 8PM ayer.) - I was reading at 10 PM. (Estaba leyendo a las 10PM ayer.)"
         },
         {
           "title": "Acciones simultáneas en el pasado",
-          "example": "While I was studying, my brother was playing video games."
+          "example": "While I was studying, my brother was playing video games. (Mientras estaba estudiando, mi hermano jugaba videojuegos) - While I was cooking, she was cleaning. (Mientras yo cocinaba, ella limpiaba.)"
         },
         {
           "title": "Interrupción de una acción en progreso",
-          "example": "I was walking down the street when I saw an accident."
+          "example": "I was walking down the street when I saw an accident. (Estaba caminando por la calle cuando vi un accidente.) - I was sleeping when the phone rang. (Estaba durmiendo cuando sonó el teléfono.)"
         }
       ],
-      "timeExpressions": ["While", "When", "As", "At that moment", "Yesterday at 6 PM"]
+      "timeExpressions": ["While", "When", "As", "At that moment", "Yesterday at 6 PM"],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estaba comprando" },
+            { "person": "tú", "conjugation": "estabas comprando" },
+            { "person": "él/ella", "conjugation": "estaba comprando" },
+            { "person": "nosotros", "conjugation": "estábamos comprando" },
+            { "person": "ustedes", "conjugation": "estaban comprando" },
+            { "person": "ellos/ellas", "conjugation": "estaban comprando" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estaba corriendo" },
+            { "person": "tú", "conjugation": "estabas corriendo" },
+            { "person": "él/ella", "conjugation": "estaba corriendo" },
+            { "person": "nosotros", "conjugation": "estabamos corriendo" },
+            { "person": "ustedes", "conjugation": "estaban corriendo" },
+            { "person": "ellos/ellas", "conjugation": "estaban corriendo" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estaba viviendo" },
+            { "person": "tú", "conjugation": "estabas viviendo" },
+            { "person": "él/ella", "conjugation": "estaba viviendo" },
+            { "person": "nosotros", "conjugation": "estabamos viviendo" },
+            { "person": "ustedes", "conjugation": "estaban viviendo" },
+            { "person": "ellos/ellas", "conjugation": "estaban viviendo" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "was buying" },
+            { "person": "You", "conjugation": "were buying" },
+            { "person": "He/She/It", "conjugation": "was buying" },
+            { "person": "We", "conjugation": "were buying" },
+            { "person": "You (plural)", "conjugation": "were buying" },
+            { "person": "They", "conjugation": "were buying" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "was running" },
+            { "person": "You", "conjugation": "were running" },
+            { "person": "He/She/It", "conjugation": "was running" },
+            { "person": "We", "conjugation": "were running" },
+            { "person": "You (plural)", "conjugation": "were running" },
+            { "person": "They", "conjugation": "were running" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "was living" },
+            { "person": "You", "conjugation": "were living" },
+            { "person": "He/She/It", "conjugation": "was living" },
+            { "person": "We", "conjugation": "were living" },
+            { "person": "You (plural)", "conjugation": "were living" },
+            { "person": "They", "conjugation": "were living" }
+          ]
+        }
+      ]
     },
     {
-      "id": "simple-future",
+      "id": "future-simple",
       "name": "Futuro Simple",
       "category": "tenses",
-      "description": "Acciones que ocurrirán en el futuro",
+      "description": "Acciones que ocurrirán en el futuro, predicciones, promesas.",
       "textColor": "#264653",
       "structure": {
-        "affirmative": "**Sujeto** + **will** + infinitivo",
-        "negative": "**Sujeto** + **will not (won't)** + infinitivo",
-        "interrogative": "**Will** + sujeto + infinitivo?"
+        "affirmative": "**Sujeto** + **will** + infinitivo + complemento",
+        "negative": "**Sujeto** + **will not (won't)** + infinitivo + complemento",
+        "interrogative": "**Will** + sujeto + infinitivo + complemento?"
       },
       "examples": [
         {
@@ -297,29 +605,99 @@
       "uses": [
         {
           "title": "Predicciones sobre el futuro",
-          "example": "It will rain tomorrow."
+          "example": "It will rain tomorrow. (Mañana lloverá.) - It will snow tomorrow. (Mañana nevará.)"
         },
         {
           "title": "Decisiones espontáneas",
-          "example": "I'll help you with that."
+          "example": "I'll help you with that. (Te ayudaré con eso.) - I'll answer the phone. (Contestaré el teléfono.)"
         },
         {
           "title": "Promesas y ofrecimientos",
-          "example": "I promise I will call you later."
+          "example": "I promise I will call you later. (Te prometo que te llamaré más tarde.) - I will help you with your homework. (Te ayudaré con tu tarea.)"
         }
       ],
-      "timeExpressions": ["Tomorrow", "Next week/month/year", "Soon", "In the future", "Later"]
+      "timeExpressions": ["Tomorrow", "Next week/month/year", "Soon", "In the future", "Later"],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "compraré" },
+            { "person": "tú", "conjugation": "comprarás" },
+            { "person": "él/ella", "conjugation": "comprará" },
+            { "person": "nosotros", "conjugation": "compraremos" },
+            { "person": "ustedes", "conjugation": "comprarán" },
+            { "person": "ellos/ellas", "conjugation": "comprarán" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "correré" },
+            { "person": "tú", "conjugation": "correrás" },
+            { "person": "él/ella", "conjugation": "correrá" },
+            { "person": "nosotros", "conjugation": "correremos" },
+            { "person": "ustedes", "conjugation": "correrán" },
+            { "person": "ellos/ellas", "conjugation": "correrán" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "viviré" },
+            { "person": "tú", "conjugation": "vivirás" },
+            { "person": "él/ella", "conjugation": "vivirá" },
+            { "person": "nosotros", "conjugation": "viviremos" },
+            { "person": "ustedes", "conjugation": "vivirán" },
+            { "person": "ellos/ellas", "conjugation": "vivirán" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will buy" },
+            { "person": "You", "conjugation": "will buy" },
+            { "person": "He/She/It", "conjugation": "will buy" },
+            { "person": "We", "conjugation": "will buy" },
+            { "person": "You (plural)", "conjugation": "will buy" },
+            { "person": "They", "conjugation": "will buy" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will run" },
+            { "person": "You", "conjugation": "will run" },
+            { "person": "He/She/It", "conjugation": "will run" },
+            { "person": "We", "conjugation": "will run" },
+            { "person": "You (plural)", "conjugation": "will run" },
+            { "person": "They", "conjugation": "will run" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will live" },
+            { "person": "You", "conjugation": "will live" },
+            { "person": "He/She/It", "conjugation": "will live" },
+            { "person": "We", "conjugation": "will live" },
+            { "person": "You (plural)", "conjugation": "will live" },
+            { "person": "They", "conjugation": "will live" }
+          ]
+        }
+      ]
     },
     {
       "id": "present-perfect",
       "name": "Presente Perfecto",
       "category": "tenses",
-      "description": "Conexión entre pasado y presente",
+      "description": "Conexión entre pasado y presente. Acciones pasadas con relevancia en el presente o experiencias de vida.",
       "textColor": "#2a9d8f",
       "structure": {
-        "affirmative": "**Sujeto** + **have/has** + participio pasado",
-        "negative": "**Sujeto** + **haven't/hasn't** + participio pasado",
-        "interrogative": "**Have/Has** + sujeto + participio pasado?"
+        "affirmative": "**Sujeto** + **have/has** + participio pasado + complemento",
+        "negative": "**Sujeto** + **haven't/hasn't** + participio pasado + complemento",
+        "interrogative": "**Have/Has** + sujeto + participio pasado + complemento?"
       },
       "examples": [
         {
@@ -341,18 +719,92 @@
       "uses": [
         {
           "title": "Acciones que comenzaron en el pasado y continúan hasta ahora",
-          "example": "I have lived here for five years."
+          "example": "I have lived here for five years.- I have lived here since 2010."
         },
         {
           "title": "Experiencias de vida (sin especificar cuándo)",
-          "example": "I have visited many countries."
+          "example": "I have visited many countries. - She has visited Japan."
         },
         {
           "title": "Resultados recientes que afectan el presente",
-          "example": "I have lost my keys."
+          "example": "I have lost my keys. - He has just finished his homework."
         }
       ],
-      "timeExpressions": ["For", "Since", "Just", "Already", "Yet", "Ever", "Never", "So far", "Up to now"]
+      "timeExpressions": ["For", "Since", "Just", "Already", "Yet", "Ever", "Never", "So far", "Up to now"],
+      "notes": [
+        "El participio pasado de los verbos regulares termina en -ed; los irregulares tienen formas propias.",
+        "No se usa el presente perfecto con expresiones de tiempo específicas del pasado (ayer, la semana pasada)."
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "he comprado" },
+            { "person": "tú", "conjugation": "has comprado" },
+            { "person": "él/ella", "conjugation": "ha comprado" },
+            { "person": "nosotros", "conjugation": "hemos comprado" },
+            { "person": "ustedes", "conjugation": "han comprado" },
+            { "person": "ellos/ellas", "conjugation": "han comprado" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "he corrido" },
+            { "person": "tú", "conjugation": "has corrido" },
+            { "person": "él/ella", "conjugation": "ha corrido" },
+            { "person": "nosotros", "conjugation": "hemos corrido" },
+            { "person": "ustedes", "conjugation": "han corrido" },
+            { "person": "ellos/ellas", "conjugation": "han corrido" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "he vivido" },
+            { "person": "tú", "conjugation": "has vivido" },
+            { "person": "él/ella", "conjugation": "ha vivido" },
+            { "person": "nosotros", "conjugation": "hemos vivido" },
+            { "person": "ustedes", "conjugation": "han vivido" },
+            { "person": "ellos/ellas", "conjugation": "han vivido" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "have bought" },
+            { "person": "You", "conjugation": "have bought" },
+            { "person": "He/She/It", "conjugation": "has bought" },
+            { "person": "We", "conjugation": "have bought" },
+            { "person": "You (plural)", "conjugation": "have bought" },
+            { "person": "They", "conjugation": "have bought" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "have run" },
+            { "person": "You", "conjugation": "have run" },
+            { "person": "He/She/It", "conjugation": "has run" },
+            { "person": "We", "conjugation": "have run" },
+            { "person": "You (plural)", "conjugation": "have run" },
+            { "person": "They", "conjugation": "have run" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "have lived" },
+            { "person": "You", "conjugation": "have lived" },
+            { "person": "He/She/It", "conjugation": "has lived" },
+            { "person": "We", "conjugation": "have lived" },
+            { "person": "You (plural)", "conjugation": "have lived" },
+            { "person": "They", "conjugation": "have lived" }
+          ]
+        }
+      ]
     }
     ],
     "pronouns": [
