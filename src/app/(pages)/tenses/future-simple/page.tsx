@@ -5,6 +5,7 @@ import { ArrowLeft } from "lucide-react"
 import { ItemUses } from "@/app/components/items/item-uses"
 import { ExampleCard } from "@/app/components/cards/example-card"
 import { ItemStructure } from "@/app/components/items/item-structure"
+import { TipsFloating } from "@/app/components/items/item-tip-floating"
 import { ConjugationItem } from "@/app/components/items/item-conjugation"
 import { HeartsDecoration } from "@/app/components/decoration/hearts-decoration"
 import { FormatText } from "@/app/utils/format-text"
@@ -18,6 +19,7 @@ export default function FutureSimplePage() {
 
   return (
     <div className="min-h-screen bg-[#f8f5f2] p-4 md:p-8">
+      {tense.tips && tense.tips.length > 0 && <TipsFloating tips={tense.tips} />}
       <div className="max-w-4xl mx-auto">
         <Link href="/" className="inline-flex items-center text-[#2a9d8f] hover:underline mb-6 font-text">
           <ArrowLeft className="h-4 w-4 mr-2" />
