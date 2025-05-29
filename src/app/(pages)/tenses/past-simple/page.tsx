@@ -6,8 +6,10 @@ import { ItemUses } from "@/app/components/items/item-uses"
 import { ExampleCard } from "@/app/components/cards/example-card"
 import { ItemStructure } from "@/app/components/items/item-structure"
 import { TipsFloating } from "@/app/components/items/item-tip-floating"
+import { ConjugationItem } from "@/app/components/items/item-conjugation"
+import { HeartsDecoration } from "@/app/components/decoration/hearts-decoration"
 import { FormatText } from "@/app/utils/format-text"
-import { getVerbTenses } from "@/lib/data"
+import { getVerbTenses, VerbConjugation } from "@/lib/data"
 
 export default function PastSimplePage() {
   const verbTenses = getVerbTenses()
