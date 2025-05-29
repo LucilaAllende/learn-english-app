@@ -68,6 +68,24 @@ describe("FutureSimplePage", () => {
     )
   })
 
+  it("should render the 'Conjugaciones en Español' section if available", () => {
+    render(<FutureSimplePage />);
+    const heading = screen.getByRole("heading", { name: /conjugaciones en español/i });
+    const section = heading.closest("section") ?? heading.parentElement;
+    expect(section).toBeInTheDocument();
+    const scoped = within(section!);
+    expect(scoped.getByText("comprar (to buy)")).toBeInTheDocument();
+  });
+
+  it("should render the 'Conjugaciones en Inglés' section if available", () => {
+    render(<FutureSimplePage />);
+    const heading = screen.getByRole("heading", { name: /conjugaciones en ingles/i });
+    const section = heading.closest("section") ?? heading.parentElement;
+    expect(section).toBeInTheDocument();
+    const scoped = within(section!);
+    expect(scoped.getByText(/to buy/i)).toBeInTheDocument();
+  });
+
   it("does not render the 'Nota importante' section", () => {
     render(<FutureSimplePage />)
     expect(screen.queryByRole("heading", { name: /nota importante/i })).not.toBeInTheDocument()
