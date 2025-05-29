@@ -104,6 +104,52 @@ export default function PastSimplePage() {
               </section>
             )}
 
+            {tense.spanishConjunction && tense.spanishConjunction.length > 0 && (
+              <section className="relative">
+                <HeartsDecoration position="bottom-right" size="small" opacity={0.15} />
+
+                <h2 className="text-2xl font-subtitle text-[#264653] mb-4 flex items-center">
+                  <span className="text-[#e76f51] mr-2">→</span>
+                  Conjugaciones en Español
+                </h2>
+
+                <div className="bg-[#f8f9fa] p-4 rounded-lg border border-gray-200">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    {tense.spanishConjunction.map((conjugation: VerbConjugation, index: number) => (
+                      <ConjugationItem
+                        key={index}
+                        verb={conjugation.verb}
+                        conjugations={conjugation.conjugations}
+                      />
+                    ))}
+                  </div>
+                </div>
+              </section>
+            )}
+
+            {tense.englishConjugation && tense.englishConjugation.length > 0 && (
+              <section className="relative">
+                <HeartsDecoration position="bottom-right" size="small" opacity={0.15} />
+
+                <h2 className="text-2xl font-subtitle text-[#264653] mb-4 flex items-center">
+                  <span className="text-[#e76f51] mr-2">→</span>
+                  Conjugaciones en Ingles
+                </h2>
+
+                <div className="bg-[#f8f9fa] p-4 rounded-lg border border-gray-200">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    {tense.englishConjugation.map((conjugation: VerbConjugation, index: number) => (
+                      <ConjugationItem
+                        key={index}
+                        verb={conjugation.verb}
+                        conjugations={conjugation.conjugations}
+                      />
+                    ))}
+                  </div>
+                </div>
+              </section>
+            )}
+
             {tense.notes && tense.notes?.length > 0 && (
               <section>
                 <h2 className="text-2xl font-subtitle text-[#264653] mb-4 flex items-center">
