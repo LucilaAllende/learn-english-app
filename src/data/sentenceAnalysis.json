@@ -1,0 +1,348 @@
+{
+  "sentences": [
+    {
+      "id": "dont-mind",
+      "text": "I don't mind",
+      "spanish": "No me importa",
+      "alternative": {
+        "english": "It doesn't bother me",
+        "spanish": "No me molesta"
+      },
+      "analysis": {
+        "english": {
+          "verb": "mind",
+          "auxiliary": "do (negated: don't)",
+          "verb_tense": "present simple",
+          "subject": "I",
+          "predicate": "don't mind",
+          "pronouns": ["I"],
+          "nouns": [],
+          "adjectives": [],
+          "adverbs": [],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": "don't",
+          "direct_object": null,
+          "indirect_object": null
+        },
+        "spanish": {
+          "verbo": "importar",
+          "verbo_auxiliar": null,
+          "tiempo_verbal": "presente simple",
+          "sujeto": "yo (implícito)",
+          "predicado": "no me importa",
+          "pronombres": ["me"],
+          "sustantivos": [],
+          "adjetivos": [],
+          "adverbios": [],
+          "preposiciones": [],
+          "conjunciones": [],
+          "negacion": "no",
+          "objeto_directo": null,
+          "objeto_indirecto": "me"
+        }
+      }
+    },
+    {
+      "id": "keep-in-touch",
+      "text": "Keep in touch",
+      "spanish": "Mantenerse en contacto",
+      "alternative": {
+        "english": "Stay in touch",
+        "spanish": "Sigue en contacto"
+      },
+      "analysis": {
+        "english": {
+          "verb": "keep",
+          "auxiliary": null,
+          "verb_tense": "imperative",
+          "subject": "you (implied)",
+          "predicate": "keep in touch",
+          "pronouns": [],
+          "nouns": ["touch"],
+          "adjectives": [],
+          "adverbs": [],
+          "prepositions": ["in"],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": null,
+          "indirect_object": null
+        },
+        "spanish": {
+          "verbo": "mantenerse",
+          "verbo_auxiliar": null,
+          "tiempo_verbal": "infinitivo",
+          "sujeto": "tú (implícito)",
+          "predicado": "mantenerse en contacto",
+          "pronombres": ["se"],
+          "sustantivos": ["contacto"],
+          "adjetivos": [],
+          "adverbios": [],
+          "preposiciones": ["en"],
+          "conjunciones": [],
+          "negacion": null,
+          "objeto_directo": null,
+          "objeto_indirecto": null
+        }
+      }
+    },
+    {
+      "id": "can-i-help",
+      "text": "Can I help you?",
+      "spanish": "¿Puedo ayudarte?",
+      "alternative": {
+        "english": "May I help you?",
+        "spanish": "¿Te puedo ayudar?"
+      },
+      "analysis": {
+        "english": {
+          "verb": "help",
+          "auxiliary": "can",
+          "verb_tense": "present (modal)",
+          "subject": "I",
+          "predicate": "help you",
+          "pronouns": ["I", "you"],
+          "nouns": [],
+          "adjectives": [],
+          "adverbs": [],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": "you",
+          "indirect_object": null
+        },
+        "spanish": {
+          "verbo": "ayudar",
+          "verbo_auxiliar": "poder",
+          "tiempo_verbal": "presente (verbo modal)",
+          "sujeto": "yo",
+          "predicado": "ayudarte",
+          "pronombres": ["te"],
+          "sustantivos": [],
+          "adjetivos": [],
+          "adverbios": [],
+          "preposiciones": [],
+          "conjunciones": [],
+          "negacion": null,
+          "objeto_directo": "te",
+          "objeto_indirecto": null
+        }
+      }
+    },
+    {
+      "id": "not-bad",
+      "text": "Not bad",
+      "spanish": "Nada mal",
+      "alternative": {
+        "english": "Quite good",
+        "spanish": "Bastante bien"
+      },
+      "analysis": {
+        "english": {
+          "verb": null,
+          "auxiliary": null,
+          "verb_tense": null,
+          "subject": null,
+          "predicate": "elliptical phrase (adjective + negation)",
+          "pronouns": [],
+          "nouns": [],
+          "adjectives": ["bad"],
+          "adverbs": ["not"],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": "not",
+          "direct_object": null,
+          "indirect_object": null
+        },
+        "spanish": {
+          "verbo": null,
+          "verbo_auxiliar": null,
+          "tiempo_verbal": null,
+          "sujeto": null,
+          "predicado": "frase elíptica (negación + adjetivo)",
+          "pronombres": [],
+          "sustantivos": [],
+          "adjetivos": ["mal"],
+          "adverbios": ["nada"],
+          "preposiciones": [],
+          "conjunciones": [],
+          "negacion": "nada",
+          "objeto_directo": null,
+          "objeto_indirecto": null
+        }
+      }
+    },
+    {
+      "id": "good-job",
+      "text": "Good job",
+      "spanish": "Buen trabajo",
+      "alternative": {
+        "english": "Well done",
+        "spanish": "Bien hecho"
+      },
+      "analysis": {
+        "english": {
+          "verb": null,
+          "auxiliary": null,
+          "verb_tense": null,
+          "subject": null,
+          "predicate": "noun phrase (adjective + noun)",
+          "pronouns": [],
+          "nouns": ["job"],
+          "adjectives": ["good"],
+          "adverbs": [],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": null,
+          "indirect_object": null
+        },
+        "spanish": {
+          "verbo": null,
+          "verbo_auxiliar": null,
+          "tiempo_verbal": null,
+          "sujeto": null,
+          "predicado": "sintagma nominal (adjetivo + sustantivo)",
+          "pronombres": [],
+          "sustantivos": ["trabajo"],
+          "adjetivos": ["buen"],
+          "adverbios": [],
+          "preposiciones": [],
+          "conjunciones": [],
+          "negacion": null,
+          "objeto_directo": null,
+          "objeto_indirecto": null
+        }
+      }
+    },
+    {
+      "id": "how-are-you",
+      "text": "How are you?",
+      "spanish": "¿Cómo estás?",
+      "alternative": {
+        "english": "How are you doing?",
+        "spanish": "¿Qué tal estás?"
+      },
+      "analysis": {
+        "english": {
+          "verb": "are",
+          "auxiliary": null,
+          "verb_tense": "present simple",
+          "subject": "you",
+          "predicate": "are",
+          "pronouns": ["you"],
+          "nouns": [],
+          "adjectives": [],
+          "adverbs": ["how"],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": null,
+          "indirect_object": null
+        },
+        "spanish": {
+          "verbo": "estar",
+          "verbo_auxiliar": null,
+          "tiempo_verbal": "presente simple",
+          "sujeto": "tú",
+          "predicado": "estás",
+          "pronombres": [],
+          "sustantivos": [],
+          "adjetivos": [],
+          "adverbios": ["cómo"],
+          "preposiciones": [],
+          "conjunciones": [],
+          "negacion": null,
+          "objeto_directo": null,
+          "objeto_indirecto": null
+        }
+      }
+    },
+    {
+      "id": "i-love-music",
+      "text": "I love music",
+      "spanish": "Me encanta la música",
+      "alternative": {
+        "english": "I enjoy music",
+        "spanish": "Disfruto la música"
+      },
+      "analysis": {
+        "english": {
+          "verb": "love",
+          "auxiliary": null,
+          "verb_tense": "present simple",
+          "subject": "I",
+          "predicate": "love music",
+          "pronouns": ["I"],
+          "nouns": ["music"],
+          "adjectives": [],
+          "adverbs": [],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": "music",
+          "indirect_object": null
+        },
+        "spanish": {
+          "verbo": "encantar",
+          "verbo_auxiliar": null,
+          "tiempo_verbal": "presente simple",
+          "sujeto": "la música",
+          "predicado": "me encanta",
+          "pronombres": ["me"],
+          "sustantivos": ["música"],
+          "adjetivos": [],
+          "adverbios": [],
+          "preposiciones": [],
+          "conjunciones": [],
+          "negacion": null,
+          "objeto_directo": null,
+          "objeto_indirecto": "me"
+        }
+      }
+    },
+    {
+      "id": "she-is-reading",
+      "text": "She is reading a book",
+      "spanish": "Ella está leyendo un libro",
+      "alternative": {
+        "english": "She's reading a book",
+        "spanish": "Está leyendo un libro"
+      },
+      "analysis": {
+        "english": {
+          "verb": "reading",
+          "auxiliary": "is",
+          "verb_tense": "present continuous",
+          "subject": "She",
+          "predicate": "is reading a book",
+          "pronouns": ["She"],
+          "nouns": ["book"],
+          "adjectives": [],
+          "adverbs": [],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": "a book",
+          "indirect_object": null
+        },
+        "spanish": {
+          "verbo": "leer",
+          "verbo_auxiliar": "estar",
+          "tiempo_verbal": "presente continuo",
+          "sujeto": "ella",
+          "predicado": "está leyendo un libro",
+          "pronombres": [],
+          "sustantivos": ["libro"],
+          "adjetivos": [],
+          "adverbios": [],
+          "preposiciones": [],
+          "conjunciones": [],
+          "negacion": null,
+          "objeto_directo": "un libro",
+          "objeto_indirecto": null
+        }
+      }
+    }
+  ]
+}
