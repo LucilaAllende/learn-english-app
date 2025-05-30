@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Patrick_Hand, Caveat } from 'next/font/google';
 import { ThemeProvider } from "@/components/theme-provider";
+import { Sidebar } from "@/app/components/sidebar"
 
 import "./globals.css";
 
@@ -30,7 +31,10 @@ export default function RootLayout({
     <html lang="es" suppressHydrationWarning className={`${patrickHand.variable} ${caveat.variable}`}>
       <body>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} disableTransitionOnChange>
-          {children}
+          <div className="flex">
+            <Sidebar />
+            <main className="flex-1 md:ml-0">{children}</main>
+          </div>
         </ThemeProvider>
       </body>
     </html>
