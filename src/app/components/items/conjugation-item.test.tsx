@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
-import { ConjugationItem } from './item-conjugation'
+import { ConjugationItem } from './conjugation-item'
 
 describe('ConjugationItem Component', () => {
   const verb = 'hablar'
