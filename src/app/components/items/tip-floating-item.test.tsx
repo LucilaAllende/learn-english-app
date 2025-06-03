@@ -1,7 +1,7 @@
 import React from "react"
 import "@testing-library/jest-dom"
 import { render, screen } from "@testing-library/react"
-import { TipsFloating } from "./item-tip-floating"
+import { TipsFloating } from "./tip-floating-item"
 
 describe("TipsFloating component", () => {
   it("should renders nothing if tips is undefined", () => {
