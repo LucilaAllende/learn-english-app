@@ -1,4 +1,4 @@
-import { TipItem } from "@/app/components/items/item-tip"
+import { TipItem } from "@/app/components/items/tip-item"
 
 interface Tip {
   text: string
