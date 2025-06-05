@@ -2,6 +2,7 @@ export interface AnalysisData {
   verb?: string | null
   verb_auxiliary?: string | null
   verb_tense?: string | null
+  mood?: string | null
   subject?: string | null
   predicate?: string | null
   pronouns?: string[]
