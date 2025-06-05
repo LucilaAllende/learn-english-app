@@ -55,7 +55,8 @@
         "english": {
           "verb": "keep",
           "auxiliary": null,
-          "verb_tense": "imperative",
+          "verb_tense": "present simple (implied)",
+          "mood": "imperative",
           "subject": "you (implied)",
           "predicate": "keep in touch",
           "pronouns": [],
@@ -72,6 +73,7 @@
           "verb": "mantenerse",
           "verb_auxiliary": null,
           "verb_tense": "presente simple (implícito)",
+          "modo": "infinitivo",
           "subject": "tú (implícito)",
           "predicate": "mantenerse en contacto",
           "pronouns": ["se"],
