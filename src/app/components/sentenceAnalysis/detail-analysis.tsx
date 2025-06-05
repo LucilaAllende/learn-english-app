@@ -41,6 +41,11 @@ export function DetailAnalysis({
           value={analysis.verb_tense}
           color="text-indigo-600"
         />
+        <AnalysisItem
+          label={isEnglish ? "Mood" : "Modo"}
+          value={analysis.mood}
+          color="text-indigo-400"
+        />
       </div>
 
       {(analysis.direct_object) && (
