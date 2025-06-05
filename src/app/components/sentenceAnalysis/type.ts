@@ -1,6 +1,6 @@
 export interface AnalysisData {
   verb?: string | null
-  auxiliary?: string | null
+  verb_auxiliary?: string | null
   verb_tense?: string | null
   subject?: string | null
   predicate?: string | null
@@ -13,20 +13,6 @@ export interface AnalysisData {
   negation?: string | null
   direct_object?: string | null
   indirect_object?: string | null
-  verbo?: string | null
-  verbo_auxiliar?: string | null
-  tiempo_verbal?: string | null
-  sujeto?: string | null
-  predicado?: string | null
-  pronombres?: string[]
-  sustantivos?: string[]
-  adjetivos?: string[]
-  adverbios?: string[]
-  preposiciones?: string[]
-  conjunciones?: string[]
-  negacion?: string | null
-  objeto_directo?: string | null
-  objeto_indirecto?: string | null
 }
 
 export interface SentenceData {
