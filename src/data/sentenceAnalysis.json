@@ -26,20 +26,20 @@
           "indirect_object": null
         },
         "spanish": {
-          "verbo": "importar",
-          "verbo_auxiliar": null,
-          "tiempo_verbal": "presente simple",
-          "sujeto": "yo (implícito)",
-          "predicado": "no me importa",
-          "pronombres": ["me"],
-          "sustantivos": [],
-          "adjetivos": [],
-          "adverbios": [],
-          "preposiciones": [],
-          "conjunciones": [],
-          "negacion": "no",
-          "objeto_directo": null,
-          "objeto_indirecto": "me"
+          "verb": "importar",
+          "verb_auxiliary": null,
+          "verb_tense": "presente simple",
+          "subject": "yo (implícito)",
+          "predicate": "no me importa",
+          "pronouns": ["me"],
+          "nouns": [],
+          "adjectives": [],
+          "adverbs": [],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": "no",
+          "direct_object": null,
+          "indirect_object": "me"
         }
       }
     },
@@ -69,20 +69,20 @@
           "indirect_object": null
         },
         "spanish": {
-          "verbo": "mantenerse",
-          "verbo_auxiliar": null,
-          "tiempo_verbal": "infinitivo",
-          "sujeto": "tú (implícito)",
-          "predicado": "mantenerse en contacto",
-          "pronombres": ["se"],
-          "sustantivos": ["contacto"],
-          "adjetivos": [],
-          "adverbios": [],
-          "preposiciones": ["en"],
-          "conjunciones": [],
-          "negacion": null,
-          "objeto_directo": null,
-          "objeto_indirecto": null
+          "verb": "mantenerse",
+          "verb_auxiliary": null,
+          "verb_tense": "presente simple (implícito)",
+          "subject": "tú (implícito)",
+          "predicate": "mantenerse en contacto",
+          "pronouns": ["se"],
+          "nouns": ["contacto"],
+          "adjectives": [],
+          "adverbs": [],
+          "prepositions": ["en"],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": null,
+          "indirect_object": null
         }
       }
     },
@@ -112,20 +112,20 @@
           "indirect_object": null
         },
         "spanish": {
-          "verbo": "ayudar",
-          "verbo_auxiliar": "poder",
-          "tiempo_verbal": "presente (verbo modal)",
-          "sujeto": "yo",
-          "predicado": "ayudarte",
-          "pronombres": ["te"],
-          "sustantivos": [],
-          "adjetivos": [],
-          "adverbios": [],
-          "preposiciones": [],
-          "conjunciones": [],
-          "negacion": null,
-          "objeto_directo": "te",
-          "objeto_indirecto": null
+          "verb": "ayudar",
+          "verb_auxiliary": "poder",
+          "verb_tense": "presente (verbo modal)",
+          "subject": "yo",
+          "predicate": "ayudarte",
+          "pronouns": ["te"],
+          "nouns": [],
+          "adjectives": [],
+          "adverbs": [],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": "te",
+          "indirect_object": null
         }
       }
     },
@@ -155,20 +155,20 @@
           "indirect_object": null
         },
         "spanish": {
-          "verbo": null,
-          "verbo_auxiliar": null,
-          "tiempo_verbal": null,
-          "sujeto": null,
-          "predicado": "frase elíptica (negación + adjetivo)",
-          "pronombres": [],
-          "sustantivos": [],
-          "adjetivos": ["mal"],
-          "adverbios": ["nada"],
-          "preposiciones": [],
-          "conjunciones": [],
-          "negacion": "nada",
-          "objeto_directo": null,
-          "objeto_indirecto": null
+          "verb": null,
+          "verb_auxiliary": null,
+          "verb_tense": null,
+          "subject": null,
+          "predicate": "frase elíptica (negación + adjetivo)",
+          "pronouns": [],
+          "nouns": [],
+          "adjectives": ["mal"],
+          "adverbs": ["nada"],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": "nada",
+          "direct_object": null,
+          "indirect_object": null
         }
       }
     },
@@ -198,20 +198,20 @@
           "indirect_object": null
         },
         "spanish": {
-          "verbo": null,
-          "verbo_auxiliar": null,
-          "tiempo_verbal": null,
-          "sujeto": null,
-          "predicado": "sintagma nominal (adjetivo + sustantivo)",
-          "pronombres": [],
-          "sustantivos": ["trabajo"],
-          "adjetivos": ["buen"],
-          "adverbios": [],
-          "preposiciones": [],
-          "conjunciones": [],
-          "negacion": null,
-          "objeto_directo": null,
-          "objeto_indirecto": null
+          "verb": null,
+          "verb_auxiliary": null,
+          "verb_tense": null,
+          "subject": null,
+          "predicate": "sintagma nominal (adjetivo + sustantivo)",
+          "pronouns": [],
+          "nouns": ["trabajo"],
+          "adjectives": ["buen"],
+          "adverbs": [],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": null,
+          "indirect_object": null
         }
       }
     },
@@ -241,20 +241,20 @@
           "indirect_object": null
         },
         "spanish": {
-          "verbo": "estar",
-          "verbo_auxiliar": null,
-          "tiempo_verbal": "presente simple",
-          "sujeto": "tú",
-          "predicado": "estás",
-          "pronombres": [],
-          "sustantivos": [],
-          "adjetivos": [],
-          "adverbios": ["cómo"],
-          "preposiciones": [],
-          "conjunciones": [],
-          "negacion": null,
-          "objeto_directo": null,
-          "objeto_indirecto": null
+          "verb": "estar",
+          "verb_auxiliary": null,
+          "verb_tense": "presente simple",
+          "subject": "tú",
+          "predicate": "estás",
+          "pronouns": [],
+          "nouns": [],
+          "adjectives": [],
+          "adverbs": ["cómo"],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": null,
+          "indirect_object": null
         }
       }
     },
@@ -284,20 +284,20 @@
           "indirect_object": null
         },
         "spanish": {
-          "verbo": "encantar",
-          "verbo_auxiliar": null,
-          "tiempo_verbal": "presente simple",
-          "sujeto": "la música",
-          "predicado": "me encanta",
-          "pronombres": ["me"],
-          "sustantivos": ["música"],
-          "adjetivos": [],
-          "adverbios": [],
-          "preposiciones": [],
-          "conjunciones": [],
-          "negacion": null,
-          "objeto_directo": null,
-          "objeto_indirecto": "me"
+          "verb": "encantar",
+          "verb_auxiliary": null,
+          "verb_tense": "presente simple",
+          "subject": "la música",
+          "predicate": "me encanta",
+          "pronouns": ["me"],
+          "nouns": ["música"],
+          "adjectives": [],
+          "adverbs": [],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": null,
+          "indirect_object": "me"
         }
       }
     },
@@ -327,20 +327,20 @@
           "indirect_object": null
         },
         "spanish": {
-          "verbo": "leer",
-          "verbo_auxiliar": "estar",
-          "tiempo_verbal": "presente continuo",
-          "sujeto": "ella",
-          "predicado": "está leyendo un libro",
-          "pronombres": [],
-          "sustantivos": ["libro"],
-          "adjetivos": [],
-          "adverbios": [],
-          "preposiciones": [],
-          "conjunciones": [],
-          "negacion": null,
-          "objeto_directo": "un libro",
-          "objeto_indirecto": null
+          "verb": "leer",
+          "verb_auxiliary": "estar",
+          "verb_tense": "presente continuo",
+          "subject": "ella",
+          "predicate": "está leyendo un libro",
+          "pronouns": [],
+          "nouns": ["libro"],
+          "adjectives": [],
+          "adverbs": [],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": "un libro",
+          "indirect_object": null
         }
       }
     }
