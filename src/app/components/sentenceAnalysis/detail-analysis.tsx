@@ -16,83 +16,83 @@ export function DetailAnalysis({
       <div className="space-y-2">
         <AnalysisItem
           label={isEnglish ? "Subject" : "Sujeto"}
-          value={isEnglish ? analysis.subject : analysis.sujeto}
+          value={analysis.subject}
           color="text-blue-600"
         />
         <AnalysisItem
           label={isEnglish ? "Predicate" : "Predicado"}
-          value={isEnglish ? analysis.predicate : analysis.predicado}
+          value={analysis.predicate}
           color="text-green-600"
         />
         <AnalysisItem
           label={isEnglish ? "Main Verb" : "Verbo Principal"}
-          value={isEnglish ? analysis.verb : analysis.verbo}
+          value={analysis.verb}
           color="text-purple-600"
         />
-        {(analysis.auxiliary || analysis.verbo_auxiliar) && (
+        {(analysis.verb_auxiliary) && (
           <AnalysisItem
             label={isEnglish ? "Auxiliary Verb" : "Verbo Auxiliar"}
-            value={isEnglish ? analysis.auxiliary : analysis.verbo_auxiliar}
+            value={analysis.verb_auxiliary}
             color="text-purple-400"
           />
         )}
         <AnalysisItem
           label={isEnglish ? "Verb Tense" : "Tiempo Verbal"}
-          value={isEnglish ? analysis.verb_tense : analysis.tiempo_verbal}
+          value={analysis.verb_tense}
           color="text-indigo-600"
         />
       </div>
 
-      {(analysis.direct_object || analysis.objeto_directo) && (
+      {(analysis.direct_object) && (
         <AnalysisItem
           label={isEnglish ? "Direct Object" : "Objeto Directo"}
-          value={isEnglish ? analysis.direct_object : analysis.objeto_directo}
+          value={analysis.direct_object}
           color="text-orange-600"
         />
       )}
-      {(analysis.indirect_object || analysis.objeto_indirecto) && (
+      {(analysis.indirect_object) && (
         <AnalysisItem
           label={isEnglish ? "Indirect Object" : "Objeto Indirecto"}
-          value={isEnglish ? analysis.indirect_object : analysis.objeto_indirecto}
+          value={analysis.indirect_object}
           color="text-orange-400"
         />
       )}
 
       <GrammaticalElements
         title={isEnglish ? "Pronouns" : "Pronombres"}
-        items={isEnglish ? analysis.pronouns : analysis.pronombres}
+        items={analysis.pronouns}
         color="bg-blue-100 text-blue-800"
       />
       <GrammaticalElements
         title={isEnglish ? "Nouns" : "Sustantivos"}
-        items={isEnglish ? analysis.nouns : analysis.sustantivos}
+        items={analysis.nouns}
         color="bg-green-100 text-green-800"
       />
       <GrammaticalElements
         title={isEnglish ? "Adjectives" : "Adjetivos"}
-        items={isEnglish ? analysis.adjectives : analysis.adjetivos}
+        items={analysis.adjectives}
         color="bg-yellow-100 text-yellow-800"
       />
       <GrammaticalElements
         title={isEnglish ? "Adverbs" : "Adverbios"}
-        items={isEnglish ? analysis.adverbs : analysis.adverbios}
+        items={analysis.adverbs}
         color="bg-pink-100 text-pink-800"
       />
       <GrammaticalElements
         title={isEnglish ? "Prepositions" : "Preposiciones"}
-        items={isEnglish ? analysis.prepositions : analysis.preposiciones}
+        items={analysis.prepositions}
         color="bg-purple-100 text-purple-800"
       />
       <GrammaticalElements
         title={isEnglish ? "Conjunctions" : "Conjunciones"}
-        items={isEnglish ? analysis.conjunctions : analysis.conjunciones}
+        items={analysis.conjunctions}
         color="bg-indigo-100 text-indigo-800"
       />
 
-      {(analysis.negation || analysis.negacion) && (
+      {(analysis.negation) && (
         <AnalysisItem
           label={isEnglish ? "Negation" : "Negación"}
-          value={isEnglish ? analysis.negation : analysis.negacion}
+          value={analysis.negation}
           color="text-red-600"
         />
       )}
