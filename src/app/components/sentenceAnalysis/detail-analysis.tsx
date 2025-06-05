@@ -4,12 +4,12 @@ import { AnalysisData } from "./type"
 
 export function DetailAnalysis({
   analysis,
-  idioma
+  language
 }: {
   analysis: AnalysisData
-  idioma: "english" | "spanish"
+  language: "english" | "spanish"
 }) {
-  const isEnglish = idioma === "english"
+  const isEnglish = language === "english"
 
   return (
     <div className="space-y-3">
