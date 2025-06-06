@@ -141,11 +141,12 @@
       },
       "analysis": {
         "english": {
-          "verb": null,
+          "verb": "be (implied)",
           "auxiliary": null,
-          "verb_tense": null,
-          "subject": null,
-          "predicate": "elliptical phrase (adjective + negation)",
+          "verb_tense": "present simple (implied)",
+          "mood": "indicative (implied)",
+          "subject": "it (implied)",
+          "predicate": "not bad - elliptical phrase (adjective + negation)",
           "pronouns": [],
           "nouns": [],
           "adjectives": ["bad"],
