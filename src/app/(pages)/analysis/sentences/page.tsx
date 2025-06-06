@@ -1,5 +1,5 @@
-import { SentenceAnalysis } from "@/app/components/sentenceAnalysis"
 import { HeartsDecoration } from "@/app/components/decoration/hearts-decoration"
+import { SentenceAnalysis } from "@/app/components/sentenceAnalysis/sentence-analysis"
 import analysisData from "@/data/sentenceAnalysis.json"
 
 export default function SentenceAnalysisPage() {
