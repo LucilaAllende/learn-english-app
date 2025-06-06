@@ -32,12 +32,12 @@ export function SentenceAnalysis({ sentence }: SentenceAnalysisProps) {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="bg-[#f8f9fa] p-4 rounded-lg">
           <h4 className="font-subtitle text-[#2a9d8f] mb-4 text-lg">Análisis en Inglés</h4>
-          <DetailAnalysis analysis={sentence.analysis.english} idioma="english" />
+          <DetailAnalysis analysis={sentence.analysis.english} language="english" />
         </div>
 
         <div className="bg-[#f8f9fa] p-4 rounded-lg">
           <h4 className="font-subtitle text-[#e9c46a] mb-4 text-lg">Análisis en Español</h4>
-          <DetailAnalysis analysis={sentence.analysis.spanish} idioma="spanish" />
+          <DetailAnalysis analysis={sentence.analysis.spanish} language="spanish" />
         </div>
       </div>
     </div>
