@@ -162,11 +162,12 @@
           "indirect_object": null
         },
         "spanish": {
-          "verb": null,
+          "verb": "ser/estar (implícito)",
           "verb_auxiliary": null,
-          "verb_tense": null,
-          "subject": null,
-          "predicate": "frase elíptica (negación + adjetivo)",
+          "verb_tense": "presente simple (implícito)",
+          "mood": "indicativo (implícito)",
+          "subject": "eso (implícito)",
+          "predicate": "nada mal - frase elíptica (negación + adjetivo)",
           "pronouns": [],
           "nouns": [],
           "adjectives": ["mal"],
