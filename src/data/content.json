@@ -854,8 +854,14 @@
           }
         ],
         "notes": [
-          "Los pronombres personales cambian según su función en la oración (sujeto u objeto).",
-          "El pronombre **it** se usa para objetos, animales o conceptos abstractos."
+          {
+            "type": "paragraph",
+            "text": "Los pronombres personales cambian según su función en la oración (sujeto u objeto)."
+          },
+          {
+            "type": "paragraph",
+            "text": "El pronombre **it** se usa para objetos, animales o conceptos abstractos."
+          }
         ]
       }
   ]
