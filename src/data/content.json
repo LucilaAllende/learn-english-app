@@ -736,8 +736,14 @@
       ],
       "timeExpressions": ["For", "Since", "Just", "Already", "Yet", "Ever", "Never", "So far", "Up to now"],
       "notes": [
-        "El participio pasado de los verbos regulares termina en -ed; los irregulares tienen formas propias.",
-        "No se usa el presente perfecto con expresiones de tiempo específicas del pasado (ayer, la semana pasada)."
+        {
+          "type": "paragraph",
+          "text": "El participio pasado de los verbos regulares termina en -ed; los irregulares tienen formas propias."
+        },
+        {
+          "type": "paragraph",
+          "text": "No se usa el presente perfecto con expresiones de tiempo específicas del pasado (ayer, la semana pasada)."
+        }
       ],
       "spanishConjunction": [
         {
