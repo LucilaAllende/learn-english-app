@@ -249,7 +249,9 @@
         }
       ],
       "tips": [
-        "El presente continuo también se usa para quejas con 'always': 'He is always losing his keys.'"
+        {
+          "text": "El presente continuo también se usa para quejas con 'always': 'He is always losing his keys.'"
+        }
       ],
       "spanishConjunction": [
         {
