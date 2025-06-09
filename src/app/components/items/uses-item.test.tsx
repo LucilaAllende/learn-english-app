@@ -1,7 +1,7 @@
 import React from "react"
 import { render, screen } from "@testing-library/react"
 import "@testing-library/jest-dom"
-import { ItemUses } from "./item-uses"
+import { ItemUses } from "./uses-item"
 
 describe("ItemUses component", () => {
   it("should renders the title with correct text and style", () => {

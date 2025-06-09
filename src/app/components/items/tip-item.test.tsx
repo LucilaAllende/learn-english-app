@@ -1,7 +1,7 @@
 import React from "react"
 import { render, screen } from "@testing-library/react"
 import "@testing-library/jest-dom"
-import { TipItem } from "@/app/components/items/item-tip"
+import { TipItem } from "@/app/components/items/tip-item"
 
 describe("TipItem component", () => {
   it("should render the provided text", () => {

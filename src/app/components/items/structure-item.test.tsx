@@ -1,7 +1,7 @@
 import React from "react"
 import { render, screen } from "@testing-library/react"
 import "@testing-library/jest-dom"
-import { ItemStructure } from "./item-structure"
+import { ItemStructure } from "./structure-item"
 
 describe("ItemStructure component", () => {
   it("should renders affirmative type with correct label and color", () => {

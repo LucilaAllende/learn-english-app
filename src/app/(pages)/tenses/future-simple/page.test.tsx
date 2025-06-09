@@ -2,18 +2,18 @@ import { render, screen, within } from "@testing-library/react"
 import FutureSimplePage from "./page"
 
 describe("FutureSimplePage", () => {
-  it("should renders the main heading", () => {
+  it("should render the main heading", () => {
     render(<FutureSimplePage />)
     expect(screen.getByRole("heading", { level: 1, name: /futuro simple/i })).toBeInTheDocument()
     expect(screen.getByText("Futuro Simple")).toBeInTheDocument()
   })
 
-  it("should renders the back link", () => {
+  it("should render the back link", () => {
     render(<FutureSimplePage />)
     expect(screen.getByRole("link", { name: /volver al índice/i })).toBeInTheDocument()
   })
 
-  it("should renders the 'Estructura' section", () => {
+  it("should render the 'Estructura' section", () => {
     render(<FutureSimplePage />)
     const heading = screen.getByRole("heading", { name: /estructura/i })
     const section = heading.closest("section") ?? heading.parentElement
@@ -25,7 +25,7 @@ describe("FutureSimplePage", () => {
     expect(scoped.getByText(/interrogativo:/i)).toBeInTheDocument()
   })
 
-  it("should renders the example cards", () => {
+  it("should render the example cards", () => {
     render(<FutureSimplePage />)
     expect(screen.getByRole("heading", { level: 3, name: /afirmativo/i })).toBeInTheDocument()
     expect(screen.getByRole("heading", { level: 3, name: /negativo/i })).toBeInTheDocument()
@@ -36,7 +36,7 @@ describe("FutureSimplePage", () => {
     expect(screen.getByText("Will I work?")).toBeInTheDocument()
   })
 
-  it("should renders the 'Usos' section", () => {
+  it("should render the 'Usos' section", () => {
     render(<FutureSimplePage />)
     const heading = screen.getByRole("heading", { name: /usos/i })
     const section = heading.closest("section") ?? heading.parentElement
@@ -48,7 +48,7 @@ describe("FutureSimplePage", () => {
     expect(scoped.getByText(/promesas y ofrecimientos/i)).toBeInTheDocument()
   })
 
-  it("should renders the 'Expresiones de tiempo' section", () => {
+  it("should render the 'Expresiones de tiempo' section", () => {
     render(<FutureSimplePage />)
     const heading = screen.getByRole("heading", { name: /expresiones de tiempo/i })
     const section = heading.closest("section") ?? heading.parentElement
@@ -86,7 +86,7 @@ describe("FutureSimplePage", () => {
     expect(scoped.getByText(/to buy/i)).toBeInTheDocument();
   });
 
-  it("does not render the 'Nota importante' section", () => {
+  it("should does not render the 'Nota importante' section", () => {
     render(<FutureSimplePage />)
     expect(screen.queryByRole("heading", { name: /nota importante/i })).not.toBeInTheDocument()
   })

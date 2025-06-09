@@ -2,18 +2,18 @@ import { render, screen, within } from "@testing-library/react"
 import PresentPerfectPage from "./page"
 
 describe("PresentPerfectPage", () => {
-  it("renders the main heading", () => {
+  it("should render the main heading", () => {
     render(<PresentPerfectPage />)
     expect(screen.getByRole("heading", { level: 1, name: /presente perfecto/i })).toBeInTheDocument()
     expect(screen.getByText("Presente Perfecto")).toBeInTheDocument()
   })
 
-  it("renders the back link", () => {
+  it("should render the back link", () => {
     render(<PresentPerfectPage />)
     expect(screen.getByRole("link", { name: /volver al índice/i })).toBeInTheDocument()
   })
 
-  it("renders the 'Estructura' section", () => {
+  it("should render the 'Estructura' section", () => {
     render(<PresentPerfectPage />)
     const heading = screen.getByRole("heading", { name: /estructura/i })
     const section = heading.closest("section") ?? heading.parentElement
@@ -25,7 +25,7 @@ describe("PresentPerfectPage", () => {
     expect(scoped.getByText(/interrogativo:/i)).toBeInTheDocument()
   })
 
-  it("renders the example cards", () => {
+  it("should render the example cards", () => {
     render(<PresentPerfectPage />)
     expect(screen.getByRole("heading", { level: 3, name: /afirmativo/i })).toBeInTheDocument()
     expect(screen.getByRole("heading", { level: 3, name: /negativo/i })).toBeInTheDocument()
@@ -36,7 +36,7 @@ describe("PresentPerfectPage", () => {
     expect(screen.getByText("Have I worked?")).toBeInTheDocument()
   })
 
-  it("renders the 'Usos' section", () => {
+  it("should render the 'Usos' section", () => {
     render(<PresentPerfectPage />)
     const heading = screen.getByRole("heading", { name: /usos/i })
     const section = heading.closest("section") ?? heading.parentElement
@@ -48,7 +48,7 @@ describe("PresentPerfectPage", () => {
     expect(scoped.getByText(/resultados recientes/i)).toBeInTheDocument()
   })
 
-  it("renders the 'Expresiones de tiempo' section", () => {
+  it("should render the 'Expresiones de tiempo' section", () => {
     render(<PresentPerfectPage />)
     const heading = screen.getByRole("heading", { name: /expresiones de tiempo/i })
     const section = heading.closest("section") ?? heading.parentElement
