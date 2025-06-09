@@ -379,7 +379,9 @@
         "When I was young"
       ],
       "tips": [
-        "Recuerda consultar la lista de verbos irregulares para el pasado."
+        {
+          "text": "Recuerda consultar la lista de verbos irregulares para el pasado."
+        }
       ],
       "spanishConjunction": [
         {
