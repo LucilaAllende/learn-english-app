@@ -136,6 +136,51 @@
       }
     },
     {
+      "id": "i-have-been-feeling-better",
+      "text": "I have been feeling better lately",
+      "spanish": "Me he estado sintiendo mejor últimamente",
+      "alternative": {
+        "english": "I've been feeling better lately",
+        "spanish": "Últimamente me he sentido mejor"
+      },
+      "analysis": {
+        "english": {
+          "verb": "feel",
+          "auxiliary": "have been",
+          "verb_tense": "present perfect continuous",
+          "mood": "indicative",
+          "subject": "I",
+          "predicate": "have been feeling better lately",
+          "pronouns": ["I"],
+          "nouns": [],
+          "adjectives": ["better"],
+          "adverbs": ["lately"],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": null,
+          "indirect_object": null
+        },
+        "spanish": {
+          "verb": "sentir(se)",
+          "verb_auxiliary": "haber estado",
+          "verb_tense": "pretérito perfecto compuesto continuo",
+          "mood": "indicativo",
+          "subject": "yo (implícito)",
+          "predicate": "me he estado sintiendo mejor últimamente",
+          "pronouns": ["me"],
+          "nouns": [],
+          "adjectives": ["mejor"],
+          "adverbs": ["últimamente"],
+          "prepositions": [],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": null,
+          "indirect_object": null
+        }
+      }
+    },
+    {
       "id": "not-bad",
       "text": "Not bad",
       "spanish": "Nada mal",
