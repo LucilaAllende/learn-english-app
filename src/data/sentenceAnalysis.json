@@ -361,6 +361,51 @@
       }
     },
     {
+      "id": "i-am-starting-to-understand",
+      "text": "I am starting to understand better",
+      "spanish": "Estoy empezando a entender mejor",
+      "alternative": {
+        "english": "I'm beginning to understand better",
+        "spanish": "Estoy comenzando a comprender mejor"
+      },
+      "analysis": {
+        "english": {
+          "verb": "start",
+          "auxiliary": "am",
+          "verb_tense": "present continuous",
+          "mood": "indicative",
+          "subject": "I",
+          "predicate": "am starting to understand better",
+          "pronouns": ["I"],
+          "nouns": [],
+          "adjectives": [],
+          "adverbs": ["better"],
+          "prepositions": ["to"],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": null,
+          "indirect_object": null
+        },
+        "spanish": {
+          "verb": "empezar",
+          "verb_auxiliary": "estar",
+          "verb_tense": "presente continuo",
+          "mood": "indicativo",
+          "subject": "yo (implícito)",
+          "predicate": "estoy empezando a entender mejor",
+          "pronouns": [],
+          "nouns": [],
+          "adjectives": [],
+          "adverbs": ["mejor"],
+          "prepositions": ["a"],
+          "conjunctions": [],
+          "negation": null,
+          "direct_object": null,
+          "indirect_object": null
+        }
+      }
+    },
+    {
       "id": "i-love-music",
       "text": "I love music",
       "spanish": "Me encanta la música",
