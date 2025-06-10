@@ -226,6 +226,51 @@
       }
     },
     {
+      "id": "i-had-never-seen-snow",
+      "text": "I had never seen snow before that day",
+      "spanish": "Nunca había visto nieve antes de ese día",
+      "alternative": {
+        "english": "Before that day, I had never seen snow",
+        "spanish": "Antes de ese día, nunca había visto nieve"
+      },
+      "analysis": {
+        "english": {
+          "verb": "see",
+          "auxiliary": "had",
+          "verb_tense": "past perfect",
+          "mood": "indicative",
+          "subject": "I",
+          "predicate": "had never seen snow before that day",
+          "pronouns": ["I"],
+          "nouns": ["snow", "day"],
+          "adjectives": ["that"],
+          "adverbs": ["never", "before"],
+          "prepositions": ["before"],
+          "conjunctions": [],
+          "negation": "never",
+          "direct_object": "snow",
+          "indirect_object": null
+        },
+        "spanish": {
+          "verb": "ver",
+          "verb_auxiliary": "haber",
+          "verb_tense": "pretérito pluscuamperfecto",
+          "mood": "indicativo",
+          "subject": "yo (implícito)",
+          "predicate": "nunca había visto nieve antes de ese día",
+          "pronouns": [],
+          "nouns": ["nieve", "día"],
+          "adjectives": ["ese"],
+          "adverbs": ["nunca", "antes"],
+          "prepositions": ["de"],
+          "conjunctions": [],
+          "negation": "nunca",
+          "direct_object": "nieve",
+          "indirect_object": null
+        }
+      }
+    },
+    {
       "id": "good-job",
       "text": "Good job",
       "spanish": "Buen trabajo",
