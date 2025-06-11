@@ -17,6 +17,8 @@
       "name": "Presente Simple",
       "category": "tenses",
       "description": "Acciones habituales y verdades generales",
+      "categoryDescription": "Tiempos simples: Perfectos para describir acciones en un momento específico sin considerar su duración. Ejemplos: «I eat» (presente simple), «I ate» (pasado simple), y «I will eat» (futuro simple).",
+      "detailedDescription": "El Presente Simple en inglés describe acciones habituales o hechos generales. Ejemplo: «I eat breakfast every day.»",
       "textColor": "#2a9d8f",
       "structure": {
         "affirmative": "**Sujeto** + **verbo infinitivo** (+ s/es en 3ª persona singular: he, she, it) + complemento",
