@@ -11,7 +11,7 @@ const menuItems = [
     title: "Tiempos Verbales",
     href: "/",
     icon: BookOpen,
-    description: "Aprende los tiempos verbales",
+    description: "Tipos de tiempos verbales",
   },
   {
     title: "Pronombres",
