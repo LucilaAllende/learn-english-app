@@ -43,6 +43,8 @@ export interface VerbTense {
   name: string;
   category: string;
   description: string;
+  categoryDescription?: string
+  detailedDescription?: string
   textColor: string;
   structure?: Structure;
   examples?: Example[];
