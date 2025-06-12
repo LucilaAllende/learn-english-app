@@ -703,6 +703,8 @@
       "name": "Presente Perfecto",
       "category": "tenses",
       "description": "Conexión entre pasado y presente. Acciones pasadas con relevancia en el presente o experiencias de vida.",
+      "categoryDescription": "Tiempos compuestos: Ideales para expresar acciones completadas antes de otro punto en el tiempo. Usan el verbo auxiliar «have». Ejemplos: «I have eaten» (presente perfecto), «I had eaten» (pasado perfecto), y «I will have eaten» (futuro perfecto).",
+      "detailedDescription": "El Presente Perfecto en inglés se utiliza para acciones que ocurrieron en un momento no específico en el pasado y que tienen relevancia en el presente. Ejemplo: «I have eaten breakfast.»",
       "textColor": "#2a9d8f",
       "structure": {
         "affirmative": "**Sujeto** + **have/has** + participio pasado + complemento",
