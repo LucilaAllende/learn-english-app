@@ -587,6 +587,8 @@
       "name": "Futuro Simple",
       "category": "tenses",
       "description": "Acciones que ocurrirán en el futuro, predicciones, promesas.",
+      "categoryDescription": "Tiempos simples: Perfectos para describir acciones en un momento específico sin considerar su duración. Ejemplos: «I eat» (presente simple), «I ate» (pasado simple), y «I will eat» (futuro simple).",
+      "detailedDescription": "El Futuro Simple en inglés se utiliza para acciones que ocurrirán en el futuro. Ejemplo: «I will eat breakfast tomorrow.»",
       "textColor": "#264653",
       "structure": {
         "affirmative": "**Sujeto** + **will** + infinitivo + complemento",
