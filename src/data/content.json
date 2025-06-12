@@ -823,6 +823,140 @@
           ]
         }
       ]
+    },
+    {
+      "id": "present-perfect-continuous",
+      "name": "Presente Perfecto Continuo",
+      "category": "tenses",
+      "description": "Acciones que comenzaron en el pasado y continúan hasta el presente o acaban de terminar con énfasis en la duración.",
+      "categoryDescription": "Tiempos compuestos continuos: Usan el auxiliar «have been» seguido del verbo en gerundio (-ing) para expresar acciones en desarrollo conectadas al presente. Ejemplo: «I have been eating».",
+      "detailedDescription": "El Presente Perfecto Continuo se utiliza para hablar de acciones que comenzaron en el pasado y continúan hasta ahora, o acaban de terminar pero tienen un resultado visible. Ejemplo: «I have been studying all day.»",
+      "textColor": "#264653",
+      "structure": {
+        "affirmative": "**Sujeto** + **have/has** + **been** + verbo en **-ing** + complemento",
+        "negative": "**Sujeto** + **haven't/hasn't** + **been** + verbo en **-ing** + complemento",
+        "interrogative": "**Have/Has** + sujeto + **been** + verbo en **-ing** + complemento?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": ["I have been working", "You have been working", "He/She/It has been working", "We have been working", "They have been working"],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": ["I haven't been working", "You haven't been working", "He/She/It hasn't been working", "We haven't been working", "They haven't been working"],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": ["Have I been working?", "Have you been working?", "Has he/she/it been working?", "Have we been working?", "Have they been working?"],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Acciones que comenzaron en el pasado y siguen ocurriendo",
+          "example": "I have been studying English for two hours. - She has been working here since 2015."
+        },
+        {
+          "title": "Acciones recientes con resultados visibles",
+          "example": "You look tired. Have you been running? - He's been crying."
+        },
+        {
+          "title": "Énfasis en la duración de una actividad",
+          "example": "They have been talking for over an hour. - I have been waiting since morning."
+        }
+      ],
+      "timeExpressions": [
+        "For", "Since", "Lately", "Recently", "All day", "All morning", "How long?"
+      ],
+      "notes": [
+        {
+          "type": "paragraph",
+          "text": "Se forma con el auxiliar «have/has», seguido de «been» y el verbo en gerundio (-ing)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Se usa principalmente con verbos de acción; no es común con verbos de estado como 'know', 'like', 'believe'."
+        }
+      ],
+      "tips": [
+        {
+          "text": "El uso de 'for' indica una duración (por ejemplo, for two hours), mientras que 'since' señala un punto en el tiempo (por ejemplo, since 2010).",
+          "image": "url/image"
+        }
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "he estado comprando" },
+            { "person": "tú", "conjugation": "has estado comprando" },
+            { "person": "él/ella", "conjugation": "ha estado comprando" },
+            { "person": "nosotros", "conjugation": "hemos estado comprando" },
+            { "person": "ustedes", "conjugation": "han estado comprando" },
+            { "person": "ellos/ellas", "conjugation": "han estado comprando" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "he estado corriendo" },
+            { "person": "tú", "conjugation": "has estado corriendo" },
+            { "person": "él/ella", "conjugation": "ha estado corriendo" },
+            { "person": "nosotros", "conjugation": "hemos estado corriendo" },
+            { "person": "ustedes", "conjugation": "han estado corriendo" },
+            { "person": "ellos/ellas", "conjugation": "han estado corriendo" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "he estado viviendo" },
+            { "person": "tú", "conjugation": "has estado viviendo" },
+            { "person": "él/ella", "conjugation": "ha estado viviendo" },
+            { "person": "nosotros", "conjugation": "hemos estado viviendo" },
+            { "person": "ustedes", "conjugation": "han estado viviendo" },
+            { "person": "ellos/ellas", "conjugation": "han estado viviendo" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "have been buying" },
+            { "person": "You", "conjugation": "have been buying" },
+            { "person": "He/She/It", "conjugation": "has been buying" },
+            { "person": "We", "conjugation": "have been buying" },
+            { "person": "You (plural)", "conjugation": "have been buying" },
+            { "person": "They", "conjugation": "have been buying" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "have been running" },
+            { "person": "You", "conjugation": "have been running" },
+            { "person": "He/She/It", "conjugation": "has been running" },
+            { "person": "We", "conjugation": "have been running" },
+            { "person": "You (plural)", "conjugation": "have been running" },
+            { "person": "They", "conjugation": "have been running" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "have been living" },
+            { "person": "You", "conjugation": "have been living" },
+            { "person": "He/She/It", "conjugation": "has been living" },
+            { "person": "We", "conjugation": "have been living" },
+            { "person": "You (plural)", "conjugation": "have been living" },
+            { "person": "They", "conjugation": "have been living" }
+          ]
+        }
+      ]
     }
     ],
     "pronouns": [
