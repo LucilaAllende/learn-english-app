@@ -12,7 +12,7 @@ import { FormatText } from "@/app/utils/format-text"
 import { getVerbTenses, VerbConjugation } from "@/lib/data"
 
 
-export default function PresentSimplePage() {
+export default function VerbTensePage() {
   const verbTenses = getVerbTenses()
   const tense = useMemo(() => verbTenses.find((t) => t.id === "present-simple"), [])
 
