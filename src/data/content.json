@@ -175,6 +175,8 @@
       "name": "Presente Continuo",
       "category": "tenses",
       "description": "Acciones que ocurren en este momento o alrededor del presente.",
+      "categoryDescription": "Tiempos continuos: Utilizados para describir acciones en progreso en un momento específico. Se forman con el verbo «to be» y el gerundio del verbo principal. Ejemplos: «I am eating» (presente continuo), «I was eating» (pasado continuo), y «I will be eating» (futuro continuo).",
+      "detailedDescription": "El Presente Continuo en inglés indica acciones que están ocurriendo en este momento. Ejemplo: «I am eating breakfast right now.»",
       "textColor": "#e9c46a",
       "structure": {
         "affirmative": "**Sujeto** + **am/is/are** + verbo-ing + complemento",
