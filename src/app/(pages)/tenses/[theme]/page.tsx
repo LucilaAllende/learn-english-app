@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { useMemo } from "react"
 import { ArrowLeft } from "lucide-react"
 
 import { ItemUses } from "@/app/components/items/uses-item"
@@ -11,10 +10,15 @@ import { HeartsDecoration } from "@/app/components/decoration/hearts-decoration"
 import { FormatText } from "@/app/utils/format-text"
 import { getVerbTenses, VerbConjugation } from "@/lib/data"
 
+interface VerbTensePageProps {
+  params: {
+    theme: string
+  }
+}
 
-export default function VerbTensePage() {
+export default function VerbTensePage({ params }: VerbTensePageProps) {
   const verbTenses = getVerbTenses()
-  const tense = useMemo(() => verbTenses.find((t) => t.id === "present-simple"), [])
+  const tense = verbTenses.find((t) => t.id === params.theme)
 
   if (!tense) return <p>No se encontró el tiempo verbal.</p>
 
