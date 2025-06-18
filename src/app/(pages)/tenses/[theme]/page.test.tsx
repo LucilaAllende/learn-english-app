@@ -1,5 +1,5 @@
 import { render, screen, within } from "@testing-library/react"
-import PresentSimplePage from "./page"
+import VerbTensePage from "./page"
 
 describe("PresentSimplePage", () => {
   it("should renders the main heading", () => {
