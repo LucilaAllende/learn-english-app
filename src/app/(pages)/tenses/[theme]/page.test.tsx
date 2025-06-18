@@ -381,7 +381,8 @@ describe("PresentContinuousPage", () => {
   it("should render the 'Expresiones de tiempo' section", () => {
     render(<VerbTensePage params={{ theme: "present-continuous" }} />)
     expect(screen.getByRole("heading", { name: /expresiones de tiempo/i })).toBeInTheDocument()
-    expect(screen.getAllByRole("list")).toHaveLength(5)
+    const timeExpressionItems = screen.getAllByText(/Now, right now, at the moment|Today, this week\/month|Currently, presently|These days, nowadays|Still, at present/i);
+    expect(timeExpressionItems).toHaveLength(5);
   })
 
   it("should render the 'Conjugaciones en Español' section if available", () => {
