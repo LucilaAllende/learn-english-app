@@ -411,18 +411,18 @@ describe("PresentContinuousPage", () => {
 
 describe("PresentPerfectPage", () => {
   it("should render the main heading", () => {
-    render(<PresentPerfectPage />)
+    render(<VerbTensePage params={{ theme: "present-perfect" }} />)
     expect(screen.getByRole("heading", { level: 1, name: /presente perfecto/i })).toBeInTheDocument()
     expect(screen.getByText("Presente Perfecto")).toBeInTheDocument()
   })
 
   it("should render the back link", () => {
-    render(<PresentPerfectPage />)
+    render(<VerbTensePage params={{ theme: "present-perfect" }} />)
     expect(screen.getByRole("link", { name: /volver al índice/i })).toBeInTheDocument()
   })
 
   it("should render the 'Estructura' section", () => {
-    render(<PresentPerfectPage />)
+    render(<VerbTensePage params={{ theme: "present-perfect" }} />)
     const heading = screen.getByRole("heading", { name: /estructura/i })
     const section = heading.closest("section") ?? heading.parentElement
     expect(section).toBeInTheDocument()
@@ -434,7 +434,7 @@ describe("PresentPerfectPage", () => {
   })
 
   it("should render the example cards", () => {
-    render(<PresentPerfectPage />)
+    render(<VerbTensePage params={{ theme: "present-perfect" }} />)
     expect(screen.getByRole("heading", { level: 3, name: /afirmativo/i })).toBeInTheDocument()
     expect(screen.getByRole("heading", { level: 3, name: /negativo/i })).toBeInTheDocument()
     expect(screen.getByRole("heading", { level: 3, name: /interrogativo/i })).toBeInTheDocument()
@@ -445,7 +445,7 @@ describe("PresentPerfectPage", () => {
   })
 
   it("should render the 'Usos' section", () => {
-    render(<PresentPerfectPage />)
+    render(<VerbTensePage params={{ theme: "present-perfect" }} />)
     const heading = screen.getByRole("heading", { name: /usos/i })
     const section = heading.closest("section") ?? heading.parentElement
     expect(section).toBeInTheDocument()
@@ -457,7 +457,7 @@ describe("PresentPerfectPage", () => {
   })
 
   it("should render the 'Expresiones de tiempo' section", () => {
-    render(<PresentPerfectPage />)
+    render(<VerbTensePage params={{ theme: "present-perfect" }} />)
     const heading = screen.getByRole("heading", { name: /expresiones de tiempo/i })
     const section = heading.closest("section") ?? heading.parentElement
     expect(section).toBeInTheDocument()
@@ -474,7 +474,7 @@ describe("PresentPerfectPage", () => {
   })
 
   it("should render the 'Conjugaciones en Español' section if available", () => {
-    render(<PresentPerfectPage />);
+    render(<VerbTensePage params={{ theme: "present-perfect" }} />);
     const heading = screen.getByRole("heading", { name: /conjugaciones en español/i });
     const section = heading.closest("section") ?? heading.parentElement;
     expect(section).toBeInTheDocument();
@@ -483,7 +483,7 @@ describe("PresentPerfectPage", () => {
   });
 
   it("should render the 'Conjugaciones en Inglés' section if available", () => {
-    render(<PresentPerfectPage />);
+    render(<VerbTensePage params={{ theme: "present-perfect" }} />);
     const heading = screen.getByRole("heading", { name: /conjugaciones en ingles/i });
     const section = heading.closest("section") ?? heading.parentElement;
     expect(section).toBeInTheDocument();
@@ -492,7 +492,7 @@ describe("PresentPerfectPage", () => {
   });
 
   it("should render the 'Nota importante' section", () => {
-    render(<PresentPerfectPage />)
+    render(<VerbTensePage params={{ theme: "present-perfect" }} />)
     expect(screen.queryByRole("heading", { name: /nota importante/i })).toBeInTheDocument()
   })
 })
