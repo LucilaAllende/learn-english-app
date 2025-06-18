@@ -350,18 +350,18 @@ describe("PastSimplePage", () => {
 
 describe("PresentContinuousPage", () => {
   it("should render the main heading", () => {
-    render(<PresentContinuousPage />)
+    render(<VerbTensePage params={{ theme: "present-continuous" }} />)
     expect(screen.getByRole("heading", { name: /presente continuo/i })).toBeInTheDocument()
     expect(screen.getByText("Presente Continuo")).toBeInTheDocument()
   })
 
   it("should render the back link", () => {
-    render(<PresentContinuousPage />)
+    render(<VerbTensePage params={{ theme: "present-continuous" }} />)
     expect(screen.getByRole("link", { name: /volver al índice/i })).toBeInTheDocument()
   })
 
   it("should render the 'Estructura' section", () => {
-    render(<PresentContinuousPage />)
+    render(<VerbTensePage params={{ theme: "present-continuous" }} />)
     const heading = screen.getByRole("heading", { name: /estructura/i })
     const structureSection = heading.closest("section") ?? heading.parentElement
     expect(structureSection).toBeInTheDocument()
@@ -373,19 +373,19 @@ describe("PresentContinuousPage", () => {
   })
 
   it("should render example cards", () => {
-    render(<PresentContinuousPage />)
+    render(<VerbTensePage params={{ theme: "present-continuous" }} />)
     const examples = screen.getAllByRole("heading", { level: 3 })
     expect(examples.length).toBeGreaterThan(0)
   })
 
   it("should render the 'Expresiones de tiempo' section", () => {
-    render(<PresentContinuousPage />)
+    render(<VerbTensePage params={{ theme: "present-continuous" }} />)
     expect(screen.getByRole("heading", { name: /expresiones de tiempo/i })).toBeInTheDocument()
     expect(screen.getAllByRole("list")).toHaveLength(5)
   })
 
   it("should render the 'Conjugaciones en Español' section if available", () => {
-    render(<PresentContinuousPage />);
+    render(<VerbTensePage params={{ theme: "present-continuous" }} />);
     const heading = screen.getByRole("heading", { name: /conjugaciones en español/i });
     const section = heading.closest("section") ?? heading.parentElement;
     expect(section).toBeInTheDocument();
@@ -394,7 +394,7 @@ describe("PresentContinuousPage", () => {
   });
 
   it("should render the 'Conjugaciones en Inglés' section if available", () => {
-    render(<PresentContinuousPage />);
+    render(<VerbTensePage params={{ theme: "present-continuous" }} />);
     const heading = screen.getByRole("heading", { name: /conjugaciones en ingles/i });
     const section = heading.closest("section") ?? heading.parentElement;
     expect(section).toBeInTheDocument();
@@ -403,7 +403,7 @@ describe("PresentContinuousPage", () => {
   });
 
   it("should render the 'Nota importante' section", () => {
-    render(<PresentContinuousPage />)
+    render(<VerbTensePage params={{ theme: "present-continuous" }} />)
     expect(screen.getByRole("heading", { name: /nota importante/i })).toBeInTheDocument()
     expect(screen.getByText(/verbos de estado/i)).toBeInTheDocument()
   })
