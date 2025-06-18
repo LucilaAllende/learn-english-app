@@ -181,18 +181,18 @@ describe("FutureSimplePage", () => {
 
 describe("PastContinuousPage", () => {
   it("should renders the main heading", () => {
-    render(<PastContinuousPage />)
+    render(<VerbTensePage params={{ theme: "past-continuous" }} />)
     expect(screen.getByRole("heading", { level: 1, name: /pasado continuo/i })).toBeInTheDocument()
     expect(screen.getByText("Pasado Continuo")).toBeInTheDocument()
   })
 
   it("should renders the back link", () => {
-    render(<PastContinuousPage />)
+    render(<VerbTensePage params={{ theme: "past-continuous" }} />)
     expect(screen.getByRole("link", { name: /volver al índice/i })).toBeInTheDocument()
   })
 
   it("should renders the 'Estructura' section", () => {
-    render(<PastContinuousPage />)
+    render(<VerbTensePage params={{ theme: "past-continuous" }} />)
     const heading = screen.getByRole("heading", { name: /estructura/i })
     const section = heading.closest("section") ?? heading.parentElement
     expect(section).toBeInTheDocument()
@@ -207,14 +207,14 @@ describe("PastContinuousPage", () => {
   })
 
   it("should renders the example cards", () => {
-    render(<PastContinuousPage />)
+    render(<VerbTensePage params={{ theme: "past-continuous" }} />)
     expect(screen.getByRole("heading", { level: 3, name: /afirmativo/i })).toBeInTheDocument()
     expect(screen.getByRole("heading", { level: 3, name: /negativo/i })).toBeInTheDocument()
     expect(screen.getByRole("heading", { level: 3, name: /interrogativo/i })).toBeInTheDocument()
   })
 
   it("should renders the 'Usos' section", () => {
-    render(<PastContinuousPage />)
+    render(<VerbTensePage params={{ theme: "past-continuous" }} />)
     const heading = screen.getByRole("heading", { name: /usos/i })
     const section = heading.closest("section") ?? heading.parentElement
     expect(section).toBeInTheDocument()
@@ -226,7 +226,7 @@ describe("PastContinuousPage", () => {
   })
 
   it("should renders the 'Expresiones de tiempo' section", () => {
-    render(<PastContinuousPage />)
+    render(<VerbTensePage params={{ theme: "past-continuous" }} />)
     const heading = screen.getByRole("heading", { name: /expresiones de tiempo/i })
     const section = heading.closest("section") ?? heading.parentElement
     expect(section).toBeInTheDocument()
@@ -240,7 +240,7 @@ describe("PastContinuousPage", () => {
   })
 
   it("should render the 'Conjugaciones en Español' section if available", () => {
-    render(<PastContinuousPage />);
+    render(<VerbTensePage params={{ theme: "past-continuous" }} />);
     const heading = screen.getByRole("heading", { name: /conjugaciones en español/i });
     const section = heading.closest("section") ?? heading.parentElement;
     expect(section).toBeInTheDocument();
@@ -249,7 +249,7 @@ describe("PastContinuousPage", () => {
   });
 
   it("should render the 'Conjugaciones en Inglés' section if available", () => {
-    render(<PastContinuousPage />);
+    render(<VerbTensePage params={{ theme: "past-continuous" }} />);
     const heading = screen.getByRole("heading", { name: /conjugaciones en ingles/i });
     const section = heading.closest("section") ?? heading.parentElement;
     expect(section).toBeInTheDocument();
@@ -258,7 +258,7 @@ describe("PastContinuousPage", () => {
   });
 
   it("should does not render the 'Nota importante' section", () => {
-    render(<PastContinuousPage />)
+    render(<VerbTensePage params={{ theme: "past-continuous" }} />)
     expect(screen.queryByRole("heading", { name: /nota importante/i })).not.toBeInTheDocument()
   })
 })
