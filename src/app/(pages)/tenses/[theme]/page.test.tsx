@@ -3,23 +3,23 @@ import VerbTensePage from "./page"
 
 describe("PresentSimplePage", () => {
   it("should renders the main heading", () => {
-    render(<PresentSimplePage />)
+    render(<VerbTensePage params={{ theme: "present-simple" }}/>)
     expect(screen.getByRole("heading", { name: /presente simple/i })).toBeInTheDocument()
     expect(screen.getByText("Presente Simple")).toBeInTheDocument()
   })
   
   it("should renders the back link", () => {
-    render(<PresentSimplePage />)
+    render(<VerbTensePage params={{ theme: "present-simple" }}/>)
     expect(screen.getByRole("link", { name: /volver al índice/i })).toBeInTheDocument()
   })
 
   it("should render tips if available", () => {
-    render(<PresentSimplePage />);
+    render(<VerbTensePage params={{ theme: "present-simple" }}/>)
     expect(screen.getByText(/El verbo en infinitivo que usamos en estas reglas es la forma base del verbo/i)).toBeInTheDocument();
   });
 
   it("should renders the 'Estructura' section", () => {
-    render(<PresentSimplePage />)
+    render(<VerbTensePage params={{ theme: "present-simple" }}/>)
     const heading = screen.getByRole("heading", { name: /estructura/i })
     const structureSection = heading.closest("section") ?? heading.parentElement
     expect(structureSection).toBeInTheDocument()
@@ -31,13 +31,13 @@ describe("PresentSimplePage", () => {
   })
 
   it("should renders example cards", () => {
-    render(<PresentSimplePage />)
+    render(<VerbTensePage params={{ theme: "present-simple" }}/>)
     const examples = screen.getAllByRole("heading", { level: 3 })
     expect(examples.length).toBeGreaterThan(0)
   })
 
   it("should render the 'Usos' section if available", () => {
-    render(<PresentSimplePage />);
+    render(<VerbTensePage params={{ theme: "present-simple" }}/>)
     const heading = screen.getByRole("heading", { name: /usos/i });
     const section = heading.closest("section") ?? heading.parentElement;
     expect(section).toBeInTheDocument();
@@ -46,13 +46,13 @@ describe("PresentSimplePage", () => {
   })
 
   it("should renders the 'Expresiones de tiempo' section", () => {
-    render(<PresentSimplePage />)
+    render(<VerbTensePage params={{ theme: "present-simple" }}/>)
     expect(screen.getByRole("heading", { name: /expresiones de tiempo/i })).toBeInTheDocument()
     expect(screen.getAllByRole("list")).toHaveLength(4)
   })
 
   it("should render the 'Conjugaciones en Español' section if available", () => {
-    render(<PresentSimplePage />);
+    render(<VerbTensePage params={{ theme: "present-simple" }}/>)
     const heading = screen.getByRole("heading", { name: /conjugaciones en español/i });
     const section = heading.closest("section") ?? heading.parentElement;
     expect(section).toBeInTheDocument();
@@ -61,7 +61,7 @@ describe("PresentSimplePage", () => {
   });
 
   it("should render the 'Conjugaciones en Inglés' section if available", () => {
-    render(<PresentSimplePage />);
+    render(<VerbTensePage params={{ theme: "present-simple" }}/>)
     const heading = screen.getByRole("heading", { name: /conjugaciones en ingles/i });
     const section = heading.closest("section") ?? heading.parentElement;
     expect(section).toBeInTheDocument();
@@ -70,7 +70,7 @@ describe("PresentSimplePage", () => {
   });
 
   it("should renders the 'Nota importante' section with both notes", () => {
-    render(<PresentSimplePage />)
+    render(<VerbTensePage params={{ theme: "present-simple" }}/>)
     const heading = screen.getByRole("heading", { name: /nota importante/i })
     const section = heading.closest("section") ?? heading.parentElement
     const scoped = within(section!)
