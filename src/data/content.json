@@ -709,6 +709,75 @@
       ]
     },
     {
+      "id": "future-continuous",
+      "name": "Futuro Continuo",
+      "category": "tenses",
+      "description": "Acciones en progreso en el futuro",
+      "categoryDescription": "Tiempos continuos: Expresan acciones en progreso o que se desarrollan durante un período de tiempo. Ejemplos: «I am eating» (presente continuo), «I was eating» (pasado continuo), y «I will be eating» (futuro continuo).",
+      "detailedDescription": "El Futuro Continuo describe acciones que estarán en progreso en un momento específico del futuro. Ejemplo: «I will be working at 9 AM tomorrow.»",
+      "textColor": "#8b5cf6",
+      "structure": {
+        "affirmative": "**Sujeto** + **will be** + **verbo-ing** + complemento",
+        "negative": "**Sujeto** + **will not be** (won't be) + **verbo-ing** + complemento",
+        "interrogative": "**Will** + sujeto + **be** + **verbo-ing** + complemento?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": [
+            "I will be working",
+            "You will be working",
+            "He/She/It will be working",
+            "We will be working",
+            "They will be working"
+          ],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": [
+            "I won't be working",
+            "You won't be working",
+            "He/She/It won't be working",
+            "We won't be working",
+            "They won't be working"
+          ],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": [
+            "Will I be working?",
+            "Will you be working?",
+            "Will he/she/it be working?",
+            "Will we be working?",
+            "Will they be working?"
+          ],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Acciones en progreso en el futuro",
+          "example": "At 10 AM tomorrow, I will be attending a meeting. (A las 10 AM mañana, estaré asistiendo a una reunión)"
+        },
+        {
+          "title": "Planes futuros en progreso",
+          "example": "This time next week, we will be flying to Paris. (A esta hora la próxima semana, estaremos volando a París)"
+        },
+        {
+          "title": "Predicciones sobre el futuro",
+          "example": "People will be using electric cars more in the future. (La gente usará más autos eléctricos en el futuro)"
+        }
+      ],
+      "timeExpressions": [
+        "At this time tomorrow/next week",
+        "In the future, soon",
+        "By next year",
+        "This time next month"
+      ]
+    },
+    {
       "id": "future-simple",
       "name": "Futuro Simple",
       "category": "tenses",
