@@ -535,6 +535,64 @@
       ]
     },
     {
+      "id": "past-perfect",
+      "name": "Pasado Perfecto",
+      "category": "tenses",
+      "description": "Acciones anteriores a otra acción pasada",
+      "categoryDescription": "Tiempos perfectos: Conectan dos momentos en el tiempo, mostrando la relación entre una acción pasada y su relevancia en otro momento. Ejemplos: «I have eaten» (presente perfecto), «I had eaten» (pasado perfecto), y «I will have eaten» (futuro perfecto).",
+      "detailedDescription": "El Pasado Perfecto describe acciones que ocurrieron antes de otra acción o momento en el pasado. Ejemplo: «I had finished my work before she arrived.»",
+      "textColor": "#dc2626",
+      "structure": {
+        "affirmative": "**Sujeto** + **had** + **participio pasado** + complemento",
+        "negative": "**Sujeto** + **had not** (hadn't) + **participio pasado** + complemento",
+        "interrogative": "**Had** + sujeto + **participio pasado** + complemento?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": ["I had worked", "You had worked", "He/She/It had worked", "We had worked", "They had worked"],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": [
+            "I hadn't worked",
+            "You hadn't worked",
+            "He/She/It hadn't worked",
+            "We hadn't worked",
+            "They hadn't worked"
+          ],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": [
+            "Had I worked?",
+            "Had you worked?",
+            "Had he/she/it worked?",
+            "Had we worked?",
+            "Had they worked?"
+          ],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Acción anterior a otra pasada",
+          "example": "I had eaten dinner before she called. (Había cenado antes de que ella llamara)"
+        },
+        {
+          "title": "Causa y efecto en el pasado",
+          "example": "He was tired because he had worked all day. (Estaba cansado porque había trabajado todo el día)"
+        },
+        {
+          "title": "Experiencias hasta un punto del pasado",
+          "example": "By 2010, I had visited 15 countries. (Para 2010, había visitado 15 países)"
+        }
+      ],
+      "timeExpressions": ["Before, after, when", "By the time, until", "Already, just, never", "By 2020, by then"]
+    },
+    {
       "id": "past-continuous",
       "name": "Pasado Continuo",
       "category": "tenses",
