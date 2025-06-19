@@ -171,6 +171,70 @@
       ]
     },
     {
+      "id": "past-perfect-continuous",
+      "name": "Pasado Perfecto Continuo",
+      "category": "tenses",
+      "description": "Acciones continuas antes de otra acción pasada",
+      "categoryDescription": "Tiempos perfectos continuos: Combinan la conexión temporal de los perfectos con el aspecto progresivo de los continuos. Ejemplos: «I have been eating» (presente perfecto continuo), «I had been eating» (pasado perfecto continuo), y «I will have been eating» (futuro perfecto continuo).",
+      "detailedDescription": "El Pasado Perfecto Continuo describe acciones que estuvieron en progreso durante un período antes de otra acción pasada. Ejemplo: «I had been working for two hours when she arrived.»",
+      "textColor": "#be185d",
+      "structure": {
+        "affirmative": "**Sujeto** + **had been** + **verbo-ing** + complemento",
+        "negative": "**Sujeto** + **had not been** (hadn't been) + **verbo-ing** + complemento",
+        "interrogative": "**Had** + sujeto + **been** + **verbo-ing** + complemento?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": [
+            "I had been working",
+            "You had been working",
+            "He/She/It had been working",
+            "We had been working",
+            "They had been working"
+          ],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": [
+            "I hadn't been working",
+            "You hadn't been working",
+            "He/She/It hadn't been working",
+            "We hadn't been working",
+            "They hadn't been working"
+          ],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": [
+            "Had I been working?",
+            "Had you been working?",
+            "Had he/she/it been working?",
+            "Had we been working?",
+            "Had they been working?"
+          ],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Duración antes de una acción pasada",
+          "example": "I had been studying for three hours when the power went out. (Había estado estudiando por tres horas cuando se fue la luz)"
+        },
+        {
+          "title": "Causa de una situación pasada",
+          "example": "She was exhausted because she had been running. (Estaba agotada porque había estado corriendo)"
+        },
+        {
+          "title": "Acciones interrumpidas en el pasado",
+          "example": "They had been living in Paris for five years before they moved to London. (Habían estado viviendo en París por cinco años antes de mudarse a Londres)"
+        }
+      ],
+      "timeExpressions": ["For, since, before", "When, by the time", "All day/morning/night", "How long"]
+    },
+    {
       "id": "present-continuous",
       "name": "Presente Continuo",
       "category": "tenses",
