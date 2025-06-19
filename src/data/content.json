@@ -1216,6 +1216,70 @@
           ]
         }
       ]
+    },
+    {
+      "id": "future-perfect-continuous",
+      "name": "Futuro Perfecto Continuo",
+      "category": "tenses",
+      "description": "Duración de acciones hasta un momento futuro",
+      "categoryDescription": "Tiempos perfectos continuos: Combinan la conexión temporal de los perfectos con el aspecto progresivo de los continuos. Ejemplos: «I have been eating» (presente perfecto continuo), «I had been eating» (pasado perfecto continuo), y «I will have been eating» (futuro perfecto continuo).",
+      "detailedDescription": "El Futuro Perfecto Continuo enfatiza la duración de acciones que continuarán hasta un momento específico en el futuro. Ejemplo: «By next year, I will have been working here for ten years.»",
+      "textColor": "#9333ea",
+      "structure": {
+        "affirmative": "**Sujeto** + **will have been** + **verbo-ing** + complemento",
+        "negative": "**Sujeto** + **will not have been** (won't have been) + **verbo-ing** + complemento",
+        "interrogative": "**Will** + sujeto + **have been** + **verbo-ing** + complemento?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": [
+            "I will have been working",
+            "You will have been working",
+            "He/She/It will have been working",
+            "We will have been working",
+            "They will have been working"
+          ],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": [
+            "I won't have been working",
+            "You won't have been working",
+            "He/She/It won't have been working",
+            "We won't have been working",
+            "They won't have been working"
+          ],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": [
+            "Will I have been working?",
+            "Will you have been working?",
+            "Will he/she/it have been working?",
+            "Will we have been working?",
+            "Will they have been working?"
+          ],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Duración hasta un momento futuro",
+          "example": "By December, I will have been living here for five years. (Para diciembre, habré estado viviendo aquí por cinco años)"
+        },
+        {
+          "title": "Predicciones sobre duración futura",
+          "example": "Next month, she will have been studying medicine for six years. (El próximo mes, habrá estado estudiando medicina por seis años)"
+        },
+        {
+          "title": "Causa futura de una situación",
+          "example": "He will be tired tomorrow because he will have been working all night. (Estará cansado mañana porque habrá estado trabajando toda la noche)"
+        }
+      ],
+      "timeExpressions": ["By next week/month/year", "By the time, by then", "For, since", "In five years' time"]
     }
     ],
     "pronouns": [
