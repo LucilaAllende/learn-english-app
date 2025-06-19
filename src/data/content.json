@@ -894,6 +894,70 @@
       ]
     },
     {
+      "id": "future-perfect",
+      "name": "Futuro Perfecto",
+      "category": "tenses",
+      "description": "Acciones completadas antes de un momento futuro",
+      "categoryDescription": "Tiempos perfectos: Conectan dos momentos en el tiempo, mostrando la relación entre una acción pasada y su relevancia en otro momento. Ejemplos: «I have eaten» (presente perfecto), «I had eaten» (pasado perfecto), y «I will have eaten» (futuro perfecto).",
+      "detailedDescription": "El Futuro Perfecto describe acciones que se completarán antes de un momento específico en el futuro. Ejemplo: «I will have finished my project by Friday.»",
+      "textColor": "#7c3aed",
+      "structure": {
+        "affirmative": "**Sujeto** + **will have** + **participio pasado** + complemento",
+        "negative": "**Sujeto** + **will not have** (won't have) + **participio pasado** + complemento",
+        "interrogative": "**Will** + sujeto + **have** + **participio pasado** + complemento?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": [
+            "I will have worked",
+            "You will have worked",
+            "He/She/It will have worked",
+            "We will have worked",
+            "They will have worked"
+          ],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": [
+            "I won't have worked",
+            "You won't have worked",
+            "He/She/It won't have worked",
+            "We won't have worked",
+            "They won't have worked"
+          ],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": [
+            "Will I have worked?",
+            "Will you have worked?",
+            "Will he/she/it have worked?",
+            "Will we have worked?",
+            "Will they have worked?"
+          ],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Acciones completadas antes de un momento futuro",
+          "example": "I will have finished my degree by next year. (Habré terminado mi carrera para el próximo año)"
+        },
+        {
+          "title": "Predicciones sobre logros futuros",
+          "example": "By 2030, scientists will have found a cure for cancer. (Para 2030, los científicos habrán encontrado una cura para el cáncer)"
+        },
+        {
+          "title": "Duración hasta un punto futuro",
+          "example": "By December, I will have lived here for five years. (Para diciembre, habré vivido aquí por cinco años)"
+        }
+      ],
+      "timeExpressions": ["By next week/month/year", "By the time, before", "By then, by 2025", "In five years' time"]
+    },
+    {
       "id": "present-perfect",
       "name": "Presente Perfecto",
       "category": "tenses",
