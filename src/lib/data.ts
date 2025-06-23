@@ -80,7 +80,7 @@ export interface Pronoun {
   description: string;
   types?: Type[];
   usageExamples?: UsageExample[];
-  notes?: string[];
+  notes?: Note[];
 }
 
 // Functions to access the data
