@@ -22,7 +22,7 @@ describe("PronounsPage", () => {
     expect(screen.getByText("Se utilizan como sujeto de la oración")).toBeInTheDocument()
     expect(screen.getByText("Se utilizan como objeto directo o indirecto")).toBeInTheDocument()
 
-    // Type examples (use getAllByText to avoid errors with duplicates)
+    // Type examples
     const examples = ["I", "You", "He", "She", "It", "We", "They", "Me", "Him", "Her", "Us", "Them"]
     examples.forEach(example => {
       expect(screen.getAllByText(example).length).toBeGreaterThan(0)
