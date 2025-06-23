@@ -1,4 +1,3 @@
-
 import { getPronouns } from "@/lib/data"
 import { HeartsDecoration } from "@/app/components/decoration/hearts-decoration"
 import { FormatText } from "@/app/utils/format-text"
@@ -88,7 +87,7 @@ export default function PronounsPage() {
                     <div key={index} className="bg-[#fff8e6] p-4 rounded-lg border border-[#e9c46a] font-note mb-4">
                       <p className="flex items-start">
                         <span className="text-[#e76f51] mr-2 text-xl">✎</span>
-                        <FormatText text={note.text ?? ''} />
+                        <FormatText addMargin={true}  text={note.text ?? ''} />
                       </p>
                     </div>
                   ))}
