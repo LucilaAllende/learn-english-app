@@ -1,4 +1,3 @@
-// tests/PronounsPage.test.tsx
 import { render, screen, within } from "@testing-library/react"
 import PronounsPage from "./page"
 
