@@ -707,8 +707,8 @@
       "name": "Futuro Continuo",
       "category": "tenses",
       "description": "Acciones en progreso en el futuro",
-      "categoryDescription": "Tiempos continuos: Expresan acciones en progreso o que se desarrollan durante un período de tiempo. Ejemplos: «I am eating» (presente continuo), «I was eating» (pasado continuo), y «I will be eating» (futuro continuo).",
-      "detailedDescription": "El Futuro Continuo describe acciones que estarán en progreso en un momento específico del futuro. Ejemplo: «I will be working at 9 AM tomorrow.»",
+      "categoryDescription": "Tiempos continuos: Utilizados para describir acciones en progreso en un momento específico. Se forman con el verbo «to be» y el gerundio del verbo principal. Ejemplos: «I am eating» (presente continuo), «I was eating» (pasado continuo), y «I will be eating» (futuro continuo).",
+      "detailedDescription": "El Futuro Continuo en inglés indica acciones futuras que estarán ocurriendo (en progreso) en un momento específico del futuro. Ejemplo: «I will be eating breakfast at 8 AM tomorrow.»",
       "textColor": "#8b5cf6",
       "structure": {
         "affirmative": "**Sujeto** + **will be** + **verbo-ing** + complemento",
