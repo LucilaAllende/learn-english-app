@@ -15,7 +15,7 @@ const menuItems = [
   },
   {
     title: "Pronombres",
-    href: "/pronombres",
+    href: "/pronouns",
     icon: Users,
     description: "Tipos de pronombres",
   },
