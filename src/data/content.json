@@ -902,7 +902,7 @@
       "name": "Pasado Perfecto",
       "category": "tenses",
       "description": "Acciones anteriores a otra acción pasada",
-      "categoryDescription": "Tiempos perfectos: Conectan dos momentos en el tiempo, mostrando la relación entre una acción pasada y su relevancia en otro momento. Ejemplos: «I have eaten» (presente perfecto), «I had eaten» (pasado perfecto), y «I will have eaten» (futuro perfecto).",
+      "categoryDescription": "Tiempos perfectos: Ideales para expresar acciones completadas antes de otro punto en el tiempo. Conectan dos momentos en el tiempo, mostrando la relación entre una acción pasada y su relevancia en otro momento. Ejemplos: «I have eaten» (presente perfecto), «I had eaten» (pasado perfecto), y «I will have eaten» (futuro perfecto).",
       "detailedDescription": "El Pasado Perfecto describe acciones que ocurrieron antes de otra acción o momento en el pasado. Ejemplo: «I had finished my work before she arrived.»",
       "textColor": "#dc2626",
       "structure": {
