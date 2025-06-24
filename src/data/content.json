@@ -1158,7 +1158,7 @@
       "name": "Pasado Perfecto Continuo",
       "category": "tenses",
       "description": "Acciones continuas antes de otra acción pasada",
-      "categoryDescription": "Tiempos perfectos continuos: Combinan la conexión temporal de los perfectos con el aspecto progresivo de los continuos. Ejemplos: «I have been eating» (presente perfecto continuo), «I had been eating» (pasado perfecto continuo), y «I will have been eating» (futuro perfecto continuo).",
+      "categoryDescription": "Tiempos perfectos continuos: Combinan características de los tiempos compuestos y continuos, y se usan para hablar de la duración de una acción en progreso antes de otro punto en el tiempo. Combinan la conexión temporal de los perfectos con el aspecto progresivo de los continuos. Ejemplos: «I have been eating» (presente perfecto continuo), «I had been eating» (pasado perfecto continuo), y «I will have been eating» (futuro perfecto continuo).",
       "detailedDescription": "El Pasado Perfecto Continuo describe acciones que estuvieron en progreso durante un período antes de otra acción pasada. Ejemplo: «I had been working for two hours when she arrived.»",
       "textColor": "#be185d",
       "structure": {
