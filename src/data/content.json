@@ -1222,7 +1222,7 @@
       "name": "Futuro Perfecto Continuo",
       "category": "tenses",
       "description": "Duración de acciones hasta un momento futuro",
-      "categoryDescription": "Tiempos perfectos continuos: Combinan la conexión temporal de los perfectos con el aspecto progresivo de los continuos. Ejemplos: «I have been eating» (presente perfecto continuo), «I had been eating» (pasado perfecto continuo), y «I will have been eating» (futuro perfecto continuo).",
+      "categoryDescription": "Tiempos perfectos continuos: Combinan características de los tiempos compuestos y continuos, y se usan para hablar de la duración de una acción en progreso antes de otro punto en el tiempo. Combinan la conexión temporal de los perfectos con el aspecto progresivo de los continuos. Ejemplos: «I have been eating» (presente perfecto continuo), «I had been eating» (pasado perfecto continuo), y «I will have been eating» (futuro perfecto continuo).",
       "detailedDescription": "El Futuro Perfecto Continuo enfatiza la duración de acciones que continuarán hasta un momento específico en el futuro. Ejemplo: «By next year, I will have been working here for ten years.»",
       "textColor": "#9333ea",
       "structure": {
