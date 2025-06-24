@@ -541,12 +541,12 @@
         {
           "verb": "vivir (to live)",
           "conjugations": [
-            { "person": "yo", "conjugation": "vivo" },
-            { "person": "tú", "conjugation": "vives" },
-            { "person": "él/ella", "conjugation": "vive" },
-            { "person": "nosotros", "conjugation": "vivimos" },
-            { "person": "ustedes", "conjugation": "viven" },
-            { "person": "ellos/ellas", "conjugation": "viven" }
+            { "person": "yo", "conjugation": "estoy viviendo" },
+            { "person": "tú", "conjugation": "estás viviendo" },
+            { "person": "él/ella", "conjugation": "está viviendo" },
+            { "person": "nosotros", "conjugation": "estamos viviendo" },
+            { "person": "ustedes", "conjugation": "están viviendo" },
+            { "person": "ellos/ellas", "conjugation": "están viviendo" }
           ]
         }
       ],
