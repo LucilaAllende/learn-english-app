@@ -554,12 +554,12 @@
         {
           "verb": "to buy (comprar)",
           "conjugations": [
-            { "person": "I", "conjugation": "buy" },
-            { "person": "You", "conjugation": "buy" },
-            { "person": "He/She/It", "conjugation": "buys" },
-            { "person": "We", "conjugation": "buy" },
-            { "person": "You (plural)", "conjugation": "buy" },
-            { "person": "They", "conjugation": "buy" }
+            { "person": "I", "conjugation": "am buying" },
+            { "person": "You", "conjugation": "are buying" },
+            { "person": "He/She/It", "conjugation": "is buying" },
+            { "person": "We", "conjugation": "are buying" },
+            { "person": "You (plural)", "conjugation": "are buying" },
+            { "person": "They", "conjugation": "are buying" }
           ]
         },
         {
