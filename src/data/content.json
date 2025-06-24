@@ -576,12 +576,12 @@
         {
           "verb": "to live (vivir)",
           "conjugations": [
-            { "person": "I", "conjugation": "live" },
-            { "person": "You", "conjugation": "live" },
-            { "person": "He/She/It", "conjugation": "lives" },
-            { "person": "We", "conjugation": "live" },
-            { "person": "You (plural)", "conjugation": "live" },
-            { "person": "They", "conjugation": "live" }
+            { "person": "I", "conjugation": "am living" },
+            { "person": "You", "conjugation": "are living" },
+            { "person": "He/She/It", "conjugation": "is living" },
+            { "person": "We", "conjugation": "are living" },
+            { "person": "You (plural)", "conjugation": "are living" },
+            { "person": "They", "conjugation": "are living" }
           ]
         }
       ]
