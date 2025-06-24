@@ -960,7 +960,7 @@
       "name": "Futuro Perfecto",
       "category": "tenses",
       "description": "Acciones completadas antes de un momento futuro",
-      "categoryDescription": "Tiempos perfectos: Conectan dos momentos en el tiempo, mostrando la relación entre una acción pasada y su relevancia en otro momento. Ejemplos: «I have eaten» (presente perfecto), «I had eaten» (pasado perfecto), y «I will have eaten» (futuro perfecto).",
+      "categoryDescription": "Tiempos perfectos: Ideales para expresar acciones completadas antes de otro punto en el tiempo. Conectan dos momentos en el tiempo, mostrando la relación entre una acción pasada y su relevancia en otro momento. Ejemplos: «I have eaten» (presente perfecto), «I had eaten» (pasado perfecto), y «I will have eaten» (futuro perfecto).",
       "detailedDescription": "El Futuro Perfecto describe acciones que se completarán antes de un momento específico en el futuro. Ejemplo: «I will have finished my project by Friday.»",
       "textColor": "#7c3aed",
       "structure": {
