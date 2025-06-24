@@ -565,12 +565,12 @@
         {
           "verb": "to run (correr)",
           "conjugations": [
-            { "person": "I", "conjugation": "run" },
-            { "person": "You", "conjugation": "run" },
-            { "person": "He/She/It", "conjugation": "runs" },
-            { "person": "We", "conjugation": "run" },
-            { "person": "You (plural)", "conjugation": "run" },
-            { "person": "They", "conjugation": "run" }
+            { "person": "I", "conjugation": "am running" },
+            { "person": "You", "conjugation": "are running" },
+            { "person": "He/She/It", "conjugation": "is running" },
+            { "person": "We", "conjugation": "are running" },
+            { "person": "You (plural)", "conjugation": "are running" },
+            { "person": "They", "conjugation": "are running" }
           ]
         },
         {
