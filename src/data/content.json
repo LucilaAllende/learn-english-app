@@ -530,12 +530,12 @@
         {
           "verb": "correr (to run)",
           "conjugations": [
-            { "person": "yo", "conjugation": "corro" },
-            { "person": "tú", "conjugation": "corres" },
-            { "person": "él/ella", "conjugation": "corre" },
-            { "person": "nosotros", "conjugation": "corremos" },
-            { "person": "ustedes", "conjugation": "corren" },
-            { "person": "ellos/ellas", "conjugation": "corren" }
+            { "person": "yo", "conjugation": "estoy corriendo" },
+            { "person": "tú", "conjugation": "estás corriendo" },
+            { "person": "él/ella", "conjugation": "está corriendo" },
+            { "person": "nosotros", "conjugation": "estamos corriendo" },
+            { "person": "ustedes", "conjugation": "están corriendo" },
+            { "person": "ellos/ellas", "conjugation": "están corriendo" }
           ]
         },
         {
