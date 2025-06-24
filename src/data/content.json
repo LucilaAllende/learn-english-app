@@ -1024,7 +1024,7 @@
       "name": "Presente Perfecto Continuo",
       "category": "tenses",
       "description": "Acciones que comenzaron en el pasado y continúan hasta el presente o acaban de terminar con énfasis en la duración.",
-      "categoryDescription": "Tiempos compuestos continuos: Usan el auxiliar «have been» seguido del verbo en gerundio (-ing) para expresar acciones en desarrollo conectadas al presente. Ejemplo: «I have been eating».",
+      "categoryDescription": "Tiempos perfectos continuos: Combinan características de los tiempos compuestos y continuos, y se usan para hablar de la duración de una acción en progreso antes de otro punto en el tiempo. Ejemplos: «I have been eating» (presente perfecto continuo), «I had been eating» (pasado perfecto continuo), y «I will have been eating» (futuro perfecto continuo).",
       "detailedDescription": "El Presente Perfecto Continuo se utiliza para hablar de acciones que comenzaron en el pasado y continúan hasta ahora, o acaban de terminar pero tienen un resultado visible. Ejemplo: «I have been studying all day.»",
       "textColor": "#264653",
       "structure": {
