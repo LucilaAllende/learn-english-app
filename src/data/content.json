@@ -519,12 +519,12 @@
         {
           "verb": "comprar (to buy)",
           "conjugations": [
-            { "person": "yo", "conjugation": "compro" },
-            { "person": "tú", "conjugation": "compras" },
-            { "person": "él/ella", "conjugation": "compra" },
-            { "person": "nosotros", "conjugation": "compramos" },
-            { "person": "ustedes", "conjugation": "compran" },
-            { "person": "ellos/ellas", "conjugation": "compran" }
+            { "person": "yo", "conjugation": "estoy comprando" },
+            { "person": "tú", "conjugation": "estás comprando" },
+            { "person": "él/ella", "conjugation": "está comprando" },
+            { "person": "nosotros", "conjugation": "estamos comprando" },
+            { "person": "ustedes", "conjugation": "están comprando" },
+            { "person": "ellos/ellas", "conjugation": "están comprando" }
           ]
         },
         {
