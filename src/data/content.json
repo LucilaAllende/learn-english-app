@@ -1192,6 +1192,41 @@
             { "person": "ellos/ellas", "conjugation": "habrán vivido" }
           ]
         }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will have bought" },
+            { "person": "You", "conjugation": "will have bought" },
+            { "person": "He/She/It", "conjugation": "will have bought" },
+            { "person": "We", "conjugation": "will have bought" },
+            { "person": "You (plural)", "conjugation": "will have bought" },
+            { "person": "They", "conjugation": "will have bought" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will have run" },
+            { "person": "You", "conjugation": "will have run" },
+            { "person": "He/She/It", "conjugation": "will have run" },
+            { "person": "We", "conjugation": "will have run" },
+            { "person": "You (plural)", "conjugation": "will have run" },
+            { "person": "They", "conjugation": "will have run" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will have lived" },
+            { "person": "You", "conjugation": "will have lived" },
+            { "person": "He/She/It", "conjugation": "will have lived" },
+            { "person": "We", "conjugation": "will have lived" },
+            { "person": "You (plural)", "conjugation": "will have lived" },
+            { "person": "They", "conjugation": "will have lived" }
+          ]
+        }
       ]
     },
     {
