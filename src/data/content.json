@@ -885,7 +885,17 @@
           "example": "I have lost my keys. - He has just finished his homework."
         }
       ],
-      "timeExpressions": ["For", "Since", "Just", "Already", "Yet", "Ever", "Never", "So far", "Up to now"],
+      "timeExpressions": [
+        "For", 
+        "Since", 
+        "Just", 
+        "Already", 
+        "Yet", 
+        "Ever", 
+        "Never", 
+        "So far", 
+        "Up to now"
+      ],
       "notes": [
         {
           "type": "paragraph",
