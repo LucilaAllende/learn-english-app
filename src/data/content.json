@@ -1058,6 +1058,41 @@
             { "person": "ellos/ellas", "conjugation": "habían vivido" }
           ]
         }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "had bought" },
+            { "person": "You", "conjugation": "had bought" },
+            { "person": "He/She/It", "conjugation": "had bought" },
+            { "person": "We", "conjugation": "had bought" },
+            { "person": "You (plural)", "conjugation": "had bought" },
+            { "person": "They", "conjugation": "had bought" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "had run" },
+            { "person": "You", "conjugation": "had run" },
+            { "person": "He/She/It", "conjugation": "had run" },
+            { "person": "We", "conjugation": "had run" },
+            { "person": "You (plural)", "conjugation": "had run" },
+            { "person": "They", "conjugation": "had run" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "had lived" },
+            { "person": "You", "conjugation": "had lived" },
+            { "person": "He/She/It", "conjugation": "had lived" },
+            { "person": "We", "conjugation": "had lived" },
+            { "person": "You (plural)", "conjugation": "had lived" },
+            { "person": "They", "conjugation": "had lived" }
+          ]
+        }
       ]
     },
     {
