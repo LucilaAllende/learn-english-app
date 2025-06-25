@@ -630,7 +630,13 @@
           "example": "I was walking down the street when I saw an accident. (Estaba caminando por la calle cuando vi un accidente.) - I was sleeping when the phone rang. (Estaba durmiendo cuando sonó el teléfono.)"
         }
       ],
-      "timeExpressions": ["While", "When", "As", "At that moment", "Yesterday at 6 PM"],
+      "timeExpressions": [
+        "While", 
+        "When", 
+        "As", 
+        "At that moment", 
+        "Yesterday at 6 PM"
+      ],
       "spanishConjunction": [
         {
           "verb": "comprar (to buy)",
