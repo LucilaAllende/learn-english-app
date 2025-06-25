@@ -1157,7 +1157,42 @@
           "example": "By December, I will have lived here for five years. (Para diciembre, habré vivido aquí por cinco años)"
         }
       ],
-      "timeExpressions": ["By next week/month/year", "By the time, before", "By then, by 2025", "In five years' time"]
+      "timeExpressions": ["By next week/month/year", "By the time, before", "By then, by 2025", "In five years' time"],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "habré comprado" },
+            { "person": "tú", "conjugation": "habrás comprado" },
+            { "person": "él/ella", "conjugation": "habrá comprado" },
+            { "person": "nosotros", "conjugation": "habremos comprado" },
+            { "person": "ustedes", "conjugation": "habrán comprado" },
+            { "person": "ellos/ellas", "conjugation": "habrán comprado" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "habré corrido" },
+            { "person": "tú", "conjugation": "habrás corrido" },
+            { "person": "él/ella", "conjugation": "habrá corrido" },
+            { "person": "nosotros", "conjugation": "habremos corrido" },
+            { "person": "ustedes", "conjugation": "habrán corrido" },
+            { "person": "ellos/ellas", "conjugation": "habrán corrido" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "habré vivido" },
+            { "person": "tú", "conjugation": "habrás vivido" },
+            { "person": "él/ella", "conjugation": "habrá vivido" },
+            { "person": "nosotros", "conjugation": "habremos vivido" },
+            { "person": "ustedes", "conjugation": "habrán vivido" },
+            { "person": "ellos/ellas", "conjugation": "habrán vivido" }
+          ]
+        }
+      ]
     },
     {
       "id": "present-perfect-continuous",
