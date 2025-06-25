@@ -1023,7 +1023,12 @@
           "example": "By 2010, I had visited 15 countries. (Para 2010, había visitado 15 países)"
         }
       ],
-      "timeExpressions": ["Before, after, when", "By the time, until", "Already, just, never", "By 2020, by then"],
+      "timeExpressions": [
+        "Before, after, when", 
+        "By the time, until", 
+        "Already, just, never", 
+        "By 2020, by then"
+      ],
       "spanishConjunction": [
         {
           "verb": "comprar (to buy)",
