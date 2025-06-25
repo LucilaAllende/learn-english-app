@@ -769,6 +769,41 @@
         "In the future, soon",
         "By next year",
         "This time next month"
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estaré comprando" },
+            { "person": "tú", "conjugation": "estarás comprando" },
+            { "person": "él/ella", "conjugation": "estará comprando" },
+            { "person": "nosotros", "conjugation": "estaremos comprando" },
+            { "person": "ustedes", "conjugation": "estarán comprando" },
+            { "person": "ellos/ellas", "conjugation": "estarán comprando" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estaré corriendo" },
+            { "person": "tú", "conjugation": "estarás corriendo" },
+            { "person": "él/ella", "conjugation": "estará corriendo" },
+            { "person": "nosotros", "conjugation": "estaremos corriendo" },
+            { "person": "ustedes", "conjugation": "estarán corriendo" },
+            { "person": "ellos/ellas", "conjugation": "estarán corriendo" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estaré viviendo" },
+            { "person": "tú", "conjugation": "estarás viviendo" },
+            { "person": "él/ella", "conjugation": "estará viviendo" },
+            { "person": "nosotros", "conjugation": "estaremos viviendo" },
+            { "person": "ustedes", "conjugation": "estarán viviendo" },
+            { "person": "ellos/ellas", "conjugation": "estarán viviendo" }
+          ]
+        }
       ]
     },
     {
