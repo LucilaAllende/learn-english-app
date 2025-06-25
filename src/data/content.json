@@ -804,6 +804,41 @@
             { "person": "ellos/ellas", "conjugation": "estarán viviendo" }
           ]
         }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will be buying" },
+            { "person": "You", "conjugation": "will be buying" },
+            { "person": "He/She/It", "conjugation": "will be buying" },
+            { "person": "We", "conjugation": "will be buying" },
+            { "person": "You (plural)", "conjugation": "will be buying" },
+            { "person": "They", "conjugation": "will be buying" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will be running" },
+            { "person": "You", "conjugation": "will be running" },
+            { "person": "He/She/It", "conjugation": "will be running" },
+            { "person": "We", "conjugation": "will be running" },
+            { "person": "You (plural)", "conjugation": "will be running" },
+            { "person": "They", "conjugation": "will be running" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will be living" },
+            { "person": "You", "conjugation": "will be living" },
+            { "person": "He/She/It", "conjugation": "will be living" },
+            { "person": "We", "conjugation": "will be living" },
+            { "person": "You (plural)", "conjugation": "will be living" },
+            { "person": "They", "conjugation": "will be living" }
+          ]
+        }
       ]
     },
     {
