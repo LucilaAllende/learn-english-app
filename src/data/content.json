@@ -1023,7 +1023,42 @@
           "example": "By 2010, I had visited 15 countries. (Para 2010, había visitado 15 países)"
         }
       ],
-      "timeExpressions": ["Before, after, when", "By the time, until", "Already, just, never", "By 2020, by then"]
+      "timeExpressions": ["Before, after, when", "By the time, until", "Already, just, never", "By 2020, by then"],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "había comprado" },
+            { "person": "tú", "conjugation": "habías comprado" },
+            { "person": "él/ella", "conjugation": "había comprado" },
+            { "person": "nosotros", "conjugation": "habíamos comprado" },
+            { "person": "ustedes", "conjugation": "habían comprado" },
+            { "person": "ellos/ellas", "conjugation": "habían comprado" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "había corrido" },
+            { "person": "tú", "conjugation": "habías corrido" },
+            { "person": "él/ella", "conjugation": "había corrido" },
+            { "person": "nosotros", "conjugation": "habíamos corrido" },
+            { "person": "ustedes", "conjugation": "habían corrido" },
+            { "person": "ellos/ellas", "conjugation": "habían corrido" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "había vivido" },
+            { "person": "tú", "conjugation": "habías vivido" },
+            { "person": "él/ella", "conjugation": "había vivido" },
+            { "person": "nosotros", "conjugation": "habíamos vivido" },
+            { "person": "ustedes", "conjugation": "habían vivido" },
+            { "person": "ellos/ellas", "conjugation": "habían vivido" }
+          ]
+        }
+      ]
     },
     {
       "id": "future-perfect",
