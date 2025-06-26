@@ -1595,6 +1595,41 @@
         "By the time, by then", 
         "For, since", 
         "In five years' time"
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "habré estado comprando" },
+            { "person": "tú", "conjugation": "habrás estado comprando" },
+            { "person": "él/ella", "conjugation": "habrá estado comprando" },
+            { "person": "nosotros", "conjugation": "habremos estado comprando" },
+            { "person": "ustedes", "conjugation": "habrán estado comprando" },
+            { "person": "ellos/ellas", "conjugation": "habrán estado comprando" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "habré estado corriendo" },
+            { "person": "tú", "conjugation": "habrás estado corriendo" },
+            { "person": "él/ella", "conjugation": "habrá estado corriendo" },
+            { "person": "nosotros", "conjugation": "habremos estado corriendo" },
+            { "person": "ustedes", "conjugation": "habrán estado corriendo" },
+            { "person": "ellos/ellas", "conjugation": "habrán estado corriendo" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "habré estado viviendo" },
+            { "person": "tú", "conjugation": "habrás estado viviendo" },
+            { "person": "él/ella", "conjugation": "habrá estado viviendo" },
+            { "person": "nosotros", "conjugation": "habremos estado viviendo" },
+            { "person": "ustedes", "conjugation": "habrán estado viviendo" },
+            { "person": "ellos/ellas", "conjugation": "habrán estado viviendo" }
+          ]
+        }
       ]
     }
     ],
