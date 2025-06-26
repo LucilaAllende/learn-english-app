@@ -1590,7 +1590,12 @@
           "example": "He will be tired tomorrow because he will have been working all night. (Estará cansado mañana porque habrá estado trabajando toda la noche)"
         }
       ],
-      "timeExpressions": ["By next week/month/year", "By the time, by then", "For, since", "In five years' time"]
+      "timeExpressions": [
+        "By next week/month/year", 
+        "By the time, by then", 
+        "For, since", 
+        "In five years' time"
+      ]
     }
     ],
     "pronouns": [
