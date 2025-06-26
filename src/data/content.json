@@ -1491,6 +1491,41 @@
             { "person": "ellos/ellas", "conjugation": "habían estado viviendo" }
           ]
         }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "had been buying" },
+            { "person": "You", "conjugation": "had been buying" },
+            { "person": "He/She/It", "conjugation": "had been buying" },
+            { "person": "We", "conjugation": "had been buying" },
+            { "person": "You (plural)", "conjugation": "had been buying" },
+            { "person": "They", "conjugation": "had been buying" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "had been running" },
+            { "person": "You", "conjugation": "had been running" },
+            { "person": "He/She/It", "conjugation": "had been running" },
+            { "person": "We", "conjugation": "had been running" },
+            { "person": "You (plural)", "conjugation": "had been running" },
+            { "person": "They", "conjugation": "had been running" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "had been living" },
+            { "person": "You", "conjugation": "had been living" },
+            { "person": "He/She/It", "conjugation": "had been living" },
+            { "person": "We", "conjugation": "had been living" },
+            { "person": "You (plural)", "conjugation": "had been living" },
+            { "person": "They", "conjugation": "had been living" }
+          ]
+        }
       ]
     },  
     {
