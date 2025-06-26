@@ -1630,6 +1630,41 @@
             { "person": "ellos/ellas", "conjugation": "habrán estado viviendo" }
           ]
         }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will have been buying" },
+            { "person": "You", "conjugation": "will have been buying" },
+            { "person": "He/She/It", "conjugation": "will have been buying" },
+            { "person": "We", "conjugation": "will have been buying" },
+            { "person": "You (plural)", "conjugation": "will have been buying" },
+            { "person": "They", "conjugation": "will have been buying" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will have been running" },
+            { "person": "You", "conjugation": "will have been running" },
+            { "person": "He/She/It", "conjugation": "will have been running" },
+            { "person": "We", "conjugation": "will have been running" },
+            { "person": "You (plural)", "conjugation": "will have been running" },
+            { "person": "They", "conjugation": "will have been running" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will have been living" },
+            { "person": "You", "conjugation": "will have been living" },
+            { "person": "He/She/It", "conjugation": "will have been living" },
+            { "person": "We", "conjugation": "will have been living" },
+            { "person": "You (plural)", "conjugation": "will have been living" },
+            { "person": "They", "conjugation": "will have been living" }
+          ]
+        }
       ]
     }
     ],
