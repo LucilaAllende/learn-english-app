@@ -1456,6 +1456,41 @@
         "When, by the time", 
         "All day/morning/night", 
         "How long"
+      ],      
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "había estado comprando" },
+            { "person": "tú", "conjugation": "habías estado comprando" },
+            { "person": "él/ella", "conjugation": "había estado comprando" },
+            { "person": "nosotros", "conjugation": "habíamos estado comprando" },
+            { "person": "ustedes", "conjugation": "habían estado comprando" },
+            { "person": "ellos/ellas", "conjugation": "habían estado comprando" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "había estado corriendo" },
+            { "person": "tú", "conjugation": "habías estado corriendo" },
+            { "person": "él/ella", "conjugation": "había estado corriendo" },
+            { "person": "nosotros", "conjugation": "habíamos estado corriendo" },
+            { "person": "ustedes", "conjugation": "habían estado corriendo" },
+            { "person": "ellos/ellas", "conjugation": "habían estado corriendo" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "había estado viviendo" },
+            { "person": "tú", "conjugation": "habías estado viviendo" },
+            { "person": "él/ella", "conjugation": "había estado viviendo" },
+            { "person": "nosotros", "conjugation": "habíamos estado viviendo" },
+            { "person": "ustedes", "conjugation": "habían estado viviendo" },
+            { "person": "ellos/ellas", "conjugation": "habían estado viviendo" }
+          ]
+        }
       ]
     },  
     {
