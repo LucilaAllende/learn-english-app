@@ -1451,7 +1451,12 @@
           "example": "They had been living in Paris for five years before they moved to London. (Habían estado viviendo en París por cinco años antes de mudarse a Londres)"
         }
       ],
-      "timeExpressions": ["For, since, before", "When, by the time", "All day/morning/night", "How long"]
+      "timeExpressions": [
+        "For, since, before", 
+        "When, by the time", 
+        "All day/morning/night", 
+        "How long"
+      ]
     },  
     {
       "id": "future-perfect-continuous",
