@@ -856,9 +856,9 @@
       "detailedDescription": "El Presente Perfecto en inglés se utiliza para acciones que ocurrieron en un momento no específico en el pasado y que tienen relevancia en el presente. Ejemplo: «I have eaten breakfast.»",
       "textColor": "#2a9d8f",
       "structure": {
-        "affirmative": "**Sujeto** + **have/has** + participio pasado + complemento",
-        "negative": "**Sujeto** + **haven't/hasn't** + participio pasado + complemento",
-        "interrogative": "**Have/Has** + sujeto + participio pasado + complemento?"
+        "affirmative": "**Sujeto** + **have/has** + **participio pasado** + complemento",
+        "negative": "**Sujeto** + **have not/has not** (haven't/hasn't) + **participio pasado** + complemento",
+        "interrogative": "**Have/Has** + sujeto + **participio pasado** + complemento?"
       },
       "examples": [
         {
