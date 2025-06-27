@@ -595,9 +595,9 @@
       "detailedDescription": "El Pasado Continuo en inglés describe acciones pasadas que estaban ocurriendo en un momento específico del pasado. Ejemplo: «I was eating breakfast when you called.»",
       "textColor": "#e76f51",
       "structure": {
-        "affirmative": "**Sujeto** + **was/were** + verbo-ing + complemento",
-        "negative": "**Sujeto** + **wasn't/weren't** + verbo-ing+ complemento",
-        "interrogative": "**Was/Were** + sujeto + verbo-ing + complemento?"
+        "affirmative": "**Sujeto** + **was/were** + **verbo-ing** + complemento",
+        "negative": "**Sujeto** + **was not/were not** (wasn't/weren't) + **verbo-ing** + complemento",
+        "interrogative": "**Was/Were** + sujeto + **verbo-ing** + complemento?"
       },
       "examples": [
         {
