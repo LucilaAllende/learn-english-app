@@ -179,9 +179,9 @@
       "detailedDescription": "El Pasado Simple en inglés se usa para acciones pasadas que ocurrieron y finalizaron en un momento específico del pasado. Ejemplo: «I ate breakfast yesterday.»",
       "textColor": "#f4a261",
       "structure": {
-        "affirmative": "**Sujeto** + **verbo en pasado** + complemento",
-        "negative": "**Sujeto** + **didn't** + infinitivo + complemento",
-        "interrogative": "**Did** + sujeto + infinitivo + complemento?"
+        "affirmative": "**Sujeto** + **verbo en pasado** (regular: -ed; irregular: forma específica) + complemento",
+        "negative": "**Sujeto** + **did not** (o su contracción: didn't) + **verbo infinitivo** + complemento",
+        "interrogative": "**Did** + sujeto + **verbo infinitivo** + complemento?"
       },
       "examples": [
         {
