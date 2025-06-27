@@ -321,9 +321,9 @@
       "detailedDescription": "El Futuro Simple en inglés se utiliza para acciones que ocurrirán en el futuro. Ejemplo: «I will eat breakfast tomorrow.»",
       "textColor": "#264653",
       "structure": {
-        "affirmative": "**Sujeto** + **will** + infinitivo + complemento",
-        "negative": "**Sujeto** + **will not (won't)** + infinitivo + complemento",
-        "interrogative": "**Will** + sujeto + infinitivo + complemento?"
+        "affirmative": "**Sujeto** + **will** + **verbo infinitivo** + complemento",
+        "negative": "**Sujeto** + **will not** (o su contracción: won't) + **verbo infinitivo** + complemento",
+        "interrogative": "**Will** + sujeto + **verbo infinitivo** + complemento?"
       },
       "examples": [
         {
