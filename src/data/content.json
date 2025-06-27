@@ -329,17 +329,17 @@
         {
           "title": "Afirmativo",
           "examples": ["I will work", "You will work", "He/She/It will work", "We will work", "They will work"],
-          "color": "#264653"
+          "color": "#2a9d8f"
         },
         {
           "title": "Negativo",
           "examples": ["I won't work", "You won't work", "He/She/It won't work", "We won't work", "They won't work"],
-          "color": "#264653"
+          "color": "#e76f51"
         },
         {
           "title": "Interrogativo",
           "examples": ["Will I work?", "Will you work?", "Will he/she/it work?", "Will we work?", "Will they work?"],
-          "color": "#264653"
+          "color": "#e9c46a"
         }
       ],
       "uses": [
