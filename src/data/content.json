@@ -437,9 +437,9 @@
       "detailedDescription": "El Presente Continuo en inglés indica acciones que están ocurriendo en este momento. Ejemplo: «I am eating breakfast right now.»",
       "textColor": "#e9c46a",
       "structure": {
-        "affirmative": "**Sujeto** + **am/is/are** + verbo-ing + complemento",
-        "negative": "**Sujeto** + **am/is/are** + **not** + verbo-ing + complemento",
-        "interrogative": "**Am/Is/Are** + sujeto + verbo-ing + complemento?"
+        "affirmative": "**Sujeto** + **am/is/are** + **verbo-ing** + complemento",
+        "negative": "**Sujeto** + **am/is/are** + **not** + **verbo-ing** + complemento",
+        "interrogative": "**Am/Is/Are** + sujeto + **verbo-ing** + complemento?"
       },
       "examples": [
         {
