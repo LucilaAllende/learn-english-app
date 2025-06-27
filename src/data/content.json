@@ -21,7 +21,7 @@
       "detailedDescription": "El Presente Simple en inglés describe acciones habituales o hechos generales. Ejemplo: «I eat breakfast every day.»",
       "textColor": "#2a9d8f",
       "structure": {
-        "affirmative": "**Sujeto** + **verbo infinitivo** (+ s/es en 3ª persona singular: he, she, it) + complemento",
+        "affirmative": "**Sujeto** + **verbo infinitivo** (+ -s/-es en 3ª persona singular: he, she, it) + complemento",
         "negative": "**Sujeto** + **do/does** + **not** (o sus contracciones: don't/doesn't) + **verbo infinitivo** (sin -s/-es, incluso en 3ª persona singular) + complemento",
         "interrogative": "**Do/Does** + sujeto + **verbo infinitivo** (sin -s/-es, incluso en 3ª persona singular) + complemento?"
       },
