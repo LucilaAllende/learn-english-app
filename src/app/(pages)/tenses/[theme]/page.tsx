@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { useMemo } from "react"
 import { ArrowLeft } from "lucide-react"
 
 import { ItemUses } from "@/app/components/items/uses-item"
@@ -11,9 +10,15 @@ import { HeartsDecoration } from "@/app/components/decoration/hearts-decoration"
 import { FormatText } from "@/app/utils/format-text"
 import { getVerbTenses, VerbConjugation } from "@/lib/data"
 
-export default function PastSimplePage() {
+interface VerbTensePageProps {
+  params: {
+    theme: string
+  }
+}
+
+export default function VerbTensePage({ params }: VerbTensePageProps) {
   const verbTenses = getVerbTenses()
-  const tense = useMemo(() => verbTenses.find((t) => t.id === "past-simple"), [])
+  const tense = verbTenses.find((t) => t.id === params.theme)
 
   if (!tense) return <p>No se encontró el tiempo verbal.</p>
 
@@ -33,6 +38,28 @@ export default function PastSimplePage() {
           </h1>
 
           <div className="mt-8 space-y-8">
+            {(tense.categoryDescription || tense.detailedDescription) && (
+              <section>
+                <h2 className="text-2xl font-subtitle text-[#264653] mb-4 flex items-center">
+                  <span className="text-[#e76f51] mr-2">→</span>
+                  Contexto y Definición
+                </h2>
+
+                {tense.categoryDescription && (
+                  <div className="bg-[#e8f4f8] p-4 rounded-lg border-l-4 border-[#2a9d8f] mb-4">
+                    <h3 className="font-subtitle text-[#2a9d8f] mb-2 text-lg">Categoría</h3>
+                    <p className="font-text text-gray-700">{tense.categoryDescription}</p>
+                  </div>
+                )}
+
+                {tense.detailedDescription && (
+                  <div className="bg-[#fff8e6] p-4 rounded-lg border-l-4 border-[#e9c46a] mb-4">
+                    <h3 className="font-subtitle text-[#e9c46a] mb-2 text-lg">Definición Específica</h3>
+                    <p className="font-text text-gray-700">{tense.detailedDescription}</p>
+                  </div>
+                )}
+              </section>
+            )}
             {tense.structure && (
               <section>
                 <h2 className="text-2xl font-subtitle text-[#264653] mb-4 flex items-center">
@@ -160,7 +187,7 @@ export default function PastSimplePage() {
                 <div className="bg-[#fff8e6] p-4 rounded-lg border border-[#e9c46a] font-note">
                   <p className="flex items-start">
                     <span className="text-[#e76f51] mr-2 text-xl">✎</span>
-                    <FormatText text={tense.notes[0].text || ''} />
+                    <FormatText addMargin={true} text={tense.notes[0].text || ''} />
                   </p>
                 </div>
 

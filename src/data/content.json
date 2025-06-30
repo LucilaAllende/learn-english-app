@@ -17,9 +17,11 @@
       "name": "Presente Simple",
       "category": "tenses",
       "description": "Acciones habituales y verdades generales",
+      "categoryDescription": "Tiempos simples: Perfectos para describir acciones en un momento específico sin considerar su duración. Ejemplos: «I eat» (presente simple), «I ate» (pasado simple), y «I will eat» (futuro simple).",
+      "detailedDescription": "El Presente Simple en inglés describe acciones habituales o hechos generales. Ejemplo: «I eat breakfast every day.»",
       "textColor": "#2a9d8f",
       "structure": {
-        "affirmative": "**Sujeto** + **verbo infinitivo** (+ s/es en 3ª persona singular: he, she, it) + complemento",
+        "affirmative": "**Sujeto** + **verbo infinitivo** (+ -s/-es en 3ª persona singular: he, she, it) + complemento",
         "negative": "**Sujeto** + **do/does** + **not** (o sus contracciones: don't/doesn't) + **verbo infinitivo** (sin -s/-es, incluso en 3ª persona singular) + complemento",
         "interrogative": "**Do/Does** + sujeto + **verbo infinitivo** (sin -s/-es, incluso en 3ª persona singular) + complemento?"
       },
@@ -63,7 +65,7 @@
         },
         {
           "title": "Hechos y realidades actuales",
-          "example": "He cleans the kitchen. (Limpia la cocina)"
+          "example": "He cleans the kitchen. (Él limpia la cocina)"
         },
         {
           "title": "Características observables",
@@ -169,171 +171,17 @@
       ]
     },
     {
-      "id": "present-continuous",
-      "name": "Presente Continuo",
-      "category": "tenses",
-      "description": "Acciones que ocurren en este momento o alrededor del presente.",
-      "textColor": "#e9c46a",
-      "structure": {
-        "affirmative": "**Sujeto** + **am/is/are** + verbo-ing + complemento",
-        "negative": "**Sujeto** + **am/is/are** + **not** + verbo-ing + complemento",
-        "interrogative": "**Am/Is/Are** + sujeto + verbo-ing + complemento?"
-      },
-      "examples": [
-        {
-          "title": "Afirmativo",
-          "examples": ["I am working", "You are working", "He/She/It is working", "We are working", "They are working"],
-          "color": "#2a9d8f"
-        },
-        {
-          "title": "Negativo",
-          "examples": [
-            "I am not working",
-            "You are not working",
-            "He/She/It is not working",
-            "We are not working",
-            "They are not working"
-          ],
-          "color": "#e76f51"
-        },
-        {
-          "title": "Interrogativo",
-          "examples": [
-            "Am I working?",
-            "Are you working?",
-            "Is he/she/it working?",
-            "Are we working?",
-            "Are they working?"
-          ],
-          "color": "#e9c46a"
-        }
-      ],
-      "uses": [
-        {
-          "title": "Acciones en progreso ahora",
-          "example": "I am studying Spanish right now."
-        },
-        {
-          "title": "Acciones temporales",
-          "example": "She is staying with her parents until she finds an apartment."
-        },
-        {
-          "title": "Planes futuros acordados",
-          "example": "We are meeting at the restaurant at 8 PM."
-        },
-        {
-          "title": "Situaciones cambiantes",
-          "example": "The weather is getting better."
-        }
-      ],
-      "timeExpressions": [
-        "Now, right now, at the moment",
-        "Today, this week/month",
-        "Currently, presently",
-        "These days, nowadays",
-        "Still, at present"
-      ],
-      "notes": [
-        {
-          "type": "paragraph",
-          "text": "Algunos verbos no suelen usarse en forma continua (verbos de estado):"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Verbos de pensamiento: think, believe, understand",
-            "Verbos de sentimientos: love, hate, like",
-            "Verbos de posesión: have, own, belong",
-            "Verbos de percepción: see, hear, smell"
-          ]
-        }
-      ],
-      "tips": [
-        {
-          "text": "El presente continuo también se usa para quejas con 'always': 'He is always losing his keys.'"
-        }
-      ],
-      "spanishConjunction": [
-        {
-          "verb": "comprar (to buy)",
-          "conjugations": [
-            { "person": "yo", "conjugation": "compro" },
-            { "person": "tú", "conjugation": "compras" },
-            { "person": "él/ella", "conjugation": "compra" },
-            { "person": "nosotros", "conjugation": "compramos" },
-            { "person": "ustedes", "conjugation": "compran" },
-            { "person": "ellos/ellas", "conjugation": "compran" }
-          ]
-        },
-        {
-          "verb": "correr (to run)",
-          "conjugations": [
-            { "person": "yo", "conjugation": "corro" },
-            { "person": "tú", "conjugation": "corres" },
-            { "person": "él/ella", "conjugation": "corre" },
-            { "person": "nosotros", "conjugation": "corremos" },
-            { "person": "ustedes", "conjugation": "corren" },
-            { "person": "ellos/ellas", "conjugation": "corren" }
-          ]
-        },
-        {
-          "verb": "vivir (to live)",
-          "conjugations": [
-            { "person": "yo", "conjugation": "vivo" },
-            { "person": "tú", "conjugation": "vives" },
-            { "person": "él/ella", "conjugation": "vive" },
-            { "person": "nosotros", "conjugation": "vivimos" },
-            { "person": "ustedes", "conjugation": "viven" },
-            { "person": "ellos/ellas", "conjugation": "viven" }
-          ]
-        }
-      ],
-      "englishConjugation": [
-        {
-          "verb": "to buy (comprar)",
-          "conjugations": [
-            { "person": "I", "conjugation": "buy" },
-            { "person": "You", "conjugation": "buy" },
-            { "person": "He/She/It", "conjugation": "buys" },
-            { "person": "We", "conjugation": "buy" },
-            { "person": "You (plural)", "conjugation": "buy" },
-            { "person": "They", "conjugation": "buy" }
-          ]
-        },
-        {
-          "verb": "to run (correr)",
-          "conjugations": [
-            { "person": "I", "conjugation": "run" },
-            { "person": "You", "conjugation": "run" },
-            { "person": "He/She/It", "conjugation": "runs" },
-            { "person": "We", "conjugation": "run" },
-            { "person": "You (plural)", "conjugation": "run" },
-            { "person": "They", "conjugation": "run" }
-          ]
-        },
-        {
-          "verb": "to live (vivir)",
-          "conjugations": [
-            { "person": "I", "conjugation": "live" },
-            { "person": "You", "conjugation": "live" },
-            { "person": "He/She/It", "conjugation": "lives" },
-            { "person": "We", "conjugation": "live" },
-            { "person": "You (plural)", "conjugation": "live" },
-            { "person": "They", "conjugation": "live" }
-          ]
-        }
-      ]
-    },
-    {
       "id": "past-simple",
       "name": "Pasado Simple",
       "category": "tenses",
       "description": "Acciones completadas en el pasado, en un momento específico",
+      "categoryDescription": "Tiempos simples: Perfectos para describir acciones en un momento específico sin considerar su duración. Ejemplos: «I eat» (presente simple), «I ate» (pasado simple), y «I will eat» (futuro simple).",
+      "detailedDescription": "El Pasado Simple en inglés se usa para acciones pasadas que ocurrieron y finalizaron en un momento específico del pasado. Ejemplo: «I ate breakfast yesterday.»",
       "textColor": "#f4a261",
       "structure": {
-        "affirmative": "**Sujeto** + **verbo en pasado** + complemento",
-        "negative": "**Sujeto** + **didn't** + infinitivo + complemento",
-        "interrogative": "**Did** + sujeto + infinitivo + complemento?"
+        "affirmative": "**Sujeto** + **verbo en pasado** (regular: -ed; irregular: forma específica) + complemento",
+        "negative": "**Sujeto** + **did not** (o su contracción: didn't) + **verbo infinitivo** + complemento",
+        "interrogative": "**Did** + sujeto + **verbo infinitivo** + complemento?"
       },
       "examples": [
         {
@@ -465,145 +313,33 @@
       ]
     },
     {
-      "id": "past-continuous",
-      "name": "Pasado Continuo",
-      "category": "tenses",
-      "description": "Acciones en progreso en un momento específico del pasado",
-      "textColor": "#e76f51",
-      "structure": {
-        "affirmative": "**Sujeto** + **was/were** + verbo-ing + complemento",
-        "negative": "**Sujeto** + **wasn't/weren't** + verbo-ing+ complemento",
-        "interrogative": "**Was/Were** + sujeto + verbo-ing + complemento?"
-      },
-      "examples": [
-        {
-          "title": "Afirmativo",
-          "examples": ["I was working", "You were working", "He/She/It was working", "We were working", "They were working"],
-          "color": "#e76f51"
-        },
-        {
-          "title": "Negativo",
-          "examples": ["I wasn't working", "You weren't working", "He/She/It wasn't working", "We weren't working", "They weren't working"],
-          "color": "#e76f51"
-        },
-        {
-          "title": "Interrogativo",
-          "examples": ["Was I working?", "Were you working?", "Was he/she/it working?", "Were we working?", "Were they working?"],
-          "color": "#e76f51"
-        }
-      ],
-      "uses": [
-        {
-          "title": "Acciones en progreso en un momento específico del pasado",
-          "example": "I was watching TV at 8 PM yesterday. (Estaba viendo televisión a las 8PM ayer.) - I was reading at 10 PM. (Estaba leyendo a las 10PM ayer.)"
-        },
-        {
-          "title": "Acciones simultáneas en el pasado",
-          "example": "While I was studying, my brother was playing video games. (Mientras estaba estudiando, mi hermano jugaba videojuegos) - While I was cooking, she was cleaning. (Mientras yo cocinaba, ella limpiaba.)"
-        },
-        {
-          "title": "Interrupción de una acción en progreso",
-          "example": "I was walking down the street when I saw an accident. (Estaba caminando por la calle cuando vi un accidente.) - I was sleeping when the phone rang. (Estaba durmiendo cuando sonó el teléfono.)"
-        }
-      ],
-      "timeExpressions": ["While", "When", "As", "At that moment", "Yesterday at 6 PM"],
-      "spanishConjunction": [
-        {
-          "verb": "comprar (to buy)",
-          "conjugations": [
-            { "person": "yo", "conjugation": "estaba comprando" },
-            { "person": "tú", "conjugation": "estabas comprando" },
-            { "person": "él/ella", "conjugation": "estaba comprando" },
-            { "person": "nosotros", "conjugation": "estábamos comprando" },
-            { "person": "ustedes", "conjugation": "estaban comprando" },
-            { "person": "ellos/ellas", "conjugation": "estaban comprando" }
-          ]
-        },
-        {
-          "verb": "correr (to run)",
-          "conjugations": [
-            { "person": "yo", "conjugation": "estaba corriendo" },
-            { "person": "tú", "conjugation": "estabas corriendo" },
-            { "person": "él/ella", "conjugation": "estaba corriendo" },
-            { "person": "nosotros", "conjugation": "estabamos corriendo" },
-            { "person": "ustedes", "conjugation": "estaban corriendo" },
-            { "person": "ellos/ellas", "conjugation": "estaban corriendo" }
-          ]
-        },
-        {
-          "verb": "vivir (to live)",
-          "conjugations": [
-            { "person": "yo", "conjugation": "estaba viviendo" },
-            { "person": "tú", "conjugation": "estabas viviendo" },
-            { "person": "él/ella", "conjugation": "estaba viviendo" },
-            { "person": "nosotros", "conjugation": "estabamos viviendo" },
-            { "person": "ustedes", "conjugation": "estaban viviendo" },
-            { "person": "ellos/ellas", "conjugation": "estaban viviendo" }
-          ]
-        }
-      ],
-      "englishConjugation": [
-        {
-          "verb": "to buy (comprar)",
-          "conjugations": [
-            { "person": "I", "conjugation": "was buying" },
-            { "person": "You", "conjugation": "were buying" },
-            { "person": "He/She/It", "conjugation": "was buying" },
-            { "person": "We", "conjugation": "were buying" },
-            { "person": "You (plural)", "conjugation": "were buying" },
-            { "person": "They", "conjugation": "were buying" }
-          ]
-        },
-        {
-          "verb": "to run (correr)",
-          "conjugations": [
-            { "person": "I", "conjugation": "was running" },
-            { "person": "You", "conjugation": "were running" },
-            { "person": "He/She/It", "conjugation": "was running" },
-            { "person": "We", "conjugation": "were running" },
-            { "person": "You (plural)", "conjugation": "were running" },
-            { "person": "They", "conjugation": "were running" }
-          ]
-        },
-        {
-          "verb": "to live (vivir)",
-          "conjugations": [
-            { "person": "I", "conjugation": "was living" },
-            { "person": "You", "conjugation": "were living" },
-            { "person": "He/She/It", "conjugation": "was living" },
-            { "person": "We", "conjugation": "were living" },
-            { "person": "You (plural)", "conjugation": "were living" },
-            { "person": "They", "conjugation": "were living" }
-          ]
-        }
-      ]
-    },
-    {
       "id": "future-simple",
       "name": "Futuro Simple",
       "category": "tenses",
       "description": "Acciones que ocurrirán en el futuro, predicciones, promesas.",
+      "categoryDescription": "Tiempos simples: Perfectos para describir acciones en un momento específico sin considerar su duración. Ejemplos: «I eat» (presente simple), «I ate» (pasado simple), y «I will eat» (futuro simple).",
+      "detailedDescription": "El Futuro Simple en inglés se utiliza para acciones que ocurrirán en el futuro. Ejemplo: «I will eat breakfast tomorrow.»",
       "textColor": "#264653",
       "structure": {
-        "affirmative": "**Sujeto** + **will** + infinitivo + complemento",
-        "negative": "**Sujeto** + **will not (won't)** + infinitivo + complemento",
-        "interrogative": "**Will** + sujeto + infinitivo + complemento?"
+        "affirmative": "**Sujeto** + **will** + **verbo infinitivo** + complemento",
+        "negative": "**Sujeto** + **will not** (o su contracción: won't) + **verbo infinitivo** + complemento",
+        "interrogative": "**Will** + sujeto + **verbo infinitivo** + complemento?"
       },
       "examples": [
         {
           "title": "Afirmativo",
           "examples": ["I will work", "You will work", "He/She/It will work", "We will work", "They will work"],
-          "color": "#264653"
+          "color": "#2a9d8f"
         },
         {
           "title": "Negativo",
           "examples": ["I won't work", "You won't work", "He/She/It won't work", "We won't work", "They won't work"],
-          "color": "#264653"
+          "color": "#e76f51"
         },
         {
           "title": "Interrogativo",
           "examples": ["Will I work?", "Will you work?", "Will he/she/it work?", "Will we work?", "Will they work?"],
-          "color": "#264653"
+          "color": "#e9c46a"
         }
       ],
       "uses": [
@@ -693,15 +429,436 @@
       ]
     },
     {
+      "id": "present-continuous",
+      "name": "Presente Continuo",
+      "category": "tenses",
+      "description": "Acciones que ocurren en este momento o alrededor del presente.",
+      "categoryDescription": "Tiempos continuos: Utilizados para describir acciones en progreso en un momento específico. Se forman con el verbo «to be» y el gerundio del verbo principal. Ejemplos: «I am eating» (presente continuo), «I was eating» (pasado continuo), y «I will be eating» (futuro continuo).",
+      "detailedDescription": "El Presente Continuo en inglés indica acciones que están ocurriendo en este momento. Ejemplo: «I am eating breakfast right now.»",
+      "textColor": "#e9c46a",
+      "structure": {
+        "affirmative": "**Sujeto** + **am/is/are** + **verbo-ing** + complemento",
+        "negative": "**Sujeto** + **am/is/are** + **not** + **verbo-ing** + complemento",
+        "interrogative": "**Am/Is/Are** + sujeto + **verbo-ing** + complemento?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": ["I am working", "You are working", "He/She/It is working", "We are working", "They are working"],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": [
+            "I am not working",
+            "You are not working",
+            "He/She/It is not working",
+            "We are not working",
+            "They are not working"
+          ],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": [
+            "Am I working?",
+            "Are you working?",
+            "Is he/she/it working?",
+            "Are we working?",
+            "Are they working?"
+          ],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Acciones en progreso ahora",
+          "example": "I am studying Spanish right now."
+        },
+        {
+          "title": "Acciones temporales",
+          "example": "She is staying with her parents until she finds an apartment."
+        },
+        {
+          "title": "Planes futuros acordados",
+          "example": "We are meeting at the restaurant at 8 PM."
+        },
+        {
+          "title": "Situaciones cambiantes",
+          "example": "The weather is getting better."
+        }
+      ],
+      "timeExpressions": [
+        "Now, right now, at the moment",
+        "Today, this week/month",
+        "Currently, presently",
+        "These days, nowadays",
+        "Still, at present"
+      ],
+      "notes": [
+        {
+          "type": "paragraph",
+          "text": "Algunos verbos no suelen usarse en forma continua (verbos de estado):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Verbos de pensamiento: think, believe, understand",
+            "Verbos de sentimientos: love, hate, like",
+            "Verbos de posesión: have, own, belong",
+            "Verbos de percepción: see, hear, smell"
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "El presente continuo también se usa para quejas con 'always': 'He is always losing his keys.'"
+        }
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estoy comprando" },
+            { "person": "tú", "conjugation": "estás comprando" },
+            { "person": "él/ella", "conjugation": "está comprando" },
+            { "person": "nosotros", "conjugation": "estamos comprando" },
+            { "person": "ustedes", "conjugation": "están comprando" },
+            { "person": "ellos/ellas", "conjugation": "están comprando" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estoy corriendo" },
+            { "person": "tú", "conjugation": "estás corriendo" },
+            { "person": "él/ella", "conjugation": "está corriendo" },
+            { "person": "nosotros", "conjugation": "estamos corriendo" },
+            { "person": "ustedes", "conjugation": "están corriendo" },
+            { "person": "ellos/ellas", "conjugation": "están corriendo" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estoy viviendo" },
+            { "person": "tú", "conjugation": "estás viviendo" },
+            { "person": "él/ella", "conjugation": "está viviendo" },
+            { "person": "nosotros", "conjugation": "estamos viviendo" },
+            { "person": "ustedes", "conjugation": "están viviendo" },
+            { "person": "ellos/ellas", "conjugation": "están viviendo" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "am buying" },
+            { "person": "You", "conjugation": "are buying" },
+            { "person": "He/She/It", "conjugation": "is buying" },
+            { "person": "We", "conjugation": "are buying" },
+            { "person": "You (plural)", "conjugation": "are buying" },
+            { "person": "They", "conjugation": "are buying" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "am running" },
+            { "person": "You", "conjugation": "are running" },
+            { "person": "He/She/It", "conjugation": "is running" },
+            { "person": "We", "conjugation": "are running" },
+            { "person": "You (plural)", "conjugation": "are running" },
+            { "person": "They", "conjugation": "are running" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "am living" },
+            { "person": "You", "conjugation": "are living" },
+            { "person": "He/She/It", "conjugation": "is living" },
+            { "person": "We", "conjugation": "are living" },
+            { "person": "You (plural)", "conjugation": "are living" },
+            { "person": "They", "conjugation": "are living" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "past-continuous",
+      "name": "Pasado Continuo",
+      "category": "tenses",
+      "description": "Acciones en progreso en un momento específico del pasado",
+      "categoryDescription": "Tiempos continuos: Utilizados para describir acciones en progreso en un momento específico. Se forman con el verbo «to be» y el gerundio del verbo principal. Ejemplos: «I am eating» (presente continuo), «I was eating» (pasado continuo), y «I will be eating» (futuro continuo).",
+      "detailedDescription": "El Pasado Continuo en inglés describe acciones pasadas que estaban ocurriendo en un momento específico del pasado. Ejemplo: «I was eating breakfast when you called.»",
+      "textColor": "#e76f51",
+      "structure": {
+        "affirmative": "**Sujeto** + **was/were** + **verbo-ing** + complemento",
+        "negative": "**Sujeto** + **was not/were not** (wasn't/weren't) + **verbo-ing** + complemento",
+        "interrogative": "**Was/Were** + sujeto + **verbo-ing** + complemento?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": ["I was working", "You were working", "He/She/It was working", "We were working", "They were working"],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Negativo",
+          "examples": ["I wasn't working", "You weren't working", "He/She/It wasn't working", "We weren't working", "They weren't working"],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": ["Was I working?", "Were you working?", "Was he/she/it working?", "Were we working?", "Were they working?"],
+          "color": "#e76f51"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Acciones en progreso en un momento específico del pasado",
+          "example": "I was watching TV at 8 PM yesterday. (Estaba viendo televisión a las 8PM ayer.) - I was reading at 10 PM. (Estaba leyendo a las 10PM ayer.)"
+        },
+        {
+          "title": "Acciones simultáneas en el pasado",
+          "example": "While I was studying, my brother was playing video games. (Mientras estaba estudiando, mi hermano jugaba videojuegos) - While I was cooking, she was cleaning. (Mientras yo cocinaba, ella limpiaba.)"
+        },
+        {
+          "title": "Interrupción de una acción en progreso",
+          "example": "I was walking down the street when I saw an accident. (Estaba caminando por la calle cuando vi un accidente.) - I was sleeping when the phone rang. (Estaba durmiendo cuando sonó el teléfono.)"
+        }
+      ],
+      "timeExpressions": [
+        "While", 
+        "When", 
+        "As", 
+        "At that moment", 
+        "Yesterday at 6 PM"
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estaba comprando" },
+            { "person": "tú", "conjugation": "estabas comprando" },
+            { "person": "él/ella", "conjugation": "estaba comprando" },
+            { "person": "nosotros", "conjugation": "estábamos comprando" },
+            { "person": "ustedes", "conjugation": "estaban comprando" },
+            { "person": "ellos/ellas", "conjugation": "estaban comprando" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estaba corriendo" },
+            { "person": "tú", "conjugation": "estabas corriendo" },
+            { "person": "él/ella", "conjugation": "estaba corriendo" },
+            { "person": "nosotros", "conjugation": "estabamos corriendo" },
+            { "person": "ustedes", "conjugation": "estaban corriendo" },
+            { "person": "ellos/ellas", "conjugation": "estaban corriendo" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estaba viviendo" },
+            { "person": "tú", "conjugation": "estabas viviendo" },
+            { "person": "él/ella", "conjugation": "estaba viviendo" },
+            { "person": "nosotros", "conjugation": "estabamos viviendo" },
+            { "person": "ustedes", "conjugation": "estaban viviendo" },
+            { "person": "ellos/ellas", "conjugation": "estaban viviendo" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "was buying" },
+            { "person": "You", "conjugation": "were buying" },
+            { "person": "He/She/It", "conjugation": "was buying" },
+            { "person": "We", "conjugation": "were buying" },
+            { "person": "You (plural)", "conjugation": "were buying" },
+            { "person": "They", "conjugation": "were buying" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "was running" },
+            { "person": "You", "conjugation": "were running" },
+            { "person": "He/She/It", "conjugation": "was running" },
+            { "person": "We", "conjugation": "were running" },
+            { "person": "You (plural)", "conjugation": "were running" },
+            { "person": "They", "conjugation": "were running" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "was living" },
+            { "person": "You", "conjugation": "were living" },
+            { "person": "He/She/It", "conjugation": "was living" },
+            { "person": "We", "conjugation": "were living" },
+            { "person": "You (plural)", "conjugation": "were living" },
+            { "person": "They", "conjugation": "were living" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "future-continuous",
+      "name": "Futuro Continuo",
+      "category": "tenses",
+      "description": "Acciones en progreso en el futuro",
+      "categoryDescription": "Tiempos continuos: Utilizados para describir acciones en progreso en un momento específico. Se forman con el verbo «to be» y el gerundio del verbo principal. Ejemplos: «I am eating» (presente continuo), «I was eating» (pasado continuo), y «I will be eating» (futuro continuo).",
+      "detailedDescription": "El Futuro Continuo en inglés indica acciones futuras que estarán ocurriendo (en progreso) en un momento específico del futuro. Ejemplo: «I will be eating breakfast at 8 AM tomorrow.»",
+      "textColor": "#8b5cf6",
+      "structure": {
+        "affirmative": "**Sujeto** + **will be** + **verbo-ing** + complemento",
+        "negative": "**Sujeto** + **will not be** (won't be) + **verbo-ing** + complemento",
+        "interrogative": "**Will** + sujeto + **be** + **verbo-ing** + complemento?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": [
+            "I will be working",
+            "You will be working",
+            "He/She/It will be working",
+            "We will be working",
+            "They will be working"
+          ],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": [
+            "I won't be working",
+            "You won't be working",
+            "He/She/It won't be working",
+            "We won't be working",
+            "They won't be working"
+          ],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": [
+            "Will I be working?",
+            "Will you be working?",
+            "Will he/she/it be working?",
+            "Will we be working?",
+            "Will they be working?"
+          ],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Acciones en progreso en el futuro",
+          "example": "At 10 AM tomorrow, I will be attending a meeting. (A las 10 AM mañana, estaré asistiendo a una reunión)"
+        },
+        {
+          "title": "Planes futuros en progreso",
+          "example": "This time next week, we will be flying to Paris. (A esta hora la próxima semana, estaremos volando a París)"
+        },
+        {
+          "title": "Predicciones sobre el futuro",
+          "example": "People will be using electric cars more in the future. (La gente usará más autos eléctricos en el futuro)"
+        }
+      ],
+      "timeExpressions": [
+        "At this time tomorrow/next week",
+        "In the future, soon",
+        "By next year",
+        "This time next month"
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estaré comprando" },
+            { "person": "tú", "conjugation": "estarás comprando" },
+            { "person": "él/ella", "conjugation": "estará comprando" },
+            { "person": "nosotros", "conjugation": "estaremos comprando" },
+            { "person": "ustedes", "conjugation": "estarán comprando" },
+            { "person": "ellos/ellas", "conjugation": "estarán comprando" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estaré corriendo" },
+            { "person": "tú", "conjugation": "estarás corriendo" },
+            { "person": "él/ella", "conjugation": "estará corriendo" },
+            { "person": "nosotros", "conjugation": "estaremos corriendo" },
+            { "person": "ustedes", "conjugation": "estarán corriendo" },
+            { "person": "ellos/ellas", "conjugation": "estarán corriendo" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "estaré viviendo" },
+            { "person": "tú", "conjugation": "estarás viviendo" },
+            { "person": "él/ella", "conjugation": "estará viviendo" },
+            { "person": "nosotros", "conjugation": "estaremos viviendo" },
+            { "person": "ustedes", "conjugation": "estarán viviendo" },
+            { "person": "ellos/ellas", "conjugation": "estarán viviendo" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will be buying" },
+            { "person": "You", "conjugation": "will be buying" },
+            { "person": "He/She/It", "conjugation": "will be buying" },
+            { "person": "We", "conjugation": "will be buying" },
+            { "person": "You (plural)", "conjugation": "will be buying" },
+            { "person": "They", "conjugation": "will be buying" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will be running" },
+            { "person": "You", "conjugation": "will be running" },
+            { "person": "He/She/It", "conjugation": "will be running" },
+            { "person": "We", "conjugation": "will be running" },
+            { "person": "You (plural)", "conjugation": "will be running" },
+            { "person": "They", "conjugation": "will be running" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will be living" },
+            { "person": "You", "conjugation": "will be living" },
+            { "person": "He/She/It", "conjugation": "will be living" },
+            { "person": "We", "conjugation": "will be living" },
+            { "person": "You (plural)", "conjugation": "will be living" },
+            { "person": "They", "conjugation": "will be living" }
+          ]
+        }
+      ]
+    },
+    {
       "id": "present-perfect",
       "name": "Presente Perfecto",
       "category": "tenses",
       "description": "Conexión entre pasado y presente. Acciones pasadas con relevancia en el presente o experiencias de vida.",
+      "categoryDescription": "Tiempos compuestos: Ideales para expresar acciones completadas antes de otro punto en el tiempo. Usan el verbo auxiliar «have». Ejemplos: «I have eaten» (presente perfecto), «I had eaten» (pasado perfecto), y «I will have eaten» (futuro perfecto).",
+      "detailedDescription": "El Presente Perfecto en inglés se utiliza para acciones que ocurrieron en un momento no específico en el pasado y que tienen relevancia en el presente. Ejemplo: «I have eaten breakfast.»",
       "textColor": "#2a9d8f",
       "structure": {
-        "affirmative": "**Sujeto** + **have/has** + participio pasado + complemento",
-        "negative": "**Sujeto** + **haven't/hasn't** + participio pasado + complemento",
-        "interrogative": "**Have/Has** + sujeto + participio pasado + complemento?"
+        "affirmative": "**Sujeto** + **have/has** + **participio pasado** + complemento",
+        "negative": "**Sujeto** + **have not/has not** (haven't/hasn't) + **participio pasado** + complemento",
+        "interrogative": "**Have/Has** + sujeto + **participio pasado** + complemento?"
       },
       "examples": [
         {
@@ -734,7 +891,17 @@
           "example": "I have lost my keys. - He has just finished his homework."
         }
       ],
-      "timeExpressions": ["For", "Since", "Just", "Already", "Yet", "Ever", "Never", "So far", "Up to now"],
+      "timeExpressions": [
+        "For", 
+        "Since", 
+        "Just", 
+        "Already", 
+        "Yet", 
+        "Ever", 
+        "Never", 
+        "So far", 
+        "Up to now"
+      ],
       "notes": [
         {
           "type": "paragraph",
@@ -812,6 +979,690 @@
             { "person": "We", "conjugation": "have lived" },
             { "person": "You (plural)", "conjugation": "have lived" },
             { "person": "They", "conjugation": "have lived" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "past-perfect",
+      "name": "Pasado Perfecto",
+      "category": "tenses",
+      "description": "Acciones anteriores a otra acción pasada",
+      "categoryDescription": "Tiempos perfectos: Ideales para expresar acciones completadas antes de otro punto en el tiempo. Conectan dos momentos en el tiempo, mostrando la relación entre una acción pasada y su relevancia en otro momento. Ejemplos: «I have eaten» (presente perfecto), «I had eaten» (pasado perfecto), y «I will have eaten» (futuro perfecto).",
+      "detailedDescription": "El Pasado Perfecto describe acciones que ocurrieron antes de otra acción o momento en el pasado. Ejemplo: «I had finished my work before she arrived.»",
+      "textColor": "#dc2626",
+      "structure": {
+        "affirmative": "**Sujeto** + **had** + **participio pasado** + complemento",
+        "negative": "**Sujeto** + **had not** (hadn't) + **participio pasado** + complemento",
+        "interrogative": "**Had** + sujeto + **participio pasado** + complemento?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": ["I had worked", "You had worked", "He/She/It had worked", "We had worked", "They had worked"],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": [
+            "I hadn't worked",
+            "You hadn't worked",
+            "He/She/It hadn't worked",
+            "We hadn't worked",
+            "They hadn't worked"
+          ],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": [
+            "Had I worked?",
+            "Had you worked?",
+            "Had he/she/it worked?",
+            "Had we worked?",
+            "Had they worked?"
+          ],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Acción anterior a otra pasada",
+          "example": "I had eaten dinner before she called. (Había cenado antes de que ella llamara)"
+        },
+        {
+          "title": "Causa y efecto en el pasado",
+          "example": "He was tired because he had worked all day. (Estaba cansado porque había trabajado todo el día)"
+        },
+        {
+          "title": "Experiencias hasta un punto del pasado",
+          "example": "By 2010, I had visited 15 countries. (Para 2010, había visitado 15 países)"
+        }
+      ],
+      "timeExpressions": [
+        "Before, after, when", 
+        "By the time, until", 
+        "Already, just, never", 
+        "By 2020, by then"
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "había comprado" },
+            { "person": "tú", "conjugation": "habías comprado" },
+            { "person": "él/ella", "conjugation": "había comprado" },
+            { "person": "nosotros", "conjugation": "habíamos comprado" },
+            { "person": "ustedes", "conjugation": "habían comprado" },
+            { "person": "ellos/ellas", "conjugation": "habían comprado" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "había corrido" },
+            { "person": "tú", "conjugation": "habías corrido" },
+            { "person": "él/ella", "conjugation": "había corrido" },
+            { "person": "nosotros", "conjugation": "habíamos corrido" },
+            { "person": "ustedes", "conjugation": "habían corrido" },
+            { "person": "ellos/ellas", "conjugation": "habían corrido" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "había vivido" },
+            { "person": "tú", "conjugation": "habías vivido" },
+            { "person": "él/ella", "conjugation": "había vivido" },
+            { "person": "nosotros", "conjugation": "habíamos vivido" },
+            { "person": "ustedes", "conjugation": "habían vivido" },
+            { "person": "ellos/ellas", "conjugation": "habían vivido" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "had bought" },
+            { "person": "You", "conjugation": "had bought" },
+            { "person": "He/She/It", "conjugation": "had bought" },
+            { "person": "We", "conjugation": "had bought" },
+            { "person": "You (plural)", "conjugation": "had bought" },
+            { "person": "They", "conjugation": "had bought" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "had run" },
+            { "person": "You", "conjugation": "had run" },
+            { "person": "He/She/It", "conjugation": "had run" },
+            { "person": "We", "conjugation": "had run" },
+            { "person": "You (plural)", "conjugation": "had run" },
+            { "person": "They", "conjugation": "had run" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "had lived" },
+            { "person": "You", "conjugation": "had lived" },
+            { "person": "He/She/It", "conjugation": "had lived" },
+            { "person": "We", "conjugation": "had lived" },
+            { "person": "You (plural)", "conjugation": "had lived" },
+            { "person": "They", "conjugation": "had lived" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "future-perfect",
+      "name": "Futuro Perfecto",
+      "category": "tenses",
+      "description": "Acciones completadas antes de un momento futuro",
+      "categoryDescription": "Tiempos perfectos: Ideales para expresar acciones completadas antes de otro punto en el tiempo. Conectan dos momentos en el tiempo, mostrando la relación entre una acción pasada y su relevancia en otro momento. Ejemplos: «I have eaten» (presente perfecto), «I had eaten» (pasado perfecto), y «I will have eaten» (futuro perfecto).",
+      "detailedDescription": "El Futuro Perfecto describe acciones que se completarán antes de un momento específico en el futuro. Ejemplo: «I will have finished my project by Friday.»",
+      "textColor": "#7c3aed",
+      "structure": {
+        "affirmative": "**Sujeto** + **will have** + **participio pasado** + complemento",
+        "negative": "**Sujeto** + **will not have** (won't have) + **participio pasado** + complemento",
+        "interrogative": "**Will** + sujeto + **have** + **participio pasado** + complemento?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": [
+            "I will have worked",
+            "You will have worked",
+            "He/She/It will have worked",
+            "We will have worked",
+            "They will have worked"
+          ],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": [
+            "I won't have worked",
+            "You won't have worked",
+            "He/She/It won't have worked",
+            "We won't have worked",
+            "They won't have worked"
+          ],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": [
+            "Will I have worked?",
+            "Will you have worked?",
+            "Will he/she/it have worked?",
+            "Will we have worked?",
+            "Will they have worked?"
+          ],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Acciones completadas antes de un momento futuro",
+          "example": "I will have finished my degree by next year. (Habré terminado mi carrera para el próximo año)"
+        },
+        {
+          "title": "Predicciones sobre logros futuros",
+          "example": "By 2030, scientists will have found a cure for cancer. (Para 2030, los científicos habrán encontrado una cura para el cáncer)"
+        },
+        {
+          "title": "Duración hasta un punto futuro",
+          "example": "By December, I will have lived here for five years. (Para diciembre, habré vivido aquí por cinco años)"
+        }
+      ],
+      "timeExpressions": [
+        "By next week/month/year", 
+        "By the time, before", 
+        "By then, by 2025", 
+        "In five years' time"
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "habré comprado" },
+            { "person": "tú", "conjugation": "habrás comprado" },
+            { "person": "él/ella", "conjugation": "habrá comprado" },
+            { "person": "nosotros", "conjugation": "habremos comprado" },
+            { "person": "ustedes", "conjugation": "habrán comprado" },
+            { "person": "ellos/ellas", "conjugation": "habrán comprado" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "habré corrido" },
+            { "person": "tú", "conjugation": "habrás corrido" },
+            { "person": "él/ella", "conjugation": "habrá corrido" },
+            { "person": "nosotros", "conjugation": "habremos corrido" },
+            { "person": "ustedes", "conjugation": "habrán corrido" },
+            { "person": "ellos/ellas", "conjugation": "habrán corrido" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "habré vivido" },
+            { "person": "tú", "conjugation": "habrás vivido" },
+            { "person": "él/ella", "conjugation": "habrá vivido" },
+            { "person": "nosotros", "conjugation": "habremos vivido" },
+            { "person": "ustedes", "conjugation": "habrán vivido" },
+            { "person": "ellos/ellas", "conjugation": "habrán vivido" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will have bought" },
+            { "person": "You", "conjugation": "will have bought" },
+            { "person": "He/She/It", "conjugation": "will have bought" },
+            { "person": "We", "conjugation": "will have bought" },
+            { "person": "You (plural)", "conjugation": "will have bought" },
+            { "person": "They", "conjugation": "will have bought" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will have run" },
+            { "person": "You", "conjugation": "will have run" },
+            { "person": "He/She/It", "conjugation": "will have run" },
+            { "person": "We", "conjugation": "will have run" },
+            { "person": "You (plural)", "conjugation": "will have run" },
+            { "person": "They", "conjugation": "will have run" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will have lived" },
+            { "person": "You", "conjugation": "will have lived" },
+            { "person": "He/She/It", "conjugation": "will have lived" },
+            { "person": "We", "conjugation": "will have lived" },
+            { "person": "You (plural)", "conjugation": "will have lived" },
+            { "person": "They", "conjugation": "will have lived" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous",
+      "name": "Presente Perfecto Continuo",
+      "category": "tenses",
+      "description": "Acciones que comenzaron en el pasado y continúan hasta el presente o acaban de terminar con énfasis en la duración.",
+      "categoryDescription": "Tiempos perfectos continuos: Combinan características de los tiempos compuestos y continuos, y se usan para hablar de la duración de una acción en progreso antes de otro punto en el tiempo. Ejemplos: «I have been eating» (presente perfecto continuo), «I had been eating» (pasado perfecto continuo), y «I will have been eating» (futuro perfecto continuo).",
+      "detailedDescription": "El Presente Perfecto Continuo se utiliza para hablar de acciones que comenzaron en el pasado y continúan hasta ahora, o acaban de terminar pero tienen un resultado visible. Ejemplo: «I have been studying all day.»",
+      "textColor": "#264653",
+      "structure": {
+        "affirmative": "**Sujeto** + **have/has** + **been** + verbo en **-ing** + complemento",
+        "negative": "**Sujeto** + **haven't/hasn't** + **been** + verbo en **-ing** + complemento",
+        "interrogative": "**Have/Has** + sujeto + **been** + verbo en **-ing** + complemento?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": ["I have been working", "You have been working", "He/She/It has been working", "We have been working", "They have been working"],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": ["I haven't been working", "You haven't been working", "He/She/It hasn't been working", "We haven't been working", "They haven't been working"],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": ["Have I been working?", "Have you been working?", "Has he/she/it been working?", "Have we been working?", "Have they been working?"],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Acciones que comenzaron en el pasado y siguen ocurriendo",
+          "example": "I have been studying English for two hours. - She has been working here since 2015."
+        },
+        {
+          "title": "Acciones recientes con resultados visibles",
+          "example": "You look tired. Have you been running? - He's been crying."
+        },
+        {
+          "title": "Énfasis en la duración de una actividad",
+          "example": "They have been talking for over an hour. - I have been waiting since morning."
+        }
+      ],
+      "timeExpressions": [
+        "For", "Since", "Lately", "Recently", "All day", "All morning", "How long?"
+      ],
+      "notes": [
+        {
+          "type": "paragraph",
+          "text": "Se forma con el auxiliar «have/has», seguido de «been» y el verbo en gerundio (-ing)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Se usa principalmente con verbos de acción; no es común con verbos de estado como 'know', 'like', 'believe'."
+        }
+      ],
+      "tips": [
+        {
+          "text": "El uso de 'for' indica una duración (por ejemplo, for two hours), mientras que 'since' señala un punto en el tiempo (por ejemplo, since 2010).",
+          "image": "url/image"
+        }
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "he estado comprando" },
+            { "person": "tú", "conjugation": "has estado comprando" },
+            { "person": "él/ella", "conjugation": "ha estado comprando" },
+            { "person": "nosotros", "conjugation": "hemos estado comprando" },
+            { "person": "ustedes", "conjugation": "han estado comprando" },
+            { "person": "ellos/ellas", "conjugation": "han estado comprando" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "he estado corriendo" },
+            { "person": "tú", "conjugation": "has estado corriendo" },
+            { "person": "él/ella", "conjugation": "ha estado corriendo" },
+            { "person": "nosotros", "conjugation": "hemos estado corriendo" },
+            { "person": "ustedes", "conjugation": "han estado corriendo" },
+            { "person": "ellos/ellas", "conjugation": "han estado corriendo" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "he estado viviendo" },
+            { "person": "tú", "conjugation": "has estado viviendo" },
+            { "person": "él/ella", "conjugation": "ha estado viviendo" },
+            { "person": "nosotros", "conjugation": "hemos estado viviendo" },
+            { "person": "ustedes", "conjugation": "han estado viviendo" },
+            { "person": "ellos/ellas", "conjugation": "han estado viviendo" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "have been buying" },
+            { "person": "You", "conjugation": "have been buying" },
+            { "person": "He/She/It", "conjugation": "has been buying" },
+            { "person": "We", "conjugation": "have been buying" },
+            { "person": "You (plural)", "conjugation": "have been buying" },
+            { "person": "They", "conjugation": "have been buying" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "have been running" },
+            { "person": "You", "conjugation": "have been running" },
+            { "person": "He/She/It", "conjugation": "has been running" },
+            { "person": "We", "conjugation": "have been running" },
+            { "person": "You (plural)", "conjugation": "have been running" },
+            { "person": "They", "conjugation": "have been running" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "have been living" },
+            { "person": "You", "conjugation": "have been living" },
+            { "person": "He/She/It", "conjugation": "has been living" },
+            { "person": "We", "conjugation": "have been living" },
+            { "person": "You (plural)", "conjugation": "have been living" },
+            { "person": "They", "conjugation": "have been living" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous",
+      "name": "Pasado Perfecto Continuo",
+      "category": "tenses",
+      "description": "Acciones continuas antes de otra acción pasada",
+      "categoryDescription": "Tiempos perfectos continuos: Combinan características de los tiempos compuestos y continuos, y se usan para hablar de la duración de una acción en progreso antes de otro punto en el tiempo. Combinan la conexión temporal de los perfectos con el aspecto progresivo de los continuos. Ejemplos: «I have been eating» (presente perfecto continuo), «I had been eating» (pasado perfecto continuo), y «I will have been eating» (futuro perfecto continuo).",
+      "detailedDescription": "El Pasado Perfecto Continuo describe acciones que estuvieron en progreso durante un período antes de otra acción pasada. Ejemplo: «I had been working for two hours when she arrived.»",
+      "textColor": "#be185d",
+      "structure": {
+        "affirmative": "**Sujeto** + **had been** + **verbo-ing** + complemento",
+        "negative": "**Sujeto** + **had not been** (hadn't been) + **verbo-ing** + complemento",
+        "interrogative": "**Had** + sujeto + **been** + **verbo-ing** + complemento?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": [
+            "I had been working",
+            "You had been working",
+            "He/She/It had been working",
+            "We had been working",
+            "They had been working"
+          ],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": [
+            "I hadn't been working",
+            "You hadn't been working",
+            "He/She/It hadn't been working",
+            "We hadn't been working",
+            "They hadn't been working"
+          ],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": [
+            "Had I been working?",
+            "Had you been working?",
+            "Had he/she/it been working?",
+            "Had we been working?",
+            "Had they been working?"
+          ],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Duración antes de una acción pasada",
+          "example": "I had been studying for three hours when the power went out. (Había estado estudiando por tres horas cuando se fue la luz)"
+        },
+        {
+          "title": "Causa de una situación pasada",
+          "example": "She was exhausted because she had been running. (Estaba agotada porque había estado corriendo)"
+        },
+        {
+          "title": "Acciones interrumpidas en el pasado",
+          "example": "They had been living in Paris for five years before they moved to London. (Habían estado viviendo en París por cinco años antes de mudarse a Londres)"
+        }
+      ],
+      "timeExpressions": [
+        "For, since, before", 
+        "When, by the time", 
+        "All day/morning/night", 
+        "How long"
+      ],      
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "había estado comprando" },
+            { "person": "tú", "conjugation": "habías estado comprando" },
+            { "person": "él/ella", "conjugation": "había estado comprando" },
+            { "person": "nosotros", "conjugation": "habíamos estado comprando" },
+            { "person": "ustedes", "conjugation": "habían estado comprando" },
+            { "person": "ellos/ellas", "conjugation": "habían estado comprando" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "había estado corriendo" },
+            { "person": "tú", "conjugation": "habías estado corriendo" },
+            { "person": "él/ella", "conjugation": "había estado corriendo" },
+            { "person": "nosotros", "conjugation": "habíamos estado corriendo" },
+            { "person": "ustedes", "conjugation": "habían estado corriendo" },
+            { "person": "ellos/ellas", "conjugation": "habían estado corriendo" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "había estado viviendo" },
+            { "person": "tú", "conjugation": "habías estado viviendo" },
+            { "person": "él/ella", "conjugation": "había estado viviendo" },
+            { "person": "nosotros", "conjugation": "habíamos estado viviendo" },
+            { "person": "ustedes", "conjugation": "habían estado viviendo" },
+            { "person": "ellos/ellas", "conjugation": "habían estado viviendo" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "had been buying" },
+            { "person": "You", "conjugation": "had been buying" },
+            { "person": "He/She/It", "conjugation": "had been buying" },
+            { "person": "We", "conjugation": "had been buying" },
+            { "person": "You (plural)", "conjugation": "had been buying" },
+            { "person": "They", "conjugation": "had been buying" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "had been running" },
+            { "person": "You", "conjugation": "had been running" },
+            { "person": "He/She/It", "conjugation": "had been running" },
+            { "person": "We", "conjugation": "had been running" },
+            { "person": "You (plural)", "conjugation": "had been running" },
+            { "person": "They", "conjugation": "had been running" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "had been living" },
+            { "person": "You", "conjugation": "had been living" },
+            { "person": "He/She/It", "conjugation": "had been living" },
+            { "person": "We", "conjugation": "had been living" },
+            { "person": "You (plural)", "conjugation": "had been living" },
+            { "person": "They", "conjugation": "had been living" }
+          ]
+        }
+      ]
+    },  
+    {
+      "id": "future-perfect-continuous",
+      "name": "Futuro Perfecto Continuo",
+      "category": "tenses",
+      "description": "Duración de acciones hasta un momento futuro",
+      "categoryDescription": "Tiempos perfectos continuos: Combinan características de los tiempos compuestos y continuos, y se usan para hablar de la duración de una acción en progreso antes de otro punto en el tiempo. Combinan la conexión temporal de los perfectos con el aspecto progresivo de los continuos. Ejemplos: «I have been eating» (presente perfecto continuo), «I had been eating» (pasado perfecto continuo), y «I will have been eating» (futuro perfecto continuo).",
+      "detailedDescription": "El Futuro Perfecto Continuo enfatiza la duración de acciones que continuarán hasta un momento específico en el futuro. Ejemplo: «By next year, I will have been working here for ten years.»",
+      "textColor": "#9333ea",
+      "structure": {
+        "affirmative": "**Sujeto** + **will have been** + **verbo-ing** + complemento",
+        "negative": "**Sujeto** + **will not have been** (won't have been) + **verbo-ing** + complemento",
+        "interrogative": "**Will** + sujeto + **have been** + **verbo-ing** + complemento?"
+      },
+      "examples": [
+        {
+          "title": "Afirmativo",
+          "examples": [
+            "I will have been working",
+            "You will have been working",
+            "He/She/It will have been working",
+            "We will have been working",
+            "They will have been working"
+          ],
+          "color": "#2a9d8f"
+        },
+        {
+          "title": "Negativo",
+          "examples": [
+            "I won't have been working",
+            "You won't have been working",
+            "He/She/It won't have been working",
+            "We won't have been working",
+            "They won't have been working"
+          ],
+          "color": "#e76f51"
+        },
+        {
+          "title": "Interrogativo",
+          "examples": [
+            "Will I have been working?",
+            "Will you have been working?",
+            "Will he/she/it have been working?",
+            "Will we have been working?",
+            "Will they have been working?"
+          ],
+          "color": "#e9c46a"
+        }
+      ],
+      "uses": [
+        {
+          "title": "Duración hasta un momento futuro",
+          "example": "By December, I will have been living here for five years. (Para diciembre, habré estado viviendo aquí por cinco años)"
+        },
+        {
+          "title": "Predicciones sobre duración futura",
+          "example": "Next month, she will have been studying medicine for six years. (El próximo mes, habrá estado estudiando medicina por seis años)"
+        },
+        {
+          "title": "Causa futura de una situación",
+          "example": "He will be tired tomorrow because he will have been working all night. (Estará cansado mañana porque habrá estado trabajando toda la noche)"
+        }
+      ],
+      "timeExpressions": [
+        "By next week/month/year", 
+        "By the time, by then", 
+        "For, since", 
+        "In five years' time"
+      ],
+      "spanishConjunction": [
+        {
+          "verb": "comprar (to buy)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "habré estado comprando" },
+            { "person": "tú", "conjugation": "habrás estado comprando" },
+            { "person": "él/ella", "conjugation": "habrá estado comprando" },
+            { "person": "nosotros", "conjugation": "habremos estado comprando" },
+            { "person": "ustedes", "conjugation": "habrán estado comprando" },
+            { "person": "ellos/ellas", "conjugation": "habrán estado comprando" }
+          ]
+        },
+        {
+          "verb": "correr (to run)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "habré estado corriendo" },
+            { "person": "tú", "conjugation": "habrás estado corriendo" },
+            { "person": "él/ella", "conjugation": "habrá estado corriendo" },
+            { "person": "nosotros", "conjugation": "habremos estado corriendo" },
+            { "person": "ustedes", "conjugation": "habrán estado corriendo" },
+            { "person": "ellos/ellas", "conjugation": "habrán estado corriendo" }
+          ]
+        },
+        {
+          "verb": "vivir (to live)",
+          "conjugations": [
+            { "person": "yo", "conjugation": "habré estado viviendo" },
+            { "person": "tú", "conjugation": "habrás estado viviendo" },
+            { "person": "él/ella", "conjugation": "habrá estado viviendo" },
+            { "person": "nosotros", "conjugation": "habremos estado viviendo" },
+            { "person": "ustedes", "conjugation": "habrán estado viviendo" },
+            { "person": "ellos/ellas", "conjugation": "habrán estado viviendo" }
+          ]
+        }
+      ],
+      "englishConjugation": [
+        {
+          "verb": "to buy (comprar)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will have been buying" },
+            { "person": "You", "conjugation": "will have been buying" },
+            { "person": "He/She/It", "conjugation": "will have been buying" },
+            { "person": "We", "conjugation": "will have been buying" },
+            { "person": "You (plural)", "conjugation": "will have been buying" },
+            { "person": "They", "conjugation": "will have been buying" }
+          ]
+        },
+        {
+          "verb": "to run (correr)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will have been running" },
+            { "person": "You", "conjugation": "will have been running" },
+            { "person": "He/She/It", "conjugation": "will have been running" },
+            { "person": "We", "conjugation": "will have been running" },
+            { "person": "You (plural)", "conjugation": "will have been running" },
+            { "person": "They", "conjugation": "will have been running" }
+          ]
+        },
+        {
+          "verb": "to live (vivir)",
+          "conjugations": [
+            { "person": "I", "conjugation": "will have been living" },
+            { "person": "You", "conjugation": "will have been living" },
+            { "person": "He/She/It", "conjugation": "will have been living" },
+            { "person": "We", "conjugation": "will have been living" },
+            { "person": "You (plural)", "conjugation": "will have been living" },
+            { "person": "They", "conjugation": "will have been living" }
           ]
         }
       ]
