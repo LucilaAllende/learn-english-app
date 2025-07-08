@@ -6,10 +6,11 @@ type PositionType = "top-left" | "top-right" | "bottom-left" | "bottom-right" | 
 type SizeType = "small" | "medium" | "large"
 
 interface HeartsDecorationProps {
-  position?: "top-left" | "top-right" | "bottom-left" | "bottom-right" | "random"
-  size?: "small" | "medium" | "large"
+  position?: PositionType
+  size?: SizeType
   opacity?: number
   className?: string
+  heartIndex?: number
 }
 
 export function HeartsDecoration({
