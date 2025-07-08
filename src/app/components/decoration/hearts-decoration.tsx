@@ -18,25 +18,30 @@ export function HeartsDecoration({
   size = "medium",
   opacity = 0.6,
   className = "",
+  heartIndex,
 }: HeartsDecorationProps) {
   const [positionClass, setPositionClass] = useState("")
+  const [selectedIndex, setSelectedIndex] = useState(1)
 
   useEffect(() => {
     // Determinar la posición
     if (position === "random") {
       const positions = ["top-left", "top-right", "bottom-left", "bottom-right"]
       const randomPosition = positions[Math.floor(Math.random() * positions.length)]
-      setPositionClass(getPositionClass(randomPosition as any))
+      setPositionClass(getPositionClass(randomPosition as PositionType))
     } else {
       setPositionClass(getPositionClass(position))
     }
-  }, [position])
 
-  // Determinar el tamaño
-  const sizeClass = getSizeClass(size)
+    // Seleccionar corazón específico o aleatorio (del 1 al 18)
+    if (heartIndex !== undefined) {
+      setSelectedIndex(heartIndex)
+    } else {
+      setSelectedIndex(Math.floor(Math.random() * 18) + 1) // 1 a 18
+    }
+  }, [position, heartIndex])
 
-  // Función para obtener la clase de posición
-  function getPositionClass(pos: "top-left" | "top-right" | "bottom-left" | "bottom-right") {
+  function getPositionClass(pos: PositionType) {
     switch (pos) {
       case "top-left":
         return "top-0 left-0"
