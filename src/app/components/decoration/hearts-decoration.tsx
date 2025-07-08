@@ -73,7 +73,15 @@ export function HeartsDecoration({
 
   return (
     <div className={`absolute pointer-events-none ${positionClass} ${sizeClass} ${className}`} style={{ opacity }}>
-      <Image src="images/hearts.svg" alt="Decoración de corazones" fill className="object-contain" />
+      <div
+        className="w-full h-full"
+        style={{
+          backgroundImage: `url('/images/heart_${selectedIndex}.svg')`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+        }}
+      />
     </div>
   )
 }
