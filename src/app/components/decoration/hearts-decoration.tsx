@@ -56,17 +56,16 @@ export function HeartsDecoration({
     }
   }
 
-  // Función para obtener la clase de tamaño
-  function getSizeClass(sz: "small" | "medium" | "large") {
+  function getSizeClass(sz: SizeType) {
     switch (sz) {
       case "small":
-        return "w-24 h-24"
+        return "w-8 h-8"
       case "medium":
-        return "w-40 h-40"
+        return "w-16 h-16"
       case "large":
-        return "w-64 h-64"
+        return "w-24 h-24"
       default:
-        return "w-40 h-40"
+        return "w-16 h-16"
     }
   }
 
