@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { ChevronRight } from "lucide-react"
-import {IndividualHeart } from "@/app/components/decoration/individual-heart"
+import { HeartsDecoration } from "@/app/components/decoration/hearts-decoration"
 
 interface VerbTenseCardProps {
   title: string
@@ -18,11 +18,11 @@ export function VerbTenseCard({ title, description, color, href }: VerbTenseCard
       href={href}
       className="block p-4 border-2 border-gray-200 rounded-lg hover:shadow-md transition-all duration-200 group relative overflow-hidden"
     >
-      {/* Corazón individual decorativo */}
+      {/* Corazón decorativo del SVG original */}
       {showHeart && (
-        <IndividualHeart
+        <HeartsDecoration
           position="bottom-right"
-          size="small"
+          size="large"
           opacity={0.15}
           className="transform translate-x-2 translate-y-2"
         />
