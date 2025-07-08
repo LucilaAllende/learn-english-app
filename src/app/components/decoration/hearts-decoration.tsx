@@ -1,7 +1,9 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import Image from "next/image"
+
+type PositionType = "top-left" | "top-right" | "bottom-left" | "bottom-right" | "random"
+type SizeType = "small" | "medium" | "large"
 
 interface HeartsDecorationProps {
   position?: "top-left" | "top-right" | "bottom-left" | "bottom-right" | "random"
