@@ -69,6 +69,8 @@ export function HeartsDecoration({
     }
   }
 
+  const sizeClass = getSizeClass(size)
+
   return (
     <div className={`absolute pointer-events-none ${positionClass} ${sizeClass} ${className}`} style={{ opacity }}>
       <Image src="images/hearts.svg" alt="Decoración de corazones" fill className="object-contain" />
