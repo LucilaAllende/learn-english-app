@@ -6,8 +6,9 @@ export default function HomePage() {
   const verbTenses = getVerbTenses()
   return (
     <div className="min-h-screen bg-[#f8f5f2] p-4 md:p-8 relative overflow-hidden">
-      <HeartsDecoration position="top-right" size="medium" opacity={0.4} />
-      <HeartsDecoration position="bottom-left" size="small" opacity={0.3} />
+      <HeartsDecoration position="top-right" size="medium" opacity={0.4} heartIndex={0} />
+      <HeartsDecoration position="bottom-left" size="small" opacity={0.3} heartIndex={1} />
+      <HeartsDecoration position="top-left" size="large" opacity={0.2} heartIndex={2} />
       <header className="max-w-4xl mx-auto mb-8 relative">
         <h1 className="text-4xl md:text-5xl font-title text-[#2a9d8f] text-center tracking-wide">
           Mis Apuntes de Tiempos Verbales
