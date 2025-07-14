@@ -1,13 +1,16 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import Image from "next/image"
+
+type PositionType = "top-left" | "top-right" | "bottom-left" | "bottom-right" | "random"
+type SizeType = "small" | "medium" | "large"
 
 interface HeartsDecorationProps {
-  position?: "top-left" | "top-right" | "bottom-left" | "bottom-right" | "random"
-  size?: "small" | "medium" | "large"
+  position?: PositionType
+  size?: SizeType
   opacity?: number
   className?: string
+  heartIndex?: number
 }
 
 export function HeartsDecoration({
@@ -15,25 +18,30 @@ export function HeartsDecoration({
   size = "medium",
   opacity = 0.6,
   className = "",
+  heartIndex,
 }: HeartsDecorationProps) {
   const [positionClass, setPositionClass] = useState("")
+  const [selectedIndex, setSelectedIndex] = useState(1)
 
   useEffect(() => {
     // Determinar la posición
     if (position === "random") {
       const positions = ["top-left", "top-right", "bottom-left", "bottom-right"]
       const randomPosition = positions[Math.floor(Math.random() * positions.length)]
-      setPositionClass(getPositionClass(randomPosition as any))
+      setPositionClass(getPositionClass(randomPosition as PositionType))
     } else {
       setPositionClass(getPositionClass(position))
     }
-  }, [position])
 
-  // Determinar el tamaño
-  const sizeClass = getSizeClass(size)
+    // Seleccionar corazón específico o aleatorio (del 1 al 18)
+    if (heartIndex !== undefined) {
+      setSelectedIndex(heartIndex)
+    } else {
+      setSelectedIndex(Math.floor(Math.random() * 18) + 1) // 1 a 18
+    }
+  }, [position, heartIndex])
 
-  // Función para obtener la clase de posición
-  function getPositionClass(pos: "top-left" | "top-right" | "bottom-left" | "bottom-right") {
+  function getPositionClass(pos: PositionType) {
     switch (pos) {
       case "top-left":
         return "top-0 left-0"
@@ -48,23 +56,32 @@ export function HeartsDecoration({
     }
   }
 
-  // Función para obtener la clase de tamaño
-  function getSizeClass(sz: "small" | "medium" | "large") {
+  function getSizeClass(sz: SizeType) {
     switch (sz) {
       case "small":
-        return "w-24 h-24"
+        return "w-8 h-8"
       case "medium":
-        return "w-40 h-40"
+        return "w-16 h-16"
       case "large":
-        return "w-64 h-64"
+        return "w-24 h-24"
       default:
-        return "w-40 h-40"
+        return "w-16 h-16"
     }
   }
 
+  const sizeClass = getSizeClass(size)
+
   return (
     <div className={`absolute pointer-events-none ${positionClass} ${sizeClass} ${className}`} style={{ opacity }}>
-      <Image src="images/hearts.svg" alt="Decoración de corazones" fill className="object-contain" />
+      <div
+        className="w-full h-full"
+        style={{
+          backgroundImage: `url('/images/heart_${selectedIndex}.svg')`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+        }}
+      />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { ChevronRight } from "lucide-react"
+import { HeartsDecoration } from "@/app/components/decoration/hearts-decoration"
 
 interface VerbTenseCardProps {
   title: string
@@ -9,11 +10,24 @@ interface VerbTenseCardProps {
 }
 
 export function VerbTenseCard({ title, description, color, href }: VerbTenseCardProps) {
+  // Probabilidad de mostrar un corazón (30%)
+  const showHeart = Math.random() > 0.7
+
   return (
     <Link
       href={href}
-      className="block p-4 border-2 border-gray-200 rounded-lg hover:shadow-md transition-all duration-200 group"
+      className="block p-4 border-2 border-gray-200 rounded-lg hover:shadow-md transition-all duration-200 group relative overflow-hidden"
     >
+      {/* Corazón decorativo del SVG original */}
+      {showHeart && (
+        <HeartsDecoration
+          position="bottom-right"
+          size="large"
+          opacity={0.15}
+          className="transform translate-x-2 translate-y-2"
+        />
+      )}
+
       <div className="flex items-start justify-between">
         <div>
           <h3 className="text-xl font-title mb-2" style={{ color }}>
@@ -21,10 +35,7 @@ export function VerbTenseCard({ title, description, color, href }: VerbTenseCard
           </h3>
           <p className="font-text text-gray-600">{description}</p>
         </div>
-        <ChevronRight 
-          data-testid="chevron-icon"
-          className="h-5 w-5 text-gray-400 group-hover:text-gray-600 group-hover:translate-x-1 transition-all" 
-        />
+        <ChevronRight className="h-5 w-5 text-gray-400 group-hover:text-gray-600 group-hover:translate-x-1 transition-all" />
       </div>
     </Link>
   )
