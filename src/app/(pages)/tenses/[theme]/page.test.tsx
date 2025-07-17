@@ -203,7 +203,7 @@ describe("PastContinuousPage", () => {
     expect(scoped.getByText(/interrogativo:/i)).toBeInTheDocument()
 
     expect(scoped.getByText("was/were")).toBeInTheDocument()
-    expect(scoped.getByText("wasn't/weren't")).toBeInTheDocument()
+    expect(scoped.getByText("(wasn't/weren't) +")).toBeInTheDocument()
   })
 
   it("should renders the example cards", () => {
