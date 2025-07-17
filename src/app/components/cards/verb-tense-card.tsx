@@ -35,7 +35,7 @@ export function VerbTenseCard({ title, description, color, href }: VerbTenseCard
           </h3>
           <p className="font-text text-gray-600">{description}</p>
         </div>
-        <ChevronRight className="h-5 w-5 text-gray-400 group-hover:text-gray-600 group-hover:translate-x-1 transition-all" />
+        <ChevronRight data-testid="chevron-icon" className="h-5 w-5 text-gray-400 group-hover:text-gray-600 group-hover:translate-x-1 transition-all" />
       </div>
     </Link>
   )
