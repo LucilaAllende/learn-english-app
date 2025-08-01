@@ -2,13 +2,13 @@ import { render, screen } from "@testing-library/react"
 import { HeartsDecoration } from "./hearts-decoration"
 
 describe("HeartsDecoration", () => {
-  it.only("renders without crashing", () => {
+  it("renders without crashing", () => {
     render(<HeartsDecoration />)
-    const container = screen.getByRole("generic")
-    expect(container).toBeInTheDocument()
+    const containers = screen.getAllByRole("generic")
+    expect(containers.length).toBe(3)
   })
 
-  it("applies default props correctly", () => {
+  it.only("applies default props correctly", () => {
     render(<HeartsDecoration />)
     const container = screen.getByRole("generic")
     expect(container).toHaveClass("absolute", "pointer-events-none", "w-16", "h-16")
