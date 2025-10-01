@@ -23,7 +23,8 @@ describe("HeartsDecoration", () => {
 
   it("applies custom opacity", () => {
     render(<HeartsDecoration opacity={0.8} />)
-    expect(screen.getByRole("generic")).toHaveStyle({ opacity: "0.8" })
+    const containers = screen.getAllByRole('generic');
+    expect(containers[1]).toHaveStyle({ opacity: "0.8" })
   })
 
   it("renders the correct size class", () => {
