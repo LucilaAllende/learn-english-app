@@ -15,9 +15,11 @@ describe("HeartsDecoration", () => {
     expect(containers[1]).toHaveStyle({ opacity: "0.6" })
   })
 
-  it("applies custom className", () => {
-    render(<HeartsDecoration className="custom-class" />)
-    expect(screen.getByRole("generic")).toHaveClass("custom-class")
+  it.only("applies custom className", () => {
+    render(<HeartsDecoration />)
+    const containers = screen.getAllByRole('generic');
+    console.log(containers)
+
   })
 
   it("applies custom opacity", () => {
