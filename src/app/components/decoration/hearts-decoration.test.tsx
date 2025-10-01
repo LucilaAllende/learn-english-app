@@ -41,7 +41,8 @@ describe("HeartsDecoration", () => {
 
   it("renders specific heart when heartIndex is provided", () => {
     render(<HeartsDecoration heartIndex={5} />)
-    const heartDiv = screen.getByRole("generic").querySelector("div")
+    const containers = screen.getAllByRole('generic');
+    const heartDiv = containers[1].querySelector("div")
     expect(heartDiv).toHaveStyle({
       backgroundImage: `url('/images/heart_5.svg')`,
     })
