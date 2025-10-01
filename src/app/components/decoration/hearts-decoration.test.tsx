@@ -58,7 +58,8 @@ describe("HeartsDecoration", () => {
 
   it("applies correct background styles", () => {
     render(<HeartsDecoration heartIndex={2} />)
-    const heartDiv = screen.getByRole("generic").querySelector("div")
+    const containers = screen.getAllByRole('generic');
+    const heartDiv = containers[1].querySelector("div")
     expect(heartDiv).toHaveClass("w-full", "h-full")
     expect(heartDiv).toHaveStyle({
       backgroundSize: "contain",
