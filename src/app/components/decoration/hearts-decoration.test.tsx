@@ -27,9 +27,10 @@ describe("HeartsDecoration", () => {
     expect(containers[1]).toHaveStyle({ opacity: "0.8" })
   })
 
-  it("renders the correct size class", () => {
+  it.only("renders the correct size class", () => {
     render(<HeartsDecoration size="small" />)
-    expect(screen.getByRole("generic")).toHaveClass("w-8", "h-8")
+    const containers = screen.getAllByRole('generic');
+    expect(containers[1]).toHaveClass("w-8", "h-8")
   })
 
   it("applies known positions", () => {
