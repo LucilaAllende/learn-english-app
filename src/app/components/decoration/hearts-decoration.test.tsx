@@ -8,11 +8,11 @@ describe("HeartsDecoration", () => {
     expect(containers.length).toBe(3)
   })
 
-  it.only("applies default props correctly", () => {
+  it("applies default props correctly", () => {
     render(<HeartsDecoration />)
-    const container = screen.getByRole("generic")
-    expect(container).toHaveClass("absolute", "pointer-events-none", "w-16", "h-16")
-    expect(container).toHaveStyle({ opacity: "0.6" })
+    const containers = screen.getAllByRole("generic")
+    expect(containers[1]).toHaveClass("absolute", "pointer-events-none", "w-16", "h-16")
+    expect(containers[1]).toHaveStyle({ opacity: "0.6" })
   })
 
   it("applies custom className", () => {
