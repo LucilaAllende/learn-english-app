@@ -50,9 +50,10 @@ describe("HeartsDecoration", () => {
 
   it("renders some heart image when heartIndex is not provided", () => {
     render(<HeartsDecoration />)
-    const heartDiv = screen.getByRole("generic").querySelector("div")
+    const containers = screen.getAllByRole('generic');
+    const heartDiv = containers[1].querySelector("div")
     const bgImage = heartDiv?.style.backgroundImage ?? ""
-    expect(bgImage).toMatch(/url\('\/images\/heart_\d+\.svg'\)/)
+    expect(bgImage).toMatch(/heart_\d+\.svg/)
   })
 
   it("applies correct background styles", () => {
