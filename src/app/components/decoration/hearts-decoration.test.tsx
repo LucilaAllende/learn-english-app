@@ -27,7 +27,7 @@ describe("HeartsDecoration", () => {
     expect(containers[1]).toHaveStyle({ opacity: "0.8" })
   })
 
-  it.only("renders the correct size class", () => {
+  it("renders the correct size class", () => {
     render(<HeartsDecoration size="small" />)
     const containers = screen.getAllByRole('generic');
     expect(containers[1]).toHaveClass("w-8", "h-8")
@@ -35,8 +35,8 @@ describe("HeartsDecoration", () => {
 
   it("applies known positions", () => {
     render(<HeartsDecoration position="bottom-right" />)
-    const container = screen.getByRole("generic")
-    expect(container).toHaveClass("bottom-0", "right-0")
+    const containers = screen.getAllByRole('generic');
+    expect(containers[1]).toHaveClass("bottom-0", "right-0")
   })
 
   it("renders specific heart when heartIndex is provided", () => {
