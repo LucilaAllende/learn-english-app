@@ -23,7 +23,7 @@ const menuItems = [
     title: "Análisis de Oraciones",
     href: "/analysis/sentences",
     icon: MessageSquare,
-    description: "Análisis sintáctico",
+    description: "AnÃ¡lisis sintÃ¡ctico",
   },
 ]
 
@@ -55,7 +55,7 @@ export function Sidebar() {
         )}
       >
         <div className="p-6">
-          <h2 className="text-2xl font-title text-[#2a9d8f] mb-6">Gramática</h2>
+          <h2 className="text-2xl font-title text-[#2a9d8f] mb-6">GramÃ¡tica</h2>
 
           <nav className="space-y-2">
             {menuItems.map((item) => {
