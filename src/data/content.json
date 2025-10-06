@@ -17,13 +17,13 @@
       "name": "Presente Simple",
       "category": "tenses",
       "description": "Acciones habituales y verdades generales",
-      "categoryDescription": "Tiempos simples: Perfectos para describir acciones en un momento específico sin considerar su duración. Ejemplos: «I eat» (presente simple), «I ate» (pasado simple), y «I will eat» (futuro simple).",
-      "detailedDescription": "El Presente Simple en inglés describe acciones habituales o hechos generales. Ejemplo: «I eat breakfast every day.»",
+      "categoryDescription": "Tiempos simples: Perfectos para describir acciones en un momento especÃ­fico sin considerar su duraciÃ³n. Ejemplos: Â«I eatÂ» (presente simple), Â«I ateÂ» (pasado simple), y Â«I will eatÂ» (futuro simple).",
+      "detailedDescription": "El Presente Simple en inglÃ©s describe acciones habituales o hechos generales. Ejemplo: Â«I eat breakfast every day.Â»",
       "textColor": "#2a9d8f",
       "structure": {
-        "affirmative": "**Sujeto** + **verbo infinitivo** (+ -s/-es en 3ª persona singular: he, she, it) + complemento",
-        "negative": "**Sujeto** + **do/does** + **not** (o sus contracciones: don't/doesn't) + **verbo infinitivo** (sin -s/-es, incluso en 3ª persona singular) + complemento",
-        "interrogative": "**Do/Does** + sujeto + **verbo infinitivo** (sin -s/-es, incluso en 3ª persona singular) + complemento?"
+        "affirmative": "**Sujeto** + **verbo infinitivo** (+ -s/-es en 3Âª persona singular: he, she, it) + complemento",
+        "negative": "**Sujeto** + **do/does** + **not** (o sus contracciones: don't/doesn't) + **verbo infinitivo** (sin -s/-es, incluso en 3Âª persona singular) + complemento",
+        "interrogative": "**Do/Does** + sujeto + **verbo infinitivo** (sin -s/-es, incluso en 3Âª persona singular) + complemento?"
       },
       "examples": [
         {
@@ -44,16 +44,16 @@
       ],
       "uses": [
         {
-          "title": "Hábitos",
+          "title": "HÃ¡bitos",
           "example": "I go to the gym every day. (Voy al gimnsasio cada dia) - I run every night. (Corro todas las noches)"
         },
         {
           "title": "Rutinas",
-          "example": "I study English from Monday to Friday (Yo estudio inglés de Lunes a Viernes)"
+          "example": "I study English from Monday to Friday (Yo estudio inglés de lunes a viernes)"
         },
         {
           "title": "Verdades generales",
-          "example": "Water boils at 100°C. (El agua hierve a 100°C) - The sun rises everyday. (El sol sale todos los días)"
+          "example": "Water boils at 100Â°C. (El agua hierve a 100Â°C) - The sun rises everyday. (El sol sale todos los dÃ­as)"
         },
         {
           "title": "Estados permanentes",
@@ -65,15 +65,15 @@
         },
         {
           "title": "Hechos y realidades actuales",
-          "example": "He cleans the kitchen. (Él limpia la cocina)"
+          "example": "He cleans the kitchen. (Ãl limpia la cocina)"
         },
         {
-          "title": "Características observables",
-          "example": "How are you doing? (¿Cómo estás?)"
+          "title": "CaracterÃ­sticas observables",
+          "example": "How are you doing? (Â¿CÃ³mo estÃ¡s?)"
         },
         {
           "title": "Acciones continuas o habituales",
-          "example": "I get up at half past six every morning. (Me levanto a las seis y media cada mañana)"
+          "example": "I get up at half past six every morning. (Me levanto a las seis y media cada maÃ±ana)"
         }
       ],
       "timeExpressions": [
@@ -86,7 +86,7 @@
       "notes": [
         {
           "type": "paragraph",
-          "text": "Recuerda añadir **-s** o **-es** al final del verbo en tercera persona singular (he, she, it)."
+          "text": "Recuerda aÃ±adir **-s** o **-es** al final del verbo en tercera persona singular (he, she, it)."
         },
         {
           "type": "paragraph",
@@ -104,8 +104,8 @@
           "verb": "comprar (to buy)",
           "conjugations": [
             { "person": "yo", "conjugation": "compro" },
-            { "person": "tú", "conjugation": "compras" },
-            { "person": "él/ella", "conjugation": "compra" },
+            { "person": "tÃº", "conjugation": "compras" },
+            { "person": "Ã©l/ella", "conjugation": "compra" },
             { "person": "nosotros", "conjugation": "compramos" },
             { "person": "ustedes", "conjugation": "compran" },
             { "person": "ellos/ellas", "conjugation": "compran" }
@@ -115,8 +115,8 @@
           "verb": "correr (to run)",
           "conjugations": [
             { "person": "yo", "conjugation": "corro" },
-            { "person": "tú", "conjugation": "corres" },
-            { "person": "él/ella", "conjugation": "corre" },
+            { "person": "tÃº", "conjugation": "corres" },
+            { "person": "Ã©l/ella", "conjugation": "corre" },
             { "person": "nosotros", "conjugation": "corremos" },
             { "person": "ustedes", "conjugation": "corren" },
             { "person": "ellos/ellas", "conjugation": "corren" }
@@ -126,8 +126,8 @@
           "verb": "vivir (to live)",
           "conjugations": [
             { "person": "yo", "conjugation": "vivo" },
-            { "person": "tú", "conjugation": "vives" },
-            { "person": "él/ella", "conjugation": "vive" },
+            { "person": "tÃº", "conjugation": "vives" },
+            { "person": "Ã©l/ella", "conjugation": "vive" },
             { "person": "nosotros", "conjugation": "vivimos" },
             { "person": "ustedes", "conjugation": "viven" },
             { "person": "ellos/ellas", "conjugation": "viven" }
@@ -174,13 +174,13 @@
       "id": "past-simple",
       "name": "Pasado Simple",
       "category": "tenses",
-      "description": "Acciones completadas en el pasado, en un momento específico",
-      "categoryDescription": "Tiempos simples: Perfectos para describir acciones en un momento específico sin considerar su duración. Ejemplos: «I eat» (presente simple), «I ate» (pasado simple), y «I will eat» (futuro simple).",
-      "detailedDescription": "El Pasado Simple en inglés se usa para acciones pasadas que ocurrieron y finalizaron en un momento específico del pasado. Ejemplo: «I ate breakfast yesterday.»",
+      "description": "Acciones completadas en el pasado, en un momento especÃ­fico",
+      "categoryDescription": "Tiempos simples: Perfectos para describir acciones en un momento especÃ­fico sin considerar su duraciÃ³n. Ejemplos: Â«I eatÂ» (presente simple), Â«I ateÂ» (pasado simple), y Â«I will eatÂ» (futuro simple).",
+      "detailedDescription": "El Pasado Simple en inglÃ©s se usa para acciones pasadas que ocurrieron y finalizaron en un momento especÃ­fico del pasado. Ejemplo: Â«I ate breakfast yesterday.Â»",
       "textColor": "#f4a261",
       "structure": {
-        "affirmative": "**Sujeto** + **verbo en pasado** (regular: -ed; irregular: forma específica) + complemento",
-        "negative": "**Sujeto** + **did not** (o su contracción: didn't) + **verbo infinitivo** + complemento",
+        "affirmative": "**Sujeto** + **verbo en pasado** (regular: -ed; irregular: forma especÃ­fica) + complemento",
+        "negative": "**Sujeto** + **did not** (o su contracciÃ³n: didn't) + **verbo infinitivo** + complemento",
         "interrogative": "**Did** + sujeto + **verbo infinitivo** + complemento?"
       },
       "examples": [
@@ -209,15 +209,15 @@
       "uses": [
         {
           "title": "Acciones completadas en el pasado",
-          "example": "I visited Paris last summer. (Visité París el verano pasado.)"
+          "example": "I visited Paris last summer. (VisitÃ© ParÃ­s el verano pasado.)"
         },
         {
           "title": "Serie de acciones completadas",
-          "example": "I woke up, got dressed and went to work. (Me desperté, me vestí y fui a trabajar.) - She got up, brushed her teeth and left. (Ella se levantó, se cepilló los dientes y se fue.)"
+          "example": "I woke up, got dressed and went to work. (Me despertÃ©, me vestÃ­ y fui a trabajar.) - She got up, brushed her teeth and left. (Ella se levantÃ³, se cepillÃ³ los dientes y se fue.)"
         },
         {
-          "title": "Hábitos en el pasado",
-          "example": "When I was a child, I played football every day. (Cuando era niño, jugaba al fútbol todos los días.)"
+          "title": "HÃ¡bitos en el pasado",
+          "example": "When I was a child, I played football every day. (Cuando era niÃ±o, jugaba al fÃºtbol todos los dÃ­as.)"
         }
       ],
       "timeExpressions": [
@@ -235,9 +235,9 @@
         {
           "verb": "comprar (to buy)",
           "conjugations": [
-            { "person": "yo", "conjugation": "compré" },
-            { "person": "tú", "conjugation": "compraste" },
-            { "person": "él/ella", "conjugation": "compró" },
+            { "person": "yo", "conjugation": "comprÃ©" },
+            { "person": "tÃº", "conjugation": "compraste" },
+            { "person": "Ã©l/ella", "conjugation": "comprÃ³" },
             { "person": "nosotros", "conjugation": "compramos" },
             { "person": "ustedes", "conjugation": "compraron" },
             { "person": "ellos/ellas", "conjugation": "compraron" }
@@ -246,9 +246,9 @@
         {
           "verb": "correr (to run)",
           "conjugations": [
-            { "person": "yo", "conjugation": "corrí" },
-            { "person": "tú", "conjugation": "corriste" },
-            { "person": "él/ella", "conjugation": "corrió" },
+            { "person": "yo", "conjugation": "corrÃ­" },
+            { "person": "tÃº", "conjugation": "corriste" },
+            { "person": "Ã©l/ella", "conjugation": "corriÃ³" },
             { "person": "nosotros", "conjugation": "corrimos" },
             { "person": "ustedes", "conjugation": "corrieron" },
             { "person": "ellos/ellas", "conjugation": "corrieron" }
@@ -257,9 +257,9 @@
         {
           "verb": "vivir (to live)",
           "conjugations": [
-            { "person": "yo", "conjugation": "viví" },
-            { "person": "tú", "conjugation": "viviste" },
-            { "person": "él/ella", "conjugation": "vivió" },
+            { "person": "yo", "conjugation": "vivÃ­" },
+            { "person": "tÃº", "conjugation": "viviste" },
+            { "person": "Ã©l/ella", "conjugation": "viviÃ³" },
             { "person": "nosotros", "conjugation": "vivimos" },
             { "person": "ustedes", "conjugation": "vivieron" },
             { "person": "ellos/ellas", "conjugation": "vivieron" }
@@ -304,11 +304,11 @@
       "notes": [
         {
           "type": "paragraph",
-          "text": "Los verbos regulares añaden **-ed** al infinitivo (work → worked)."
+          "text": "Los verbos regulares aÃ±aden **-ed** al infinitivo (work â worked)."
         },
         {
           "type": "paragraph",
-          "text": "Los verbos irregulares tienen formas especiales (go → went, see → saw)."
+          "text": "Los verbos irregulares tienen formas especiales (go â went, see â saw)."
         }
       ]
     },
@@ -316,13 +316,13 @@
       "id": "future-simple",
       "name": "Futuro Simple",
       "category": "tenses",
-      "description": "Acciones que ocurrirán en el futuro, predicciones, promesas.",
-      "categoryDescription": "Tiempos simples: Perfectos para describir acciones en un momento específico sin considerar su duración. Ejemplos: «I eat» (presente simple), «I ate» (pasado simple), y «I will eat» (futuro simple).",
-      "detailedDescription": "El Futuro Simple en inglés se utiliza para acciones que ocurrirán en el futuro. Ejemplo: «I will eat breakfast tomorrow.»",
+      "description": "Acciones que ocurrirÃ¡n en el futuro, predicciones, promesas.",
+      "categoryDescription": "Tiempos simples: Perfectos para describir acciones en un momento especÃ­fico sin considerar su duraciÃ³n. Ejemplos: Â«I eatÂ» (presente simple), Â«I ateÂ» (pasado simple), y Â«I will eatÂ» (futuro simple).",
+      "detailedDescription": "El Futuro Simple en inglÃ©s se utiliza para acciones que ocurrirÃ¡n en el futuro. Ejemplo: Â«I will eat breakfast tomorrow.Â»",
       "textColor": "#264653",
       "structure": {
         "affirmative": "**Sujeto** + **will** + **verbo infinitivo** + complemento",
-        "negative": "**Sujeto** + **will not** (o su contracción: won't) + **verbo infinitivo** + complemento",
+        "negative": "**Sujeto** + **will not** (o su contracciÃ³n: won't) + **verbo infinitivo** + complemento",
         "interrogative": "**Will** + sujeto + **verbo infinitivo** + complemento?"
       },
       "examples": [
@@ -345,15 +345,15 @@
       "uses": [
         {
           "title": "Predicciones sobre el futuro",
-          "example": "It will rain tomorrow. (Mañana lloverá.) - It will snow tomorrow. (Mañana nevará.)"
+          "example": "It will rain tomorrow. (MaÃ±ana lloverÃ¡.) - It will snow tomorrow. (MaÃ±ana nevarÃ¡.)"
         },
         {
-          "title": "Decisiones espontáneas",
-          "example": "I'll help you with that. (Te ayudaré con eso.) - I'll answer the phone. (Contestaré el teléfono.)"
+          "title": "Decisiones espontÃ¡neas",
+          "example": "I'll help you with that. (Te ayudarÃ© con eso.) - I'll answer the phone. (ContestarÃ© el telÃ©fono.)"
         },
         {
           "title": "Promesas y ofrecimientos",
-          "example": "I promise I will call you later. (Te prometo que te llamaré más tarde.) - I will help you with your homework. (Te ayudaré con tu tarea.)"
+          "example": "I promise I will call you later. (Te prometo que te llamarÃ© mÃ¡s tarde.) - I will help you with your homework. (Te ayudarÃ© con tu tarea.)"
         }
       ],
       "timeExpressions": ["Tomorrow", "Next week/month/year", "Soon", "In the future", "Later"],
@@ -361,34 +361,34 @@
         {
           "verb": "comprar (to buy)",
           "conjugations": [
-            { "person": "yo", "conjugation": "compraré" },
-            { "person": "tú", "conjugation": "comprarás" },
-            { "person": "él/ella", "conjugation": "comprará" },
+            { "person": "yo", "conjugation": "comprarÃ©" },
+            { "person": "tÃº", "conjugation": "comprarÃ¡s" },
+            { "person": "Ã©l/ella", "conjugation": "comprarÃ¡" },
             { "person": "nosotros", "conjugation": "compraremos" },
-            { "person": "ustedes", "conjugation": "comprarán" },
-            { "person": "ellos/ellas", "conjugation": "comprarán" }
+            { "person": "ustedes", "conjugation": "comprarÃ¡n" },
+            { "person": "ellos/ellas", "conjugation": "comprarÃ¡n" }
           ]
         },
         {
           "verb": "correr (to run)",
           "conjugations": [
-            { "person": "yo", "conjugation": "correré" },
-            { "person": "tú", "conjugation": "correrás" },
-            { "person": "él/ella", "conjugation": "correrá" },
+            { "person": "yo", "conjugation": "correrÃ©" },
+            { "person": "tÃº", "conjugation": "correrÃ¡s" },
+            { "person": "Ã©l/ella", "conjugation": "correrÃ¡" },
             { "person": "nosotros", "conjugation": "correremos" },
-            { "person": "ustedes", "conjugation": "correrán" },
-            { "person": "ellos/ellas", "conjugation": "correrán" }
+            { "person": "ustedes", "conjugation": "correrÃ¡n" },
+            { "person": "ellos/ellas", "conjugation": "correrÃ¡n" }
           ]
         },
         {
           "verb": "vivir (to live)",
           "conjugations": [
-            { "person": "yo", "conjugation": "viviré" },
-            { "person": "tú", "conjugation": "vivirás" },
-            { "person": "él/ella", "conjugation": "vivirá" },
+            { "person": "yo", "conjugation": "vivirÃ©" },
+            { "person": "tÃº", "conjugation": "vivirÃ¡s" },
+            { "person": "Ã©l/ella", "conjugation": "vivirÃ¡" },
             { "person": "nosotros", "conjugation": "viviremos" },
-            { "person": "ustedes", "conjugation": "vivirán" },
-            { "person": "ellos/ellas", "conjugation": "vivirán" }
+            { "person": "ustedes", "conjugation": "vivirÃ¡n" },
+            { "person": "ellos/ellas", "conjugation": "vivirÃ¡n" }
           ]
         }
       ],
@@ -433,8 +433,8 @@
       "name": "Presente Continuo",
       "category": "tenses",
       "description": "Acciones que ocurren en este momento o alrededor del presente.",
-      "categoryDescription": "Tiempos continuos: Utilizados para describir acciones en progreso en un momento específico. Se forman con el verbo «to be» y el gerundio del verbo principal. Ejemplos: «I am eating» (presente continuo), «I was eating» (pasado continuo), y «I will be eating» (futuro continuo).",
-      "detailedDescription": "El Presente Continuo en inglés indica acciones que están ocurriendo en este momento. Ejemplo: «I am eating breakfast right now.»",
+      "categoryDescription": "Tiempos continuos: Utilizados para describir acciones en progreso en un momento especÃ­fico. Se forman con el verbo Â«to beÂ» y el gerundio del verbo principal. Ejemplos: Â«I am eatingÂ» (presente continuo), Â«I was eatingÂ» (pasado continuo), y Â«I will be eatingÂ» (futuro continuo).",
+      "detailedDescription": "El Presente Continuo en inglÃ©s indica acciones que estÃ¡n ocurriendo en este momento. Ejemplo: Â«I am eating breakfast right now.Â»",
       "textColor": "#e9c46a",
       "structure": {
         "affirmative": "**Sujeto** + **am/is/are** + **verbo-ing** + complemento",
@@ -505,14 +505,14 @@
           "items": [
             "Verbos de pensamiento: think, believe, understand",
             "Verbos de sentimientos: love, hate, like",
-            "Verbos de posesión: have, own, belong",
-            "Verbos de percepción: see, hear, smell"
+            "Verbos de posesiÃ³n: have, own, belong",
+            "Verbos de percepciÃ³n: see, hear, smell"
           ]
         }
       ],
       "tips": [
         {
-          "text": "El presente continuo también se usa para quejas con 'always': 'He is always losing his keys.'"
+          "text": "El presente continuo tambiÃ©n se usa para quejas con 'always': 'He is always losing his keys.'"
         }
       ],
       "spanishConjunction": [
@@ -520,33 +520,33 @@
           "verb": "comprar (to buy)",
           "conjugations": [
             { "person": "yo", "conjugation": "estoy comprando" },
-            { "person": "tú", "conjugation": "estás comprando" },
-            { "person": "él/ella", "conjugation": "está comprando" },
+            { "person": "tÃº", "conjugation": "estÃ¡s comprando" },
+            { "person": "Ã©l/ella", "conjugation": "estÃ¡ comprando" },
             { "person": "nosotros", "conjugation": "estamos comprando" },
-            { "person": "ustedes", "conjugation": "están comprando" },
-            { "person": "ellos/ellas", "conjugation": "están comprando" }
+            { "person": "ustedes", "conjugation": "estÃ¡n comprando" },
+            { "person": "ellos/ellas", "conjugation": "estÃ¡n comprando" }
           ]
         },
         {
           "verb": "correr (to run)",
           "conjugations": [
             { "person": "yo", "conjugation": "estoy corriendo" },
-            { "person": "tú", "conjugation": "estás corriendo" },
-            { "person": "él/ella", "conjugation": "está corriendo" },
+            { "person": "tÃº", "conjugation": "estÃ¡s corriendo" },
+            { "person": "Ã©l/ella", "conjugation": "estÃ¡ corriendo" },
             { "person": "nosotros", "conjugation": "estamos corriendo" },
-            { "person": "ustedes", "conjugation": "están corriendo" },
-            { "person": "ellos/ellas", "conjugation": "están corriendo" }
+            { "person": "ustedes", "conjugation": "estÃ¡n corriendo" },
+            { "person": "ellos/ellas", "conjugation": "estÃ¡n corriendo" }
           ]
         },
         {
           "verb": "vivir (to live)",
           "conjugations": [
             { "person": "yo", "conjugation": "estoy viviendo" },
-            { "person": "tú", "conjugation": "estás viviendo" },
-            { "person": "él/ella", "conjugation": "está viviendo" },
+            { "person": "tÃº", "conjugation": "estÃ¡s viviendo" },
+            { "person": "Ã©l/ella", "conjugation": "estÃ¡ viviendo" },
             { "person": "nosotros", "conjugation": "estamos viviendo" },
-            { "person": "ustedes", "conjugation": "están viviendo" },
-            { "person": "ellos/ellas", "conjugation": "están viviendo" }
+            { "person": "ustedes", "conjugation": "estÃ¡n viviendo" },
+            { "person": "ellos/ellas", "conjugation": "estÃ¡n viviendo" }
           ]
         }
       ],
@@ -590,9 +590,9 @@
       "id": "past-continuous",
       "name": "Pasado Continuo",
       "category": "tenses",
-      "description": "Acciones en progreso en un momento específico del pasado",
-      "categoryDescription": "Tiempos continuos: Utilizados para describir acciones en progreso en un momento específico. Se forman con el verbo «to be» y el gerundio del verbo principal. Ejemplos: «I am eating» (presente continuo), «I was eating» (pasado continuo), y «I will be eating» (futuro continuo).",
-      "detailedDescription": "El Pasado Continuo en inglés describe acciones pasadas que estaban ocurriendo en un momento específico del pasado. Ejemplo: «I was eating breakfast when you called.»",
+      "description": "Acciones en progreso en un momento especÃ­fico del pasado",
+      "categoryDescription": "Tiempos continuos: Utilizados para describir acciones en progreso en un momento especÃ­fico. Se forman con el verbo Â«to beÂ» y el gerundio del verbo principal. Ejemplos: Â«I am eatingÂ» (presente continuo), Â«I was eatingÂ» (pasado continuo), y Â«I will be eatingÂ» (futuro continuo).",
+      "detailedDescription": "El Pasado Continuo en inglÃ©s describe acciones pasadas que estaban ocurriendo en un momento especÃ­fico del pasado. Ejemplo: Â«I was eating breakfast when you called.Â»",
       "textColor": "#e76f51",
       "structure": {
         "affirmative": "**Sujeto** + **was/were** + **verbo-ing** + complemento",
@@ -618,16 +618,16 @@
       ],
       "uses": [
         {
-          "title": "Acciones en progreso en un momento específico del pasado",
-          "example": "I was watching TV at 8 PM yesterday. (Estaba viendo televisión a las 8PM ayer.) - I was reading at 10 PM. (Estaba leyendo a las 10PM ayer.)"
+          "title": "Acciones en progreso en un momento especÃ­fico del pasado",
+          "example": "I was watching TV at 8 PM yesterday. (Estaba viendo televisiÃ³n a las 8PM ayer.) - I was reading at 10 PM. (Estaba leyendo a las 10PM ayer.)"
         },
         {
-          "title": "Acciones simultáneas en el pasado",
+          "title": "Acciones simultÃ¡neas en el pasado",
           "example": "While I was studying, my brother was playing video games. (Mientras estaba estudiando, mi hermano jugaba videojuegos) - While I was cooking, she was cleaning. (Mientras yo cocinaba, ella limpiaba.)"
         },
         {
-          "title": "Interrupción de una acción en progreso",
-          "example": "I was walking down the street when I saw an accident. (Estaba caminando por la calle cuando vi un accidente.) - I was sleeping when the phone rang. (Estaba durmiendo cuando sonó el teléfono.)"
+          "title": "InterrupciÃ³n de una acciÃ³n en progreso",
+          "example": "I was walking down the street when I saw an accident. (Estaba caminando por la calle cuando vi un accidente.) - I was sleeping when the phone rang. (Estaba durmiendo cuando sonÃ³ el telÃ©fono.)"
         }
       ],
       "timeExpressions": [
@@ -642,9 +642,9 @@
           "verb": "comprar (to buy)",
           "conjugations": [
             { "person": "yo", "conjugation": "estaba comprando" },
-            { "person": "tú", "conjugation": "estabas comprando" },
-            { "person": "él/ella", "conjugation": "estaba comprando" },
-            { "person": "nosotros", "conjugation": "estábamos comprando" },
+            { "person": "tÃº", "conjugation": "estabas comprando" },
+            { "person": "Ã©l/ella", "conjugation": "estaba comprando" },
+            { "person": "nosotros", "conjugation": "estÃ¡bamos comprando" },
             { "person": "ustedes", "conjugation": "estaban comprando" },
             { "person": "ellos/ellas", "conjugation": "estaban comprando" }
           ]
@@ -653,8 +653,8 @@
           "verb": "correr (to run)",
           "conjugations": [
             { "person": "yo", "conjugation": "estaba corriendo" },
-            { "person": "tú", "conjugation": "estabas corriendo" },
-            { "person": "él/ella", "conjugation": "estaba corriendo" },
+            { "person": "tÃº", "conjugation": "estabas corriendo" },
+            { "person": "Ã©l/ella", "conjugation": "estaba corriendo" },
             { "person": "nosotros", "conjugation": "estabamos corriendo" },
             { "person": "ustedes", "conjugation": "estaban corriendo" },
             { "person": "ellos/ellas", "conjugation": "estaban corriendo" }
@@ -664,8 +664,8 @@
           "verb": "vivir (to live)",
           "conjugations": [
             { "person": "yo", "conjugation": "estaba viviendo" },
-            { "person": "tú", "conjugation": "estabas viviendo" },
-            { "person": "él/ella", "conjugation": "estaba viviendo" },
+            { "person": "tÃº", "conjugation": "estabas viviendo" },
+            { "person": "Ã©l/ella", "conjugation": "estaba viviendo" },
             { "person": "nosotros", "conjugation": "estabamos viviendo" },
             { "person": "ustedes", "conjugation": "estaban viviendo" },
             { "person": "ellos/ellas", "conjugation": "estaban viviendo" }
@@ -713,8 +713,8 @@
       "name": "Futuro Continuo",
       "category": "tenses",
       "description": "Acciones en progreso en el futuro",
-      "categoryDescription": "Tiempos continuos: Utilizados para describir acciones en progreso en un momento específico. Se forman con el verbo «to be» y el gerundio del verbo principal. Ejemplos: «I am eating» (presente continuo), «I was eating» (pasado continuo), y «I will be eating» (futuro continuo).",
-      "detailedDescription": "El Futuro Continuo en inglés indica acciones futuras que estarán ocurriendo (en progreso) en un momento específico del futuro. Ejemplo: «I will be eating breakfast at 8 AM tomorrow.»",
+      "categoryDescription": "Tiempos continuos: Utilizados para describir acciones en progreso en un momento especÃ­fico. Se forman con el verbo Â«to beÂ» y el gerundio del verbo principal. Ejemplos: Â«I am eatingÂ» (presente continuo), Â«I was eatingÂ» (pasado continuo), y Â«I will be eatingÂ» (futuro continuo).",
+      "detailedDescription": "El Futuro Continuo en inglÃ©s indica acciones futuras que estarÃ¡n ocurriendo (en progreso) en un momento especÃ­fico del futuro. Ejemplo: Â«I will be eating breakfast at 8 AM tomorrow.Â»",
       "textColor": "#8b5cf6",
       "structure": {
         "affirmative": "**Sujeto** + **will be** + **verbo-ing** + complemento",
@@ -759,15 +759,15 @@
       "uses": [
         {
           "title": "Acciones en progreso en el futuro",
-          "example": "At 10 AM tomorrow, I will be attending a meeting. (A las 10 AM mañana, estaré asistiendo a una reunión)"
+          "example": "At 10 AM tomorrow, I will be attending a meeting. (A las 10 AM maÃ±ana, estarÃ© asistiendo a una reuniÃ³n)"
         },
         {
           "title": "Planes futuros en progreso",
-          "example": "This time next week, we will be flying to Paris. (A esta hora la próxima semana, estaremos volando a París)"
+          "example": "This time next week, we will be flying to Paris. (A esta hora la prÃ³xima semana, estaremos volando a ParÃ­s)"
         },
         {
           "title": "Predicciones sobre el futuro",
-          "example": "People will be using electric cars more in the future. (La gente usará más autos eléctricos en el futuro)"
+          "example": "People will be using electric cars more in the future. (La gente usarÃ¡ mÃ¡s autos elÃ©ctricos en el futuro)"
         }
       ],
       "timeExpressions": [
@@ -780,34 +780,34 @@
         {
           "verb": "comprar (to buy)",
           "conjugations": [
-            { "person": "yo", "conjugation": "estaré comprando" },
-            { "person": "tú", "conjugation": "estarás comprando" },
-            { "person": "él/ella", "conjugation": "estará comprando" },
+            { "person": "yo", "conjugation": "estarÃ© comprando" },
+            { "person": "tÃº", "conjugation": "estarÃ¡s comprando" },
+            { "person": "Ã©l/ella", "conjugation": "estarÃ¡ comprando" },
             { "person": "nosotros", "conjugation": "estaremos comprando" },
-            { "person": "ustedes", "conjugation": "estarán comprando" },
-            { "person": "ellos/ellas", "conjugation": "estarán comprando" }
+            { "person": "ustedes", "conjugation": "estarÃ¡n comprando" },
+            { "person": "ellos/ellas", "conjugation": "estarÃ¡n comprando" }
           ]
         },
         {
           "verb": "correr (to run)",
           "conjugations": [
-            { "person": "yo", "conjugation": "estaré corriendo" },
-            { "person": "tú", "conjugation": "estarás corriendo" },
-            { "person": "él/ella", "conjugation": "estará corriendo" },
+            { "person": "yo", "conjugation": "estarÃ© corriendo" },
+            { "person": "tÃº", "conjugation": "estarÃ¡s corriendo" },
+            { "person": "Ã©l/ella", "conjugation": "estarÃ¡ corriendo" },
             { "person": "nosotros", "conjugation": "estaremos corriendo" },
-            { "person": "ustedes", "conjugation": "estarán corriendo" },
-            { "person": "ellos/ellas", "conjugation": "estarán corriendo" }
+            { "person": "ustedes", "conjugation": "estarÃ¡n corriendo" },
+            { "person": "ellos/ellas", "conjugation": "estarÃ¡n corriendo" }
           ]
         },
         {
           "verb": "vivir (to live)",
           "conjugations": [
-            { "person": "yo", "conjugation": "estaré viviendo" },
-            { "person": "tú", "conjugation": "estarás viviendo" },
-            { "person": "él/ella", "conjugation": "estará viviendo" },
+            { "person": "yo", "conjugation": "estarÃ© viviendo" },
+            { "person": "tÃº", "conjugation": "estarÃ¡s viviendo" },
+            { "person": "Ã©l/ella", "conjugation": "estarÃ¡ viviendo" },
             { "person": "nosotros", "conjugation": "estaremos viviendo" },
-            { "person": "ustedes", "conjugation": "estarán viviendo" },
-            { "person": "ellos/ellas", "conjugation": "estarán viviendo" }
+            { "person": "ustedes", "conjugation": "estarÃ¡n viviendo" },
+            { "person": "ellos/ellas", "conjugation": "estarÃ¡n viviendo" }
           ]
         }
       ],
@@ -851,9 +851,9 @@
       "id": "present-perfect",
       "name": "Presente Perfecto",
       "category": "tenses",
-      "description": "Conexión entre pasado y presente. Acciones pasadas con relevancia en el presente o experiencias de vida.",
-      "categoryDescription": "Tiempos compuestos: Ideales para expresar acciones completadas antes de otro punto en el tiempo. Usan el verbo auxiliar «have». Ejemplos: «I have eaten» (presente perfecto), «I had eaten» (pasado perfecto), y «I will have eaten» (futuro perfecto).",
-      "detailedDescription": "El Presente Perfecto en inglés se utiliza para acciones que ocurrieron en un momento no específico en el pasado y que tienen relevancia en el presente. Ejemplo: «I have eaten breakfast.»",
+      "description": "ConexiÃ³n entre pasado y presente. Acciones pasadas con relevancia en el presente o experiencias de vida.",
+      "categoryDescription": "Tiempos compuestos: Ideales para expresar acciones completadas antes de otro punto en el tiempo. Usan el verbo auxiliar Â«haveÂ». Ejemplos: Â«I have eatenÂ» (presente perfecto), Â«I had eatenÂ» (pasado perfecto), y Â«I will have eatenÂ» (futuro perfecto).",
+      "detailedDescription": "El Presente Perfecto en inglÃ©s se utiliza para acciones que ocurrieron en un momento no especÃ­fico en el pasado y que tienen relevancia en el presente. Ejemplo: Â«I have eaten breakfast.Â»",
       "textColor": "#2a9d8f",
       "structure": {
         "affirmative": "**Sujeto** + **have/has** + **participio pasado** + complemento",
@@ -879,11 +879,11 @@
       ],
       "uses": [
         {
-          "title": "Acciones que comenzaron en el pasado y continúan hasta ahora",
+          "title": "Acciones que comenzaron en el pasado y continÃºan hasta ahora",
           "example": "I have lived here for five years.- I have lived here since 2010."
         },
         {
-          "title": "Experiencias de vida (sin especificar cuándo)",
+          "title": "Experiencias de vida (sin especificar cuÃ¡ndo)",
           "example": "I have visited many countries. - She has visited Japan."
         },
         {
@@ -909,7 +909,7 @@
         },
         {
           "type": "paragraph",
-          "text": "No se usa el presente perfecto con expresiones de tiempo específicas del pasado (ayer, la semana pasada)."
+          "text": "No se usa el presente perfecto con expresiones de tiempo especÃ­ficas del pasado (ayer, la semana pasada)."
         }
       ],
       "spanishConjunction": [
@@ -917,8 +917,8 @@
           "verb": "comprar (to buy)",
           "conjugations": [
             { "person": "yo", "conjugation": "he comprado" },
-            { "person": "tú", "conjugation": "has comprado" },
-            { "person": "él/ella", "conjugation": "ha comprado" },
+            { "person": "tÃº", "conjugation": "has comprado" },
+            { "person": "Ã©l/ella", "conjugation": "ha comprado" },
             { "person": "nosotros", "conjugation": "hemos comprado" },
             { "person": "ustedes", "conjugation": "han comprado" },
             { "person": "ellos/ellas", "conjugation": "han comprado" }
@@ -928,8 +928,8 @@
           "verb": "correr (to run)",
           "conjugations": [
             { "person": "yo", "conjugation": "he corrido" },
-            { "person": "tú", "conjugation": "has corrido" },
-            { "person": "él/ella", "conjugation": "ha corrido" },
+            { "person": "tÃº", "conjugation": "has corrido" },
+            { "person": "Ã©l/ella", "conjugation": "ha corrido" },
             { "person": "nosotros", "conjugation": "hemos corrido" },
             { "person": "ustedes", "conjugation": "han corrido" },
             { "person": "ellos/ellas", "conjugation": "han corrido" }
@@ -939,8 +939,8 @@
           "verb": "vivir (to live)",
           "conjugations": [
             { "person": "yo", "conjugation": "he vivido" },
-            { "person": "tú", "conjugation": "has vivido" },
-            { "person": "él/ella", "conjugation": "ha vivido" },
+            { "person": "tÃº", "conjugation": "has vivido" },
+            { "person": "Ã©l/ella", "conjugation": "ha vivido" },
             { "person": "nosotros", "conjugation": "hemos vivido" },
             { "person": "ustedes", "conjugation": "han vivido" },
             { "person": "ellos/ellas", "conjugation": "han vivido" }
@@ -987,9 +987,9 @@
       "id": "past-perfect",
       "name": "Pasado Perfecto",
       "category": "tenses",
-      "description": "Acciones anteriores a otra acción pasada",
-      "categoryDescription": "Tiempos perfectos: Ideales para expresar acciones completadas antes de otro punto en el tiempo. Conectan dos momentos en el tiempo, mostrando la relación entre una acción pasada y su relevancia en otro momento. Ejemplos: «I have eaten» (presente perfecto), «I had eaten» (pasado perfecto), y «I will have eaten» (futuro perfecto).",
-      "detailedDescription": "El Pasado Perfecto describe acciones que ocurrieron antes de otra acción o momento en el pasado. Ejemplo: «I had finished my work before she arrived.»",
+      "description": "Acciones anteriores a otra acciÃ³n pasada",
+      "categoryDescription": "Tiempos perfectos: Ideales para expresar acciones completadas antes de otro punto en el tiempo. Conectan dos momentos en el tiempo, mostrando la relaciÃ³n entre una acciÃ³n pasada y su relevancia en otro momento. Ejemplos: Â«I have eatenÂ» (presente perfecto), Â«I had eatenÂ» (pasado perfecto), y Â«I will have eatenÂ» (futuro perfecto).",
+      "detailedDescription": "El Pasado Perfecto describe acciones que ocurrieron antes de otra acciÃ³n o momento en el pasado. Ejemplo: Â«I had finished my work before she arrived.Â»",
       "textColor": "#dc2626",
       "structure": {
         "affirmative": "**Sujeto** + **had** + **participio pasado** + complemento",
@@ -1027,16 +1027,16 @@
       ],
       "uses": [
         {
-          "title": "Acción anterior a otra pasada",
-          "example": "I had eaten dinner before she called. (Había cenado antes de que ella llamara)"
+          "title": "AcciÃ³n anterior a otra pasada",
+          "example": "I had eaten dinner before she called. (HabÃ­a cenado antes de que ella llamara)"
         },
         {
           "title": "Causa y efecto en el pasado",
-          "example": "He was tired because he had worked all day. (Estaba cansado porque había trabajado todo el día)"
+          "example": "He was tired because he had worked all day. (Estaba cansado porque habÃ­a trabajado todo el dÃ­a)"
         },
         {
           "title": "Experiencias hasta un punto del pasado",
-          "example": "By 2010, I had visited 15 countries. (Para 2010, había visitado 15 países)"
+          "example": "By 2010, I had visited 15 countries. (Para 2010, habÃ­a visitado 15 paÃ­ses)"
         }
       ],
       "timeExpressions": [
@@ -1049,34 +1049,34 @@
         {
           "verb": "comprar (to buy)",
           "conjugations": [
-            { "person": "yo", "conjugation": "había comprado" },
-            { "person": "tú", "conjugation": "habías comprado" },
-            { "person": "él/ella", "conjugation": "había comprado" },
-            { "person": "nosotros", "conjugation": "habíamos comprado" },
-            { "person": "ustedes", "conjugation": "habían comprado" },
-            { "person": "ellos/ellas", "conjugation": "habían comprado" }
+            { "person": "yo", "conjugation": "habÃ­a comprado" },
+            { "person": "tÃº", "conjugation": "habÃ­as comprado" },
+            { "person": "Ã©l/ella", "conjugation": "habÃ­a comprado" },
+            { "person": "nosotros", "conjugation": "habÃ­amos comprado" },
+            { "person": "ustedes", "conjugation": "habÃ­an comprado" },
+            { "person": "ellos/ellas", "conjugation": "habÃ­an comprado" }
           ]
         },
         {
           "verb": "correr (to run)",
           "conjugations": [
-            { "person": "yo", "conjugation": "había corrido" },
-            { "person": "tú", "conjugation": "habías corrido" },
-            { "person": "él/ella", "conjugation": "había corrido" },
-            { "person": "nosotros", "conjugation": "habíamos corrido" },
-            { "person": "ustedes", "conjugation": "habían corrido" },
-            { "person": "ellos/ellas", "conjugation": "habían corrido" }
+            { "person": "yo", "conjugation": "habÃ­a corrido" },
+            { "person": "tÃº", "conjugation": "habÃ­as corrido" },
+            { "person": "Ã©l/ella", "conjugation": "habÃ­a corrido" },
+            { "person": "nosotros", "conjugation": "habÃ­amos corrido" },
+            { "person": "ustedes", "conjugation": "habÃ­an corrido" },
+            { "person": "ellos/ellas", "conjugation": "habÃ­an corrido" }
           ]
         },
         {
           "verb": "vivir (to live)",
           "conjugations": [
-            { "person": "yo", "conjugation": "había vivido" },
-            { "person": "tú", "conjugation": "habías vivido" },
-            { "person": "él/ella", "conjugation": "había vivido" },
-            { "person": "nosotros", "conjugation": "habíamos vivido" },
-            { "person": "ustedes", "conjugation": "habían vivido" },
-            { "person": "ellos/ellas", "conjugation": "habían vivido" }
+            { "person": "yo", "conjugation": "habÃ­a vivido" },
+            { "person": "tÃº", "conjugation": "habÃ­as vivido" },
+            { "person": "Ã©l/ella", "conjugation": "habÃ­a vivido" },
+            { "person": "nosotros", "conjugation": "habÃ­amos vivido" },
+            { "person": "ustedes", "conjugation": "habÃ­an vivido" },
+            { "person": "ellos/ellas", "conjugation": "habÃ­an vivido" }
           ]
         }
       ],
@@ -1121,8 +1121,8 @@
       "name": "Futuro Perfecto",
       "category": "tenses",
       "description": "Acciones completadas antes de un momento futuro",
-      "categoryDescription": "Tiempos perfectos: Ideales para expresar acciones completadas antes de otro punto en el tiempo. Conectan dos momentos en el tiempo, mostrando la relación entre una acción pasada y su relevancia en otro momento. Ejemplos: «I have eaten» (presente perfecto), «I had eaten» (pasado perfecto), y «I will have eaten» (futuro perfecto).",
-      "detailedDescription": "El Futuro Perfecto describe acciones que se completarán antes de un momento específico en el futuro. Ejemplo: «I will have finished my project by Friday.»",
+      "categoryDescription": "Tiempos perfectos: Ideales para expresar acciones completadas antes de otro punto en el tiempo. Conectan dos momentos en el tiempo, mostrando la relaciÃ³n entre una acciÃ³n pasada y su relevancia en otro momento. Ejemplos: Â«I have eatenÂ» (presente perfecto), Â«I had eatenÂ» (pasado perfecto), y Â«I will have eatenÂ» (futuro perfecto).",
+      "detailedDescription": "El Futuro Perfecto describe acciones que se completarÃ¡n antes de un momento especÃ­fico en el futuro. Ejemplo: Â«I will have finished my project by Friday.Â»",
       "textColor": "#7c3aed",
       "structure": {
         "affirmative": "**Sujeto** + **will have** + **participio pasado** + complemento",
@@ -1167,15 +1167,15 @@
       "uses": [
         {
           "title": "Acciones completadas antes de un momento futuro",
-          "example": "I will have finished my degree by next year. (Habré terminado mi carrera para el próximo año)"
+          "example": "I will have finished my degree by next year. (HabrÃ© terminado mi carrera para el prÃ³ximo aÃ±o)"
         },
         {
           "title": "Predicciones sobre logros futuros",
-          "example": "By 2030, scientists will have found a cure for cancer. (Para 2030, los científicos habrán encontrado una cura para el cáncer)"
+          "example": "By 2030, scientists will have found a cure for cancer. (Para 2030, los cientÃ­ficos habrÃ¡n encontrado una cura para el cÃ¡ncer)"
         },
         {
-          "title": "Duración hasta un punto futuro",
-          "example": "By December, I will have lived here for five years. (Para diciembre, habré vivido aquí por cinco años)"
+          "title": "DuraciÃ³n hasta un punto futuro",
+          "example": "By December, I will have lived here for five years. (Para diciembre, habrÃ© vivido aquÃ­ por cinco aÃ±os)"
         }
       ],
       "timeExpressions": [
@@ -1188,34 +1188,34 @@
         {
           "verb": "comprar (to buy)",
           "conjugations": [
-            { "person": "yo", "conjugation": "habré comprado" },
-            { "person": "tú", "conjugation": "habrás comprado" },
-            { "person": "él/ella", "conjugation": "habrá comprado" },
+            { "person": "yo", "conjugation": "habrÃ© comprado" },
+            { "person": "tÃº", "conjugation": "habrÃ¡s comprado" },
+            { "person": "Ã©l/ella", "conjugation": "habrÃ¡ comprado" },
             { "person": "nosotros", "conjugation": "habremos comprado" },
-            { "person": "ustedes", "conjugation": "habrán comprado" },
-            { "person": "ellos/ellas", "conjugation": "habrán comprado" }
+            { "person": "ustedes", "conjugation": "habrÃ¡n comprado" },
+            { "person": "ellos/ellas", "conjugation": "habrÃ¡n comprado" }
           ]
         },
         {
           "verb": "correr (to run)",
           "conjugations": [
-            { "person": "yo", "conjugation": "habré corrido" },
-            { "person": "tú", "conjugation": "habrás corrido" },
-            { "person": "él/ella", "conjugation": "habrá corrido" },
+            { "person": "yo", "conjugation": "habrÃ© corrido" },
+            { "person": "tÃº", "conjugation": "habrÃ¡s corrido" },
+            { "person": "Ã©l/ella", "conjugation": "habrÃ¡ corrido" },
             { "person": "nosotros", "conjugation": "habremos corrido" },
-            { "person": "ustedes", "conjugation": "habrán corrido" },
-            { "person": "ellos/ellas", "conjugation": "habrán corrido" }
+            { "person": "ustedes", "conjugation": "habrÃ¡n corrido" },
+            { "person": "ellos/ellas", "conjugation": "habrÃ¡n corrido" }
           ]
         },
         {
           "verb": "vivir (to live)",
           "conjugations": [
-            { "person": "yo", "conjugation": "habré vivido" },
-            { "person": "tú", "conjugation": "habrás vivido" },
-            { "person": "él/ella", "conjugation": "habrá vivido" },
+            { "person": "yo", "conjugation": "habrÃ© vivido" },
+            { "person": "tÃº", "conjugation": "habrÃ¡s vivido" },
+            { "person": "Ã©l/ella", "conjugation": "habrÃ¡ vivido" },
             { "person": "nosotros", "conjugation": "habremos vivido" },
-            { "person": "ustedes", "conjugation": "habrán vivido" },
-            { "person": "ellos/ellas", "conjugation": "habrán vivido" }
+            { "person": "ustedes", "conjugation": "habrÃ¡n vivido" },
+            { "person": "ellos/ellas", "conjugation": "habrÃ¡n vivido" }
           ]
         }
       ],
@@ -1259,9 +1259,9 @@
       "id": "present-perfect-continuous",
       "name": "Presente Perfecto Continuo",
       "category": "tenses",
-      "description": "Acciones que comenzaron en el pasado y continúan hasta el presente o acaban de terminar con énfasis en la duración.",
-      "categoryDescription": "Tiempos perfectos continuos: Combinan características de los tiempos compuestos y continuos, y se usan para hablar de la duración de una acción en progreso antes de otro punto en el tiempo. Ejemplos: «I have been eating» (presente perfecto continuo), «I had been eating» (pasado perfecto continuo), y «I will have been eating» (futuro perfecto continuo).",
-      "detailedDescription": "El Presente Perfecto Continuo se utiliza para hablar de acciones que comenzaron en el pasado y continúan hasta ahora, o acaban de terminar pero tienen un resultado visible. Ejemplo: «I have been studying all day.»",
+      "description": "Acciones que comenzaron en el pasado y continÃºan hasta el presente o acaban de terminar con Ã©nfasis en la duraciÃ³n.",
+      "categoryDescription": "Tiempos perfectos continuos: Combinan caracterÃ­sticas de los tiempos compuestos y continuos, y se usan para hablar de la duraciÃ³n de una acciÃ³n en progreso antes de otro punto en el tiempo. Ejemplos: Â«I have been eatingÂ» (presente perfecto continuo), Â«I had been eatingÂ» (pasado perfecto continuo), y Â«I will have been eatingÂ» (futuro perfecto continuo).",
+      "detailedDescription": "El Presente Perfecto Continuo se utiliza para hablar de acciones que comenzaron en el pasado y continÃºan hasta ahora, o acaban de terminar pero tienen un resultado visible. Ejemplo: Â«I have been studying all day.Â»",
       "textColor": "#264653",
       "structure": {
         "affirmative": "**Sujeto** + **have/has** + **been** + verbo en **-ing** + complemento",
@@ -1295,7 +1295,7 @@
           "example": "You look tired. Have you been running? - He's been crying."
         },
         {
-          "title": "Énfasis en la duración de una actividad",
+          "title": "Ãnfasis en la duraciÃ³n de una actividad",
           "example": "They have been talking for over an hour. - I have been waiting since morning."
         }
       ],
@@ -1305,16 +1305,16 @@
       "notes": [
         {
           "type": "paragraph",
-          "text": "Se forma con el auxiliar «have/has», seguido de «been» y el verbo en gerundio (-ing)."
+          "text": "Se forma con el auxiliar Â«have/hasÂ», seguido de Â«beenÂ» y el verbo en gerundio (-ing)."
         },
         {
           "type": "paragraph",
-          "text": "Se usa principalmente con verbos de acción; no es común con verbos de estado como 'know', 'like', 'believe'."
+          "text": "Se usa principalmente con verbos de acciÃ³n; no es comÃºn con verbos de estado como 'know', 'like', 'believe'."
         }
       ],
       "tips": [
         {
-          "text": "El uso de 'for' indica una duración (por ejemplo, for two hours), mientras que 'since' señala un punto en el tiempo (por ejemplo, since 2010).",
+          "text": "El uso de 'for' indica una duraciÃ³n (por ejemplo, for two hours), mientras que 'since' seÃ±ala un punto en el tiempo (por ejemplo, since 2010).",
           "image": "url/image"
         }
       ],
@@ -1323,8 +1323,8 @@
           "verb": "comprar (to buy)",
           "conjugations": [
             { "person": "yo", "conjugation": "he estado comprando" },
-            { "person": "tú", "conjugation": "has estado comprando" },
-            { "person": "él/ella", "conjugation": "ha estado comprando" },
+            { "person": "tÃº", "conjugation": "has estado comprando" },
+            { "person": "Ã©l/ella", "conjugation": "ha estado comprando" },
             { "person": "nosotros", "conjugation": "hemos estado comprando" },
             { "person": "ustedes", "conjugation": "han estado comprando" },
             { "person": "ellos/ellas", "conjugation": "han estado comprando" }
@@ -1334,8 +1334,8 @@
           "verb": "correr (to run)",
           "conjugations": [
             { "person": "yo", "conjugation": "he estado corriendo" },
-            { "person": "tú", "conjugation": "has estado corriendo" },
-            { "person": "él/ella", "conjugation": "ha estado corriendo" },
+            { "person": "tÃº", "conjugation": "has estado corriendo" },
+            { "person": "Ã©l/ella", "conjugation": "ha estado corriendo" },
             { "person": "nosotros", "conjugation": "hemos estado corriendo" },
             { "person": "ustedes", "conjugation": "han estado corriendo" },
             { "person": "ellos/ellas", "conjugation": "han estado corriendo" }
@@ -1345,8 +1345,8 @@
           "verb": "vivir (to live)",
           "conjugations": [
             { "person": "yo", "conjugation": "he estado viviendo" },
-            { "person": "tú", "conjugation": "has estado viviendo" },
-            { "person": "él/ella", "conjugation": "ha estado viviendo" },
+            { "person": "tÃº", "conjugation": "has estado viviendo" },
+            { "person": "Ã©l/ella", "conjugation": "ha estado viviendo" },
             { "person": "nosotros", "conjugation": "hemos estado viviendo" },
             { "person": "ustedes", "conjugation": "han estado viviendo" },
             { "person": "ellos/ellas", "conjugation": "han estado viviendo" }
@@ -1393,9 +1393,9 @@
       "id": "past-perfect-continuous",
       "name": "Pasado Perfecto Continuo",
       "category": "tenses",
-      "description": "Acciones continuas antes de otra acción pasada",
-      "categoryDescription": "Tiempos perfectos continuos: Combinan características de los tiempos compuestos y continuos, y se usan para hablar de la duración de una acción en progreso antes de otro punto en el tiempo. Combinan la conexión temporal de los perfectos con el aspecto progresivo de los continuos. Ejemplos: «I have been eating» (presente perfecto continuo), «I had been eating» (pasado perfecto continuo), y «I will have been eating» (futuro perfecto continuo).",
-      "detailedDescription": "El Pasado Perfecto Continuo describe acciones que estuvieron en progreso durante un período antes de otra acción pasada. Ejemplo: «I had been working for two hours when she arrived.»",
+      "description": "Acciones continuas antes de otra acciÃ³n pasada",
+      "categoryDescription": "Tiempos perfectos continuos: Combinan caracterÃ­sticas de los tiempos compuestos y continuos, y se usan para hablar de la duraciÃ³n de una acciÃ³n en progreso antes de otro punto en el tiempo. Combinan la conexiÃ³n temporal de los perfectos con el aspecto progresivo de los continuos. Ejemplos: Â«I have been eatingÂ» (presente perfecto continuo), Â«I had been eatingÂ» (pasado perfecto continuo), y Â«I will have been eatingÂ» (futuro perfecto continuo).",
+      "detailedDescription": "El Pasado Perfecto Continuo describe acciones que estuvieron en progreso durante un perÃ­odo antes de otra acciÃ³n pasada. Ejemplo: Â«I had been working for two hours when she arrived.Â»",
       "textColor": "#be185d",
       "structure": {
         "affirmative": "**Sujeto** + **had been** + **verbo-ing** + complemento",
@@ -1439,16 +1439,16 @@
       ],
       "uses": [
         {
-          "title": "Duración antes de una acción pasada",
-          "example": "I had been studying for three hours when the power went out. (Había estado estudiando por tres horas cuando se fue la luz)"
+          "title": "DuraciÃ³n antes de una acciÃ³n pasada",
+          "example": "I had been studying for three hours when the power went out. (HabÃ­a estado estudiando por tres horas cuando se fue la luz)"
         },
         {
-          "title": "Causa de una situación pasada",
-          "example": "She was exhausted because she had been running. (Estaba agotada porque había estado corriendo)"
+          "title": "Causa de una situaciÃ³n pasada",
+          "example": "She was exhausted because she had been running. (Estaba agotada porque habÃ­a estado corriendo)"
         },
         {
           "title": "Acciones interrumpidas en el pasado",
-          "example": "They had been living in Paris for five years before they moved to London. (Habían estado viviendo en París por cinco años antes de mudarse a Londres)"
+          "example": "They had been living in Paris for five years before they moved to London. (HabÃ­an estado viviendo en ParÃ­s por cinco aÃ±os antes de mudarse a Londres)"
         }
       ],
       "timeExpressions": [
@@ -1461,34 +1461,34 @@
         {
           "verb": "comprar (to buy)",
           "conjugations": [
-            { "person": "yo", "conjugation": "había estado comprando" },
-            { "person": "tú", "conjugation": "habías estado comprando" },
-            { "person": "él/ella", "conjugation": "había estado comprando" },
-            { "person": "nosotros", "conjugation": "habíamos estado comprando" },
-            { "person": "ustedes", "conjugation": "habían estado comprando" },
-            { "person": "ellos/ellas", "conjugation": "habían estado comprando" }
+            { "person": "yo", "conjugation": "habÃ­a estado comprando" },
+            { "person": "tÃº", "conjugation": "habÃ­as estado comprando" },
+            { "person": "Ã©l/ella", "conjugation": "habÃ­a estado comprando" },
+            { "person": "nosotros", "conjugation": "habÃ­amos estado comprando" },
+            { "person": "ustedes", "conjugation": "habÃ­an estado comprando" },
+            { "person": "ellos/ellas", "conjugation": "habÃ­an estado comprando" }
           ]
         },
         {
           "verb": "correr (to run)",
           "conjugations": [
-            { "person": "yo", "conjugation": "había estado corriendo" },
-            { "person": "tú", "conjugation": "habías estado corriendo" },
-            { "person": "él/ella", "conjugation": "había estado corriendo" },
-            { "person": "nosotros", "conjugation": "habíamos estado corriendo" },
-            { "person": "ustedes", "conjugation": "habían estado corriendo" },
-            { "person": "ellos/ellas", "conjugation": "habían estado corriendo" }
+            { "person": "yo", "conjugation": "habÃ­a estado corriendo" },
+            { "person": "tÃº", "conjugation": "habÃ­as estado corriendo" },
+            { "person": "Ã©l/ella", "conjugation": "habÃ­a estado corriendo" },
+            { "person": "nosotros", "conjugation": "habÃ­amos estado corriendo" },
+            { "person": "ustedes", "conjugation": "habÃ­an estado corriendo" },
+            { "person": "ellos/ellas", "conjugation": "habÃ­an estado corriendo" }
           ]
         },
         {
           "verb": "vivir (to live)",
           "conjugations": [
-            { "person": "yo", "conjugation": "había estado viviendo" },
-            { "person": "tú", "conjugation": "habías estado viviendo" },
-            { "person": "él/ella", "conjugation": "había estado viviendo" },
-            { "person": "nosotros", "conjugation": "habíamos estado viviendo" },
-            { "person": "ustedes", "conjugation": "habían estado viviendo" },
-            { "person": "ellos/ellas", "conjugation": "habían estado viviendo" }
+            { "person": "yo", "conjugation": "habÃ­a estado viviendo" },
+            { "person": "tÃº", "conjugation": "habÃ­as estado viviendo" },
+            { "person": "Ã©l/ella", "conjugation": "habÃ­a estado viviendo" },
+            { "person": "nosotros", "conjugation": "habÃ­amos estado viviendo" },
+            { "person": "ustedes", "conjugation": "habÃ­an estado viviendo" },
+            { "person": "ellos/ellas", "conjugation": "habÃ­an estado viviendo" }
           ]
         }
       ],
@@ -1532,9 +1532,9 @@
       "id": "future-perfect-continuous",
       "name": "Futuro Perfecto Continuo",
       "category": "tenses",
-      "description": "Duración de acciones hasta un momento futuro",
-      "categoryDescription": "Tiempos perfectos continuos: Combinan características de los tiempos compuestos y continuos, y se usan para hablar de la duración de una acción en progreso antes de otro punto en el tiempo. Combinan la conexión temporal de los perfectos con el aspecto progresivo de los continuos. Ejemplos: «I have been eating» (presente perfecto continuo), «I had been eating» (pasado perfecto continuo), y «I will have been eating» (futuro perfecto continuo).",
-      "detailedDescription": "El Futuro Perfecto Continuo enfatiza la duración de acciones que continuarán hasta un momento específico en el futuro. Ejemplo: «By next year, I will have been working here for ten years.»",
+      "description": "DuraciÃ³n de acciones hasta un momento futuro",
+      "categoryDescription": "Tiempos perfectos continuos: Combinan caracterÃ­sticas de los tiempos compuestos y continuos, y se usan para hablar de la duraciÃ³n de una acciÃ³n en progreso antes de otro punto en el tiempo. Combinan la conexiÃ³n temporal de los perfectos con el aspecto progresivo de los continuos. Ejemplos: Â«I have been eatingÂ» (presente perfecto continuo), Â«I had been eatingÂ» (pasado perfecto continuo), y Â«I will have been eatingÂ» (futuro perfecto continuo).",
+      "detailedDescription": "El Futuro Perfecto Continuo enfatiza la duraciÃ³n de acciones que continuarÃ¡n hasta un momento especÃ­fico en el futuro. Ejemplo: Â«By next year, I will have been working here for ten years.Â»",
       "textColor": "#9333ea",
       "structure": {
         "affirmative": "**Sujeto** + **will have been** + **verbo-ing** + complemento",
@@ -1578,16 +1578,16 @@
       ],
       "uses": [
         {
-          "title": "Duración hasta un momento futuro",
-          "example": "By December, I will have been living here for five years. (Para diciembre, habré estado viviendo aquí por cinco años)"
+          "title": "DuraciÃ³n hasta un momento futuro",
+          "example": "By December, I will have been living here for five years. (Para diciembre, habrÃ© estado viviendo aquÃ­ por cinco aÃ±os)"
         },
         {
-          "title": "Predicciones sobre duración futura",
-          "example": "Next month, she will have been studying medicine for six years. (El próximo mes, habrá estado estudiando medicina por seis años)"
+          "title": "Predicciones sobre duraciÃ³n futura",
+          "example": "Next month, she will have been studying medicine for six years. (El prÃ³ximo mes, habrÃ¡ estado estudiando medicina por seis aÃ±os)"
         },
         {
-          "title": "Causa futura de una situación",
-          "example": "He will be tired tomorrow because he will have been working all night. (Estará cansado mañana porque habrá estado trabajando toda la noche)"
+          "title": "Causa futura de una situaciÃ³n",
+          "example": "He will be tired tomorrow because he will have been working all night. (EstarÃ¡ cansado maÃ±ana porque habrÃ¡ estado trabajando toda la noche)"
         }
       ],
       "timeExpressions": [
@@ -1600,34 +1600,34 @@
         {
           "verb": "comprar (to buy)",
           "conjugations": [
-            { "person": "yo", "conjugation": "habré estado comprando" },
-            { "person": "tú", "conjugation": "habrás estado comprando" },
-            { "person": "él/ella", "conjugation": "habrá estado comprando" },
+            { "person": "yo", "conjugation": "habrÃ© estado comprando" },
+            { "person": "tÃº", "conjugation": "habrÃ¡s estado comprando" },
+            { "person": "Ã©l/ella", "conjugation": "habrÃ¡ estado comprando" },
             { "person": "nosotros", "conjugation": "habremos estado comprando" },
-            { "person": "ustedes", "conjugation": "habrán estado comprando" },
-            { "person": "ellos/ellas", "conjugation": "habrán estado comprando" }
+            { "person": "ustedes", "conjugation": "habrÃ¡n estado comprando" },
+            { "person": "ellos/ellas", "conjugation": "habrÃ¡n estado comprando" }
           ]
         },
         {
           "verb": "correr (to run)",
           "conjugations": [
-            { "person": "yo", "conjugation": "habré estado corriendo" },
-            { "person": "tú", "conjugation": "habrás estado corriendo" },
-            { "person": "él/ella", "conjugation": "habrá estado corriendo" },
+            { "person": "yo", "conjugation": "habrÃ© estado corriendo" },
+            { "person": "tÃº", "conjugation": "habrÃ¡s estado corriendo" },
+            { "person": "Ã©l/ella", "conjugation": "habrÃ¡ estado corriendo" },
             { "person": "nosotros", "conjugation": "habremos estado corriendo" },
-            { "person": "ustedes", "conjugation": "habrán estado corriendo" },
-            { "person": "ellos/ellas", "conjugation": "habrán estado corriendo" }
+            { "person": "ustedes", "conjugation": "habrÃ¡n estado corriendo" },
+            { "person": "ellos/ellas", "conjugation": "habrÃ¡n estado corriendo" }
           ]
         },
         {
           "verb": "vivir (to live)",
           "conjugations": [
-            { "person": "yo", "conjugation": "habré estado viviendo" },
-            { "person": "tú", "conjugation": "habrás estado viviendo" },
-            { "person": "él/ella", "conjugation": "habrá estado viviendo" },
+            { "person": "yo", "conjugation": "habrÃ© estado viviendo" },
+            { "person": "tÃº", "conjugation": "habrÃ¡s estado viviendo" },
+            { "person": "Ã©l/ella", "conjugation": "habrÃ¡ estado viviendo" },
             { "person": "nosotros", "conjugation": "habremos estado viviendo" },
-            { "person": "ustedes", "conjugation": "habrán estado viviendo" },
-            { "person": "ellos/ellas", "conjugation": "habrán estado viviendo" }
+            { "person": "ustedes", "conjugation": "habrÃ¡n estado viviendo" },
+            { "person": "ellos/ellas", "conjugation": "habrÃ¡n estado viviendo" }
           ]
         }
       ],
@@ -1678,7 +1678,7 @@
           {
             "name": "Sujeto",
             "examples": ["I", "You", "He", "She", "It", "We", "They"],
-            "description": "Se utilizan como sujeto de la oración"
+            "description": "Se utilizan como sujeto de la oraciÃ³n"
           },
           {
             "name": "Objeto",
@@ -1689,7 +1689,7 @@
         "usageExamples": [
           {
             "example": "**I** am a student. (Sujeto)",
-            "explanation": "I es el sujeto de la oración"
+            "explanation": "I es el sujeto de la oraciÃ³n"
           },
           {
             "example": "She gave **me** a book. (Objeto)",
@@ -1697,7 +1697,7 @@
           },
           {
             "example": "**They** went to the park. (Sujeto)",
-            "explanation": "They es el sujeto de la oración"
+            "explanation": "They es el sujeto de la oraciÃ³n"
           },
           {
             "example": "I saw **her** yesterday. (Objeto)",
@@ -1707,7 +1707,7 @@
         "notes": [
           {
             "type": "paragraph",
-            "text": "Los pronombres personales cambian según su función en la oración (sujeto u objeto)."
+            "text": "Los pronombres personales cambian segÃºn su funciÃ³n en la oraciÃ³n (sujeto u objeto)."
           },
           {
             "type": "paragraph",
