@@ -23,7 +23,7 @@ const menuItems = [
     title: "Análisis de Oraciones",
     href: "/analysis/sentences",
     icon: MessageSquare,
-    description: "AnÃ¡lisis sintÃ¡ctico",
+    description: "Análisis sintáctico",
   },
 ]
 
