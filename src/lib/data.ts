@@ -1,4 +1,5 @@
 import contentJson from "@/data/content.json";
+import verbsTensesJson from "@/data/verbsTenses.json"
 
 export interface Category {
   id: string;
@@ -89,7 +90,7 @@ export function getCategories(): Category[] {
 }
 
 export function getVerbTenses(): VerbTense[] {
-  return contentJson.verbTenses;
+  return verbsTensesJson.verbTenses;
 }
 
 export function getPronouns(): Pronoun[] {
